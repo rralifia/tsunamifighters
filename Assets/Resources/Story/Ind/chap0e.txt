@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Ningkatin standar tempat tinggal biar tahan gempa." 1
+Load(chap1)

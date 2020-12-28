@@ -1,0 +1,19 @@
+showScene(true,topDown) next
+Fury "Hurry up and climb up!" setFace(Azumi,3_anxious) 2
+Azumi "I wish we could survive." setFace(Fury,1_happy) 1
+Fury "Calm down, sister." 2
+Rara "Huhuhu.. I am so scared." 1
+exit(Fury;Azumi;Rara) next
+narrator "Tsunami has reached the building. It will shake the building off, the people inside are at risk." 2
+narrator "But they managed to survive. The buildings they evacuated had a sturdy structure and were built on high place." 1
+enter(Fury) setPosition(Fury,0.7) enter(Rara) setFace(Rara,cry) setPosition(Rara,0.5) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) next
+Fury "Thankfully, we are safe. Let's go outside." 2
+Azumi "Please be careful." exit(Fury;Azumi;Rara) 1
+narrator "After that, they walk to where the people are." 2
+enter(Fury) flip(Fury) setPosition(Fury,0.1) enter(Rara) setFace(Rara,cry) setPosition(Rara,0.3) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) enter(Ortu) setFace(Ortu,anxious) setPosition(Ortu,0.8) next
+Ortu as [kidm_eng] "Rara..rara.." 1
+setFace(Rara,happy) setFace(Ortu,happy) next
+Rara "Mommy.." move(Rara,0.7) setFace(Azumi,3_happy) 2
+Ortu as [kidm_eng] "Thank you so much for saving my daughter." 1
+Fury "You are welcome, Ma'am." 2
+exit(Ortu;Rara;Fury;Azumi) Load(chap11)

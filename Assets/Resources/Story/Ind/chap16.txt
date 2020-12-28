@@ -1,0 +1,14 @@
+showScene(true,topDown) next
+choice "Apa yang bisa dilakukan selama di pengungsian?"
+{
+  "Membantu memasak dan olahraga bersama pengungsi lain"
+    score(kyojoA) Load(chap16c)
+  "Bermain mainan dan membaca buku yang ada di tas siaga bencana"
+    score(jijoA) Load(chap16a)
+  "Mengumpulkan anak-anak dan bermain bersama"
+    score(kyojoA) Load(chap16d)
+  "Mengadakan konser atau pertunjukan"
+    score(kojoA) Load(chap16e)
+  "Mengobrol dengan orang lain agar kenal dan rukun"
+    score(jijoA) Load(chap16b)
+}

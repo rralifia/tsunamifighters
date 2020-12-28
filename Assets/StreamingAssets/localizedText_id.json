@@ -1,0 +1,1034 @@
+{"items":[
+ {
+   "key": "login_title",
+   "value": "MASUK KE AKUN"
+ },
+ {
+   "key": "login_button",
+   "value": "Masuk"
+ },
+ {
+   "key": "create_button",
+   "value": "Buat Akun"
+ },
+ {
+   "key": "createRoom",
+   "value": "Buat Ruang Baru"
+ },
+ {
+   "key": "startButton",
+   "value": "Mulai Bermain"
+ },
+ {
+   "key": "name",
+   "value": "Nama"
+ },
+ {
+   "key": "username",
+   "value": "Username"
+ },
+ {
+   "key": "age",
+   "value": "Usia"
+ },
+ {
+   "key": "loc",
+   "value": "Lokasi"
+ },
+ {
+   "key": "gender",
+   "value": "Jenis Kelamin"
+ },
+ {
+   "key": "leaveRoom",
+   "value": "Tinggalkan Ruang"
+ },
+ {
+   "key": "nextButton",
+   "value": "Berikutnya"
+ },
+ {
+   "key": "pauseButton",
+   "value": "Jeda"
+ },
+ {
+   "key": "homeButton",
+   "value": "Kembali ke Novel Menu?"
+ },
+ {
+   "key": "chatButton",
+   "value": "Obrolan"
+ },
+ {
+   "key": "sendButton",
+   "value": "Kirim"
+ },
+ {
+   "key": "backButton",
+   "value": "Kembali"
+ },
+ {
+   "key": "enterRoomName",
+   "value": "Masukkan nama ruangan..."
+ },
+ {
+   "key": "welcome",
+   "value": "Selamat Datang"
+ },
+ {
+   "key": "status",
+   "value": "Status"
+ },
+ {
+   "key": "joinRoom",
+   "value": "Bergabung dengan Ruangan"
+ },
+ {
+   "key": "score",
+   "value": "Skor:"
+ },
+ {
+   "key": "turn",
+   "value": "Status Giliran"
+ },
+ {
+   "key": "number",
+   "value": "Nomor:       / 20"
+ },
+ {
+   "key": "player1score",
+   "value": "| Pemain 1"
+ },
+ {
+   "key": "player2score",
+   "value": "Pemain 2 |"
+ },
+ {
+   "key": "resume",
+   "value": "Lanjutkan"
+ },
+ {
+   "key": "waitPlayer",
+   "value": "Menunggu pemain lain"
+ },
+ {
+   "key": "startGame",
+   "value": "Kamu bisa memulai permainan"
+ },
+ {
+   "key": "endGame",
+   "value": "Permainan selesai"
+ },
+ {
+   "key": "chatRoom",
+   "value": "Ruang Obrolan"
+ },
+ {
+   "key": "beginTest",
+   "value": "Lakukan Tes"
+ },
+ {
+   "key": "learnFirst",
+   "value": "Belajar Dulu"
+ },
+ {
+   "key": "pretest",
+   "value": "Tes awal"
+ },
+ {
+   "key": "pretestIntro",
+   "value": "Sebelum bermain, uji pengetahuanmu dulu yuk!"
+ },
+ {
+   "key": "startPretest",
+   "value": "Mulai tes awal"
+ },
+ {
+   "key": "soalpretest1",
+   "value": "Apa yang dimaksud dengan bencana alam?"
+ },
+ {
+   "key": "soalpretest2",
+   "value": "Apa saja penyebab terjadinya gempa bumi?"
+ },
+ {
+   "key": "soalpretest3",
+   "value": "Apa ciri-ciri gempa kuat?"
+ },
+ {
+   "key": "soalpretest4",
+   "value": "Apakah hari dan jam terjadinya gempa bumi dapat diketahui?"
+ },
+ {
+   "key": "soalpretest5",
+   "value": "Apa tindakan yang harus dilakukan saat gempa dan posisimu di lantai dasar?"
+ },
+ {
+   "key": "soalpretest6",
+   "value": "Saat terjadi gempa, mana tempat yang paling aman?"
+ },
+ {
+   "key": "soalpretest7",
+   "value": "Saat berada dalam bangunan dan terjadi gempa kuat..."
+ },
+ {
+   "key": "soalpretest8",
+   "value": "Saat sedang berkendara dan terjadi gempa, apa yang harus dilakukan?"
+ },
+ {
+   "key": "soalpretest9",
+   "value": "Apakah setiap gempa bumi menyebabkan tsunami?"
+ },
+ {
+   "key": "soalpretest10",
+   "value": "Apakah kejadian berikut ini menyebabkan tsunami?"
+ },
+ {
+   "key": "soalpretest11",
+   "value": "Apakah tanda-tanda tsunami?"
+ },
+ {
+   "key": "soalpretest12",
+   "value": "Apa yang dilakukan seandainya air laut tiba-tiba surut?"
+ },
+ {
+   "key": "soalpretest13",
+   "value": "Berikut yang bukan tanda peringatan tsunami adalah..."
+ },
+ {
+   "key": "soalpretest14",
+   "value": "Apa yang dilakukan apabila mendengar tanda bahaya tsunami?"
+ },
+ {
+   "key": "soalpretest15",
+   "value": "Apakah peringatan tsunami bisa dibatalkan (tidak terjadi tsunami)?"
+ },
+ {
+   "key": "soalpretest16",
+   "value": "Berikut adalah pembagian zona wilayah terhadap tsunami, kecuali..."
+ },
+ {
+   "key": "soalpretest17",
+   "value": "Di bawah ini yang bukan status ancaman tsunami adalah..."
+ },
+ {
+   "key": "soalpretest18",
+   "value": "Hal apa yang dilakukan untuk kesiapsiagaan dalam gempa & tsunami?"
+ },
+ {
+   "key": "soalpretest19",
+   "value": "Mana benda yang bukan isi tas siaga bencana?"
+ },
+ {
+   "key": "soalpretest20",
+   "value": "Adakah latihan keterampilan yang pernah kamu ikuti?"
+ },
+ {
+   "key": "pretest1a",
+   "value": "Bencana akibat perilaku manusia"
+ },
+ {
+   "key": "pretest1b",
+   "value": "Bencana akibat kerusuhan sosial"
+ },
+ {
+   "key": "pretest1c",
+   "value": "Bencana akibat kejadian alam"
+ },
+ {
+   "key": "pretest2a",
+   "value": "Pergeseran kerak bumi"
+ },
+ {
+   "key": "pretest2b",
+   "value": "Gunung meletus"
+ },
+ {
+   "key": "pretest2c",
+   "value": "Tanah longsor"
+ },
+ {
+   "key": "pretest2d",
+   "value": "Angin topan dan halilintar"
+ },
+ {
+   "key": "pretest2e",
+   "value": "Pengeboran minyak"
+ },
+ {
+   "key": "pretest3a",
+   "value": "Gempa membuat pusing/ limbung"
+ },
+ {
+   "key": "pretest3b",
+   "value": "Goyangan kencang, orang tidak bisa berdiri"
+ },
+ {
+   "key": "pretest3c",
+   "value": "Getaran cukup lama, diikuti gempa susulan"
+ },
+ {
+   "key": "pretest3d",
+   "value": "Bangunan retak atau roboh"
+ },
+ {
+   "key": "pretest3e",
+   "value": "Semua benar"
+ },
+ {
+   "key": "pretest4a",
+   "value": "Ya"
+ },
+ {
+   "key": "pretest4b",
+   "value": "Tidak"
+ },
+ {
+   "key": "pretest4c",
+   "value": "Tidak tahu"
+ },
+ {
+   "key": "pretest5a",
+   "value": "Berlari ke luar ruangan"
+ },
+ {
+   "key": "pretest5b",
+   "value": "Diam di dalam sampai gempa usai"
+ },
+ {
+   "key": "pretest5c",
+   "value": "Segera berlindung dan jauhi daerah berkaca"
+ },
+ {
+   "key": "pretest6a",
+   "value": "Jalan raya"
+ },
+ {
+   "key": "pretest6b",
+   "value": "Ruang terbuka (lapangan, sawah, dll.)"
+ },
+ {
+   "key": "pretest6c",
+   "value": "Tempat ibadah"
+ },
+ {
+   "key": "pretest7a",
+   "value": "Berlindung di bawah meja"
+ },
+ {
+   "key": "pretest7b",
+   "value": "Menjauhi benda yang tergantung"
+ },
+ {
+   "key": "pretest7c",
+   "value": "Menjauh dari jendela/ kaca"
+ },
+ {
+   "key": "pretest7d",
+   "value": "Meninggalkan ruangan setelah gempa reda"
+ },
+ {
+   "key": "pretest7e",
+   "value": "Tidak tahu"
+ },
+ {
+   "key": "pretest8a",
+   "value": "Menepi dan berhenti berkendara"
+ },
+ {
+   "key": "pretest8b",
+   "value": "Tetap berkendara"
+ },
+ {
+   "key": "pretest9a",
+   "value": "Ya"
+ },
+ {
+   "key": "pretest9b",
+   "value": "Tidak"
+ },
+ {
+   "key": "pretest9c",
+   "value": "Tidak tahu"
+ },
+ {
+   "key": "pretest10a",
+   "value": "Gempa bumi di bawah laut"
+ },
+ {
+   "key": "pretest10b",
+   "value": "Gunung meletus di bawah laut"
+ },
+ {
+   "key": "pretest10c",
+   "value": "Longsoran di bawah laut"
+ },
+ {
+   "key": "pretest10d",
+   "value": "Badai/ puting beliung"
+ },
+ {
+   "key": "pretest10e",
+   "value": "Tidak tahu"
+ },
+ {
+   "key": "pretest11a",
+   "value": "Gempa kuat (membuat orang sulit berdiri)"
+ },
+ {
+   "key": "pretest11b",
+   "value": "Air laut tiba-tiba surut"
+ },
+ {
+   "key": "pretest11c",
+   "value": "Gelombang besar di cakrawala (batas pantai)"
+ },
+ {
+   "key": "pretest11d",
+   "value": "Bunyi yang keras seperti ledakan"
+ },
+ {
+   "key": "pretest11e",
+   "value": "Tidak tahu"
+ },
+ {
+   "key": "pretest12a",
+   "value": "Berlari menjauh dari laut"
+ },
+ {
+   "key": "pretest12b",
+   "value": "Tidak melakukan apa-apa"
+ },
+ {
+   "key": "pretest12c",
+   "value": "Menolong orang di dekat pantai"
+ },
+ {
+   "key": "pretest13a",
+   "value": "Kentongan, lonceng, bedug"
+ },
+ {
+   "key": "pretest13b",
+   "value": "Sirine, notifikasi"
+ },
+ {
+   "key": "pretest13c",
+   "value": "Teriakan"
+ },
+ {
+   "key": "pretest14a",
+   "value": "Menjauhi pantai, lari ke tempat yang tinggi"
+ },
+ {
+   "key": "pretest14b",
+   "value": "Segera menuju pengungsian/ evakuasi"
+ },
+ {
+   "key": "pretest14c",
+   "value": "Menenangkan diri/ tidak panik"
+ },
+ {
+   "key": "pretest14d",
+   "value": "Semua di atas benar"
+ },
+ {
+   "key": "pretest14e",
+   "value": "Tidak tahu"
+ },
+ {
+   "key": "pretest15a",
+   "value": "Bisa "
+ },
+ {
+   "key": "pretest15b",
+   "value": "Tidak"
+ },
+ {
+   "key": "pretest15c",
+   "value": "Tidak tahu"
+ },
+ {
+   "key": "pretest16a",
+   "value": "Zona dekat"
+ },
+ {
+   "key": "pretest16b",
+   "value": "Zona jauh"
+ },
+ {
+   "key": "pretest16c",
+   "value": "Zona sedang"
+ },
+ {
+   "key": "pretest16d",
+   "value": "Zona darurat"
+ },
+ {
+   "key": "pretest16e",
+   "value": "Tidak tahu"
+ },
+ {
+   "key": "pretest17a",
+   "value": "Waspada"
+ },
+ {
+   "key": "pretest17b",
+   "value": "Normal"
+ },
+ {
+   "key": "pretest17c",
+   "value": "Awas"
+ },
+ {
+   "key": "pretest17d",
+   "value": "Siaga"
+ },
+ {
+   "key": "pretest17e",
+   "value": "Tidak tahu"
+ },
+ {
+   "key": "pretest18a",
+   "value": "Menambah ilmu tentang gempa dan tsunami"
+ },
+ {
+   "key": "pretest18b",
+   "value": "Menyiapkan tas siaga bencana"
+ },
+ {
+   "key": "pretest18c",
+   "value": "Mengikuti latihan penyelamatan diri"
+ },
+ {
+   "key": "pretest18d",
+   "value": "Mendengarkan info dari radio, TV, dll."
+ },
+ {
+   "key": "pretest18e",
+   "value": "Semua benar"
+ },
+ {
+   "key": "pretest19a",
+   "value": "Makanan"
+ },
+ {
+   "key": "pretest19b",
+   "value": "Pakaian dan selimut"
+ },
+ {
+   "key": "pretest19c",
+   "value": "Dokumen penting"
+ },
+ {
+   "key": "pretest19d",
+   "value": "Sepatu boots"
+ },
+ {
+   "key": "pretest19e",
+   "value": "Obat-obatan"
+ },
+ {
+   "key": "pretest20a",
+   "value": "Pertolongan pertama atau bantuan dasar hidup"
+ },
+ {
+   "key": "pretest20b",
+   "value": "Simulasi drill atau workshop kebencanaan"
+ },
+ {
+   "key": "pretest20c",
+   "value": "Kepramukaan"
+ },
+ {
+   "key": "pretest20d",
+   "value": "Semua pernah dilakukan"
+ },
+ {
+   "key": "pretest20e",
+   "value": "Tidak ada"
+ },
+ {
+   "key": "quizCompleted",
+   "value": "Tes selesai!"
+ },
+ {
+   "key": "prepStatus",
+   "value": "Kesiapsiagaan:"
+ },
+ {
+   "key": "notPrep",
+   "value": "Tidak siap"
+ },
+ {
+   "key": "lessPrep",
+   "value": "Kurang siap"
+ },
+ {
+   "key": "Prepared",
+   "value": "Siap"
+ },
+ {
+   "key": "veryPrep",
+   "value": "Sangat siap"
+ },
+ {
+   "key": "playNow",
+   "value": "Mulai Bermain"
+ },
+ {
+   "key": "learnNow",
+   "value": "Mulai Belajar"
+ },
+ {
+   "key": "predicate",
+   "value": "PREDIKAT"
+ },
+ {
+   "key": "restartQuiz",
+   "value": "Ulangi tes"
+ },
+ {
+   "key": "postTest",
+   "value": "Tes akhir"
+ },
+ {
+   "key": "feedback",
+   "value": "Pastikan pengetahuanmu soal gempa bumi dan tsunami meningkat!"
+ },
+ {
+   "key": "startPosttest",
+   "value": "Mulai Tes Akhir"
+ },
+ {
+   "key": "jawabBenar",
+   "value": "Jawabanmu Benar!"
+ },
+ {
+   "key": "jawabSalah",
+   "value": "Jawabanmu Salah!"
+ },
+ {
+   "key": "jawabKurang",
+   "value": "Jawabanmu Kurang Tepat!"
+ },
+ {
+   "key": "postTest1",
+   "value": "Bencana alam adalah bencana akibat kejadian alam. Contoh bencana alam: gempa bumi, tsunami, gunung meletus, tanah longsor, kebakaran, dll."
+ },
+ {
+   "key": "postTest2",
+   "value": "Hal-hal yang menyebabkan gempa bumi, di antaranya: pergeseran kerak bumi dan gunung meletus. Tanah longsor merupakan akibat dari kejadian gempa bumi."
+ },
+ {
+   "key": "postTest3",
+   "value": "Gempa kuat membuat pusing, goyangannya kencang sehingga orang tidak bisa berdiri, serta merobohkan bangunan. Gempa kuat  terjadi cukup lama dan diikuti oleh gempa susulan."
+ },
+ {
+   "key": "postTest4",
+   "value": "Gempa bumi tidak bisa diprediksi waktunya."
+ },
+ {
+   "key": "postTest5",
+   "value": "Tindakan yang paling tepat adalah segera melindungi diri di bawah meja, misalnya, dan menjauhi kaca. Berlari ke luar ruangan kurang tepat, terlebih diam saja."
+ },
+ {
+   "key": "postTest6",
+   "value": "Tempat paling aman adalah ruang terbuka. Sebenarnya, jalan raya bukan tempat yang disarankan, namun lebih baik dibandingkan dalam gedung."
+ },
+ {
+   "key": "postTest7",
+   "value": "Saat berada dalam bangunan, tindakan yang paling ideal adalah berlindung di bawah meja. Menjauhi benda menggantung dan kaca, serta meninggalkan ruangan setelah gempa reda juga benar."
+ },
+ {
+   "key": "postTest8t",
+   "value": "Saat gempa kuat dan sedang berkendara, kita harus segera menepi untuk berhenti. Ingat, tempat menepi harus di ruang terbuka!"
+ },
+ {
+   "key": "postTest8f",
+   "value": "Berkendara saat terjadi gempa, dengan skala kuat khususnya, akan sangat berbahaya."
+ },
+ {
+   "key": "postTest9",
+   "value": "Tidak semua gempa bumi berakibat tsunami. Tsunami dipicu oleh gangguan pada dasar laut."
+ },
+ {
+   "key": "postTest10",
+   "value": "Tsunami adalah perpindahan air dalam jumlah besar. Peristiwa-peristiwa yang dapat menyebabkan perpindahan air:  gempa bumi bawah laut, longsor yang terjadi di dasar laut, jatuhnya benda (meteor, letusan gunung, ledakan senjata) ke dalam air."
+ },
+ {
+   "key": "postTest11",
+   "value": "Tanda tsunami paling tepat adalah air laut tiba-tiba surut dan ada gelombang besar di batas pantai. Sedangkan, gempa kuat hanya berpotensi menyebabkan tsunami."
+ },
+ {
+   "key": "postTest12",
+   "value": "Air laut yang tiba-tiba surut merupakan tanda tsunami. Maka, kita harus segera berlari menjauh dari laut. Jika tidak, kita akan dihantam gelombang sangat besar."
+ },
+ {
+   "key": "postTest13",
+   "value": "Kentongan, lonceng, dan bedug adalah tanda peringatan versi tradisional. Sirine dan notifikasi adalah contoh peringatan versi modern. Peringatan bencana juga bisa disepakati bersama."
+ },
+ {
+   "key": "postTest14",
+   "value": "Jika ada tsunami, kita harus: (i) menjauhi pantai, (ii) lari ke tempat tinggi, (iii) bergegas ke daerah evakuasi, dan (iv) sebisa mungkin tidak panik."
+ },
+ {
+   "key": "postTest15",
+   "value": "Peringatan tsunami bisa dibatalkan jika ternyata tidak terjadi tsunami."
+ },
+ {
+   "key": "postTest16",
+   "value": "Ada 3 zona wilayah, yaitu: (1) wilayah berbatasan dengan pantai disebut zona dekat/ rawan tsunami;  (2) wilayah yang jarak dari pantai sedang disebut zona sedang/ hati-hati; dan (3) wilayah yang jauh dari pantai disebut zona jauh/ aman tsunami."
+ },
+ {
+   "key": "postTest17",
+   "value": "Ada tiga status ancaman tsunami:\n1. Waspada\n2. Siaga\n3. Awas"
+ },
+ {
+   "key": "postTest18",
+   "value": "Kesiapsiagaan dapat dilakukan dengan menambah ilmu tentang bencana, menyiapkan tas siaga bencana, mengikuti latihan keselamatan diri, dan mendengarkan informasi dari berbagai media."
+ },
+ {
+   "key": "postTest19",
+   "value": "Isi tas siaga bencana, di antaranya: pakaian, selimut, makanan siap saji, dokumen penting, obat-obatan, air minum, ponsel, uang darurat, alat penerangan (senter), peluit, kotak P3K, radio berbasis baterai."
+ },
+ {
+   "key": "postTest20",
+   "value": "Meningkatkan keterampilan kesiapsiagaan bencana sangat lah penting. Ini dapat dilakukan dengan mengikuti pelatihan-pelatihan kebencanaan, seperti: simulasi drill, pertolongan pertama, bantuan dasar hidup, pramuka, dll. "
+ },
+ {
+   "key": "closingPostTest",
+   "value": "Yuk, tingkatkan pengetahuanmu!"
+ },
+ {
+   "key": "knowledgeLevel",
+   "value": "Pengetahuan:"
+ },
+ {
+   "key": "decrease",
+   "value": "Menurun"
+ },
+ {
+   "key": "increase",
+   "value": "Meningkat"
+ },
+ {
+   "key": "same",
+   "value": "Sama"
+ },
+ {
+   "key": "totalScore",
+   "value": "Lihat Total Skor"
+ },
+ {
+   "key": "pretestScore",
+   "value": "Skor tes awal:"
+ },
+ {
+   "key": "posttestScore",
+   "value": "Skor tes akhir:"
+ },
+ {
+   "key": "gameScore",
+   "value": "Skor game:"
+ },
+ {
+   "key": "jijoScore",
+   "value": "Skor jijo:"
+ },
+ {
+   "key": "kyojoScore",
+   "value": "Skor kyojo:"
+ },
+ {
+   "key": "kojoScore",
+   "value": "Skor kojo:"
+ },
+ {
+   "key": "backtoMenu",
+   "value": "Kembali Ke Menu Utama"
+ },
+ {
+   "key": "transferFailed",
+   "value": "Pengiriman data gagal"
+ },
+ {
+   "key": "tryAgain",
+   "value": "Ulangi tes"
+ },
+ {
+   "key": "mainMenu",
+   "value": "Menu Utama"
+ },
+ {
+   "key": "start",
+   "value": "Mulai"
+ },
+ {
+   "key": "instruction",
+   "value": "Instruksi"
+ },
+ {
+   "key": "content",
+   "value": "Permainan ini terdiri atas tiga bagian, yaitu tes awal, game visual novel, dan tes akhir. Pada tes awal dan tes akhir, pemain diuji pengetahuannya terkait gempa bumi dan tsunami dengan 20 pertanyaan pilihan ganda. Pada visual novel, pemain berperan sebagai dua tokoh yang mengalami gempa bumi dan tsunami dan harus memilih cara serta perilaku dalam menghadapi bencana tersebut.\n\nBerikut adalah hal-hal yang harus diperhatikan saat bermain visual novel.\n\n1. Pemain harus melanjutkan cerita secara bergantian dengan pasangan dalam suatu ruang permainan.\n2. Sepanjang permainan, akan muncul pertanyaan yang harus pemain jawab.\n3. Jawaban pemain akan memengaruhi jalan cerita dan seluruh skor yang pemain dapatkan.\n4. Permainan ini akan mengungkap kecenderungan perilaku pemain ketika mengambil keputusan aksi dalam menghadapi bencana yang diambil dari skor jijo, kyojo, dan kojo.\n5. Pemain tidak dapat menyimpan progress permainan."
+ },
+ {
+   "key": "settings",
+   "value": "Pengaturan"
+ },
+ {
+   "key": "quit",
+   "value": "Keluar"
+ },
+ {
+   "key": "playersProfile",
+   "value": "Profil Pemain"
+ },
+ {
+   "key": "more",
+   "value": "Selengkapnya"
+ },
+ {
+   "key": "profile",
+   "value": "Profil"
+ },
+ {
+   "key": "gameInstruction",
+   "value": "Petunjuk Permainan"
+ },
+ {
+   "key": "sound",
+   "value": "Suara"
+ },
+ {
+   "key": "language",
+   "value": "Bahasa"
+ },
+ {
+   "key": "music",
+   "value": "Musik"
+ },
+ {
+   "key": "about",
+   "value": "Tentang Game"
+ },
+ {
+   "key": "gameDesc",
+   "value": "Tsunami Fighters adalah game visual novel yang didesain untuk edukasi terkait kesiapsiagaan bencana, khususnya gempa bumi dan tsunami. Game yang terdiri atas kuis dan visual novel dimainkan oleh dua orang dan berdurasi sekitar 15 menit. Game dapat mengukur tingkat pengetahuan dan tipe perilaku pemain dalam menghadapi gempa bumi yang disertai tsunami."
+ },
+ {
+   "key": "login",
+   "value": "Masuk Akun"
+ },
+ {
+   "key": "signIn",
+   "value": "Masuk"
+ },
+ {
+   "key": "createAccount",
+   "value": "Buat Akun Baru"
+ },
+ {
+   "key": "signingUp",
+   "value": "Daftar Akun"
+ },
+ {
+   "key": "usernTaken",
+   "value": "Username sudah digunakan sebelumnya"
+ },
+ {
+   "key": "enterName",
+   "value": "Masukkan nama..."
+ },
+ {
+   "key": "enterUsername",
+   "value": "Masukkan username..."
+ },
+ {
+   "key": "enterPassword",
+   "value": "Masukkan kata sandi..."
+ },
+ {
+   "key": "enterAge",
+   "value": "Masukkan usia..."
+ },
+ {
+   "key": "guideText",
+   "value": "(*) Nama harus terdiri dari minimal 8 huruf.\n\n(**) Username harus terdiri dari minimal 6 huruf dan/ atau karakter.\n\n(***) Kata sandi harus terdiri dari minimal 8 huruf dan/ atau karakter."
+ },
+ {
+   "key": "enterGender",
+   "value": "Pilih jenis kelamin: "
+ },
+ {
+   "key": "male",
+   "value": "Laki-laki"
+ },
+ {
+   "key": "female",
+   "value": "Perempuan"
+ },
+ {
+   "key": "location",
+   "value": "Pilih lokasi/ domisili:"
+ },
+ {
+   "key": "indonesia",
+   "value": "Indonesia"
+ },
+ {
+   "key": "japan",
+   "value": "Jepang"
+ },
+ {
+   "key": "otherLoc",
+   "value": "Lainnya"
+ },
+ {
+   "key": "save",
+   "value": "Simpan"
+ },
+ {
+   "key": "haveAccount",
+   "value": "Sudah punya akun?"
+ },
+ {
+   "key": "errorBlank",
+   "value": "Semua kolom wajib diisi."
+ },
+ {
+   "key": "disconnect",
+   "value": "Jaringan putus"
+ },
+ {
+   "key": "reconnect",
+   "value": "Sambungkan"
+ },
+ {
+   "key": "cancel",
+   "value": "Batal"
+ },
+ {
+   "key": "yes",
+   "value": "Ya"
+ },
+ {
+   "key": "quitGame",
+   "value": "Keluar aplikasi?"
+ },
+ {
+   "key": "retryButton",
+   "value": "Coba lagi"
+ },
+ {
+   "key": "comparison",
+   "value": "PERBANDINGAN"
+ },
+ {
+   "key": "inputChat",
+   "value": "Masukkan pesanmu di sini..."
+ },
+ {
+   "key": "playerTitleA",
+   "value": "Pemain 1"
+ },
+ {
+   "key": "playerTitleB",
+   "value": "Pemain 2"
+ },
+ {
+   "key": "warning",
+   "value": "                                                         PERHATIAN!\n\n1. Kamu harus melanjutkan cerita secara bergantian dengan pasanganmu.\n\n2. Sepanjang permainan, akan muncul pertanyaan yang harus kamu jawab.\n\n3. Jawabanmu akan memengaruhi jalan cerita dan seluruh skor yang akan kamu dapatkan.\n\n4. Permainan ini akan mengungkap kecenderungan perilaku kamu ketika mengambil keputusan aksi dalam menghadapi bencana yang diambil dari skor      jijo,      kyojo, dan      kojomu.\n\n5. Kamu tidak dapat menyimpan progres permainanmu.\n\n                                                     Selamat Bermain!"
+ },
+ {
+   "key": "firstDialogue",
+   "value": "Memuat cerita...\n\nTekan Tombol Main untuk melanjutkan cerita"
+ },
+ {
+   "key": "jijoInfo",
+   "value": "Skor Jijo menunjukkan kecenderungan seseorang yang bergantung pada diri sendiri ketika mengambil keputusan aksi yang harus dilakukan dalam menghadapi bencana."
+ },
+ {
+   "key": "kyojoInfo",
+   "value": "Skor Kyojo menunjukkan kecenderungan seseorang yang bergantung pada komunitas ketika mengambil keputusan aksi yang harus dilakukan dalam menghadapi bencana."
+ },
+ {
+   "key": "kojoInfo",
+   "value": "Skor Kojo menunjukkan kecenderungan seseorang yang bergantung pada pemerintah ketika mengambil keputusan aksi yang harus dilakukan dalam menghadapi bencana."
+ },
+ {
+   "key": "wrongUsername",
+   "value": "Username tidak terdaftar"
+ },
+ {
+   "key": "wrongPassword",
+   "value": "Password salah"
+ },
+ {
+   "key": "learnMore",
+   "value": "Pelajari Lebih Lanjut"
+ },
+ {
+   "key": "of",
+   "value": "dari"
+ },
+ {
+   "key": "closeButton",
+   "value": "Tutup"
+ },
+ {
+   "key": "learning",
+   "value": "Materi Pembelajaran"
+ },
+ {
+   "key": "preDisaster",
+   "value": "Tindakan Sebelum Bencana"
+ },
+ {
+   "key": "duringDisaster",
+   "value": "Tindakan Saat Bencana"
+ },
+ {
+   "key": "postDisaster",
+   "value": "Tindakan Setelah Bencana"
+ },
+ {
+   "key": "behaviorDisaster",
+   "value": "Perilaku Pengambilan Keputusan"
+ },
+ {
+   "key": "preTitle",
+   "value": "Tindakan Sebelum Bencana"
+ },
+ {
+   "key": "duringTitle",
+   "value": "Tindakan Saat Bencana"
+ },
+ {
+   "key": "postTitle",
+   "value": "Tindakan Setelah Bencana"
+ },
+ {
+   "key": "behaviorTitle",
+   "value": "Perilaku Pengambilan Keputusan"
+ },
+ {
+ 	"key": "preContent",
+ 	"value": "1. Menambah ilmu mengenai gempa bumi dan tsunami, seperti penyebab gempa bumi dan tsunami (gempa bumi dapat disebabkan oleh tumbukan antar lempeng bumi, aktivitas sesar (patahan), aktivitas gunungapi, atau runtuhan batuan; tsunami dapat disebabkan oleh gempa bumi yang terjadi di dasar laut, runtuhan di dasar laut, atau karena letusan gunungapi di laut) dan pembagian zona wilayah terhadap tsunami (wilayah berbatasan dengan pantai disebut zona dekat/ rawan tsunami; wilayah yang jarak dari pantai sedang disebut zona sedang/ hati-hati; dan wilayah yang jauh dari pantai disebut zona jauh/ aman tsunami).\n\n2. Perabot (seperti lemari, dan lain-lain) diatur menempel pada dinding (dipaku/diikat) untuk menghindari jatuh, roboh, dan bergeser saat terjadi gempa.\n\n3. Untuk tingkat keluarga, sepakati area berkumpul setelah gempa bumi terjadi supaya tidak saling mencari satu sama lain.\n\n4. Adakan latihan cara melindungi diri dari gempa bumi.\n\n5. Mempersiapkan tas siaga bencana yang berisi keperluan yang dibutuhkan seperti: Makanan kering seperti biskuit, air minum, kotak kecil berisi obat-obatan penting, lampu senter dan baterai cadangan, lilin dan korek api, kain sarung, satu pasang pakaian dan jas hujan, surat berharga, fotokopi tanda pengenal yang dimasukkan kantong plastik, serta nomor-nomor telepon penting karena gempa bumi tidak dapat diprediksi waktunya."
+ },
+ {
+ 	"key": "duringContent",
+ 	"value": "SAAT TERJADI BENCANA GEMPA BUMI\n\n1. Jika berada di lantai satu atau dasar, segera keluar bangunan menuju tempat terbuka sembari lindungi kepala jika memungkinkan.\n\n2. Jika berada di lantai dua atau lebih tinggi, berlindunglah di bawah meja yang kokoh.\n\n3. Jika tengah di dalam elevator, tekan tombol semua lantai, dan segeralah keluar saat pintu terbuka di lantai berapa pun. Jika pintu tak terbuka, tekan tombol darurat untuk memanggil bantuan.\n\n4. Jauhi jendela kaca, rak, lemari, dan barang-barang yang tergantung, seperti lukisan, cermin, jam dinding, lampu gantung, dan lain-lain.\n\n5. Gunakan tangga darurat, jangan gunakan elevator. Jangan menggunakan elevator karena berisiko terjebak di dalam.\n\nSAAT TERJADI BENCANA TSUNAMI\n\n1. Memahami status peringatan dini yang dikeluarkan BMKG. Ada tiga kategori berbeda: awas, siaga, dan waspada. Status menunjukkan perkiraan tingkat ketinggian tsunami, awas berarti lebih dari 3 meter, siaga berarti di kisaran 0,5 - 3 meter, waspada berarti kurang dari 0,5 meter.\n\n2. Masyarakat menyebarluaskan berita peringatan dini tsunami menggunakan kentongan, lonceng, dan bedug. Pemerintah daerah membunyikan sirine peringatan dini. Peringatan tsunami bisa dibatalkan jika ternyata tidak terjadi tsunami.\n\n3. Menjauhi pantai ke tempat tinggi saat gempa kuat, yang goncangannya menyebabkan pusing dan sulit berdiri.\n\n4. Waspada apabila terjadi air surut. Jangan hampiri, tetapi segeralah naik ke tempat tinggi.\n\n5. Pergi ke tempat evakuasi. Ikuti jalur evakuasi yang telah ditentukan menuju tempat aman terdekat\n\n6. Menyelamatkan diri sendiri terlebih dahulu dan tidak gegabah mencari keluarga yang hilang.\n\n7. Melakukan evakuasi dengan berjalan kaki, tidak menggunakan kendaraan.\n\n8. Memanfaatkan media sosial atau informasi untuk mendapat berita yang valid.\n\n9. Tetap bertahan sebelum pihak berwajib memberitahukan bahwa keadaan sudah aman.\n\n10. Membantu orang disabilitas, wanita hamil, anak-anak, atau orang yang membutuhkan bantuan jika memungkinkan."
+ },
+ {
+ 	"key": "postContent",
+ 	"value": "1. Pergilah menuju tempat pengungsian (shelter) terdekat yang ditentukan setelah memastikan keadaan memungkinkan.\n\n2. Ketika proses evakuasi berlangsung malam hari, gunakan senter untuk mencegah tersandung dan jatuh.\n\n3. Mendengarkan sumber informasi lokal yang memberitakan informasi dan instruksi.\n\n4. Membantu orang yang perlu bantuan khusus, seperti bayi, orang jompo, dan disabilitas.\n\n5. Menghubungi anggota keluarga lain untuk pemberitahuan."
+ },
+ {
+ 	"key": "behaviorContent",
+ 	"value": "Okada dkk. (2013) di Jepang telah melakukan penelitian terkait kategorisasi seseorang dalam mengambil keputusan aksi yang harus dilakukan dalam menghadapi bencana, baik sebelum, saat, dan sesudah kejadian bencana.\n\nKategori tersebut adalah “Kyojo” (Community Self-Reliance), “Jijo” (Individual Self-Reliance), dan “Kojo” (Government Assistance). \n\nKategorisasi ini bermanfaat untuk menentukan manajemen yang efektif dalam menangani resiko bencana di masyarakat.\n\nJIJO (Individual Self-Reliance)\nMenunjukkan kecenderungan seseorang yang bergantung pada diri sendiri dalam mengambil keputusan dalam menghadapi bencana.\n\nTindakan yang menunjukkan kategori Jijo, antara lain:\n1. Mengikat lemari dengan kuat\n2. Tidak menaruh perabot di jalan masuk\n3. Telpon, kirim email atau pesan melalui media sosial\n4. Pergi ke titik kumpul yang sudah disepakati\n5. Mencari informasi bencana\n6. Berlari dengan cepat karena memiliki tubuh yang fit\n7. Menggunakan alat penerangan yang disiapkan dalam tas\n8. Mendengarkan info terkini\n9. Mengambil makanan yang sudah disiapkan sebelumnya dari dalam tasnya\n10. Berbelanja segera setelah bencana reda\n11. Bermain mainan dan membaca buku yang ada di tas siaga bencana\n12. Mengobrol dengan orang lain agar kenal dan rukun\n\nKYOJO (Community Self-Reliance)\nMenunjukkan kecenderungan seseorang yang bergantung pada komunitas dalam mengambil keputusan dalam menghadapi bencana.\n\nTindakan yang menunjukkan kategori Kyojo, antara lain:\n1. Menyelenggarakan acara drill dengan tetangga\n2. Memberi informasi tentang resiko jatuhnya perabotan\n3. Menaruh informasi di papan pengungsian\n4. Sering memberi informasi ke orang sekitar\n5. Mengajak orang-orang lari\n6. Mengaplikasikan ilmu yang didapat dari drills bencana\n7. Memanggil orang-orang sekitar\n8. Mengaplikasikan ilmu dari local night disaster drill\n9. Mengambil makanan yang disediakan pengungsian namun tetap mempertimbangkan orang lain\n10. Mengambil makanan yang disediakan pengungsian namun mendahulukan anak-anak dan lansia\n11. Membantu memasak dan olahraga bersama pengungsi lain\n12. Mengumpulkan anak-anak dan bermain bersama\n\nKOJO (Government Assistance)\nMenunjukkan kecenderungan seseorang yang bergantung pada pemerintah dalam mengambil keputusan dalam menghadapi bencana.\n\nTindakan yang menunjukkan kategori Kojo, antara lain:\n1. Meningkatkan standar tempat tinggal agar tahan gempa\n2. Memanfaatkan internet pemerintah yang tetap berfungsi saat bencana\n3. Mengikuti jalur evakuasi\n4. Memakai lampu jalan yang disediakan pemerintah\n5. Mengumpulkan makanan sebanyak-banyaknya di pengungsian\n6. Mengadakan konser atau pertunjukan"
+ },
+ {
+   "key": "advise",
+   "value": "Setelah ini, pastikan kamu benar-benar memerhatikan teks dialog jika memilih bermain atau teks penjelasan jika memilih belajar."
+ }
+]}

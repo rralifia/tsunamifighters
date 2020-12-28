@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Utilize the government's Internet, which is still functional in the event of a disaster." 2
+Load(chap3)

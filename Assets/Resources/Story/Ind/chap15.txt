@@ -1,0 +1,49 @@
+showScene(true,topDown) next
+Fury "Aku coba minta obat ke Bapak Tim SAR, ya." 2
+exit(Fury;Azumi) next
+narrator "Beberapa saat kemudian..." 1
+enter(Azumi) setFace(Azumi,3_flat) setPosition(Azumi,0.8) enter(Fury) flip(Fury) setPosition(Fury,0.5) next
+Fury "Ini obatnya. Tadi bapaknya juga bilang kalau nanti bakal dibagiin makanan." setFace(Azumi,3_happy) 2
+exit(Fury;Azumi) next
+narrator "Mereka pun makan malam. Setelah itu, mereka tidur. Pengungsian yang sesak tidak membuat mereka sulit terlelap karena tubuh mereka sudah kelelahan." 1
+narrator "Keesokan harinya..." 2
+transBackground(09_pengungsiansiang,radialClock) enter(Azumi) setPosition(Azumi,0.8) enter(Fury) setPosition(Fury,0.5) setFace(Fury,1_flat) setFace(Azumi,3_anxious) next
+Azumi "Bangun, bangun! Bangun! Katanya mau ketemu Ibu." flip(Fury) setFace(Fury,1_happy) 1
+enter(PakBasarnas) setPosition(PakBasarnas,0.2) setFace(PakBasarnas,tegas) next
+PakBasarnas as [officer_id] "Apakah ada yang bernama Fury? [flip(Fury) setFace(Fury,1_anxious)] Sini, ikut saya!" setFace(Azumi,3_anxious) 2
+Azumi "Ada apa?" 1
+Fury "Baik, Pak! Tunggu di sini ya, Azumi." 2
+exit(Azumi;Fury;PakBasarnas) next
+narrator "Tak lama kemudian..." 1
+enter(Ibu) flip(Ibu) setPosition(Ibu,0.2) setFace(Ibu,anxious) enter(Fury,0.8) setFace(Fury,1_anxious) next
+move(Fury,0.4) setFace(Fury,1_happy) enter(PakBasarnas) setPosition(PakBasarnas,0.8) setFace(PakBasarnas,tegas) next
+Fury "Ibu!" setFace(Ibu,happy) 2
+Ibu "Fury! Syukurlah, kamu baik-baik saja. Azumi mana?" 1
+Fury "Ada di sana, Bu. Ayo kita ke sana!" flip(Fury) 2
+Ibu "Terima kasih ya, Pak!" 1
+exit(PakBasarnas;Ibu;Fury) next
+narrator "Mereka berdua pergi ke lokasi di mana Azumi berada." 2
+enter(Azumi) setPosition(Azumi,0.8) setFace(Azumi,3_flat) enter(Fury) setPosition(Fury,0.6) enter(Ibu) flip(Ibu) setPosition(Ibu,0.4) setFace(Ibu,anxious) next
+Azumi "Ibu.." setFace(Azumi,3_happy) 1
+Fury "Ibu bawa apa itu, Bu? Taruh aja di sini biar nggak berat." 2
+Ibu "Azumi..Syukurlah kalian selamat. [setFace(Ibu,happy)] Oh, ini, tas siaga bencana. Ibu titip kalian, ya. Ibu ke Ayah dulu." 1
+Fury "Baik, Bu." exit(Ibu) 2
+Azumi "Ayahmu di mana?" 1
+Fury "Ada, tadi lagi ke petugas dulu." 2
+Azumi "Apa aja isi tas siaga bencananya ya?" 1
+Fury "Ada makanan siap saji, air minum, dokumen penting, uang, apalagi, ya, kita buka aja, yuk." 2
+Azumi "Wah, ada HP sama radio. Ini kotak P3K sama obat-obatan. Ada pakaian sama selimut juga." 1
+Fury "Ngapain ya, selama di sini? Bakal bosen nggak, ya?" 2c
+choice "Apa yang bisa dilakukan selama di pengungsian?"
+{
+  "Mengobrol dengan orang lain agar kenal dan rukun"
+    score(jijoB) Load(chap15b)
+  "Mengadakan konser atau pertunjukan"
+    score(kojoB) Load(chap15e)
+  "Membantu memasak dan olahraga bersama pengungsi lain"
+    score(kyojoB) Load(chap15c)
+  "Bermain mainan dan membaca buku yang ada di tas siaga bencana"
+    score(jijoB) Load(chap15a)
+  "Mengumpulkan anak-anak dan bermain bersama"
+    score(kyojoB) Load(chap15d)
+}

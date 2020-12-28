@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Tunggu dulu! Temen-temen yang lain gimana?" 1
+Fury "Lama kalau nunggu mereka dulu. Udah, kita ikut orang-orang aja ke dataran tinggi." 2
+Load(chap9)

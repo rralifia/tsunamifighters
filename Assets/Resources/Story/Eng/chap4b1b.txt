@@ -1,0 +1,10 @@
+showScene(true,topDown) next
+setFace(Azumi,3_angry) next
+Azumi "Crawl on the spot and cover your head and neck with both hands! Hurry up and get out of here!" 1
+Fury "We are not on the first floor, we are on the second floor now. We should immediately evacuate under the table!" 2
+Azumi "Hurry up!" exit(Fury;Azumi) 1
+narrator "Shortly thereafter, the earthquake subsides. They go down and out of the inn. After the situation is safe, they go back to the room." 2
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setFace(Azumi,3_anxious) setPosition(Azumi,0.5) next
+Azumi "Well, it was frightening, wasn't it? Thankfully the table is sturdy so it can protect us from falling objects. But, why don't we just go outside to the open space when the earthquake happened?" 1
+Fury "Because we are on the second floor, I am afraid that we will be hit by something falling down. If we are on the ground floor and close to the exit, then we can go outside and look for open space." 2
+Load(chap4b2cont2)

@@ -1,0 +1,8 @@
+showScene(true,topDown) next
+Azumi "[setFace(Azumi,3_angry] Cepet pencet tombol bantuan!" 1
+Fury "Pencet tombol semua lantai aja cepet!" exit(Fury;Azumi) 2
+narrator "Mereka berdua berhasil ke luar dari lift." 1
+enter(Fury) flip(Fury) setPosition(Fury,0.2) setFace(Fury,1_anxious) enter(Azumi) flip(Azumi) setPosition(Azumi,0.4) setFace(Azumi,3_anxious) next
+Fury "Ke mana nih?" 2
+Azumi "Itu, di sana ada meja! Ayo, cepet ke sana!" exit(Fury;Azumi) 1
+Load(chap4acont)

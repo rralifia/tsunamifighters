@@ -1,0 +1,9 @@
+showScene(true,topDown) next
+Azumi "How do we get there? Run or..how?" 1c
+choice "Which is the best way to get there?"
+{
+  "Run"
+    score(scoreA) Load(chap9a)
+  "By vehicle"
+    Load(chap9b)
+}

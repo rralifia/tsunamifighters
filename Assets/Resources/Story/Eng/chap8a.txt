@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "To the high land such as hill!" 1
+Fury "Hurry!" 2
+Load(chap9)

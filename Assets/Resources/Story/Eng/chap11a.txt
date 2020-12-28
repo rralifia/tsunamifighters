@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "We could. I have a flashlight in my bag, we can use it." 1
+Load(chap12)

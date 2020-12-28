@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "私達は幼い子たちを集合させて、一緒に遊ぶことができるよ。" 1c
+Load(chap16)

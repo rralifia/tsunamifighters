@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Ya udah, ayo, aku siap mengaplikasikan ilmu dari drills bencana!" setFace(Fury,1_angry) 1
+Fury "Ayo, cepet! Dari drills yang kamu dapet, sekarang harus apa?" 2
+Azumi "Sekarang kita harus jauhin pantai." 1
+Fury "Tapi, ke mana?" 2c
+Load(chap8)

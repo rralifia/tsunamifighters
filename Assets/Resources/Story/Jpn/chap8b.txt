@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "頑丈な家へ。。。または、高い建物!" 1
+Fury "私たちは、まだ高い場所に行く時間があるよ。" 2
+Load(chap9)

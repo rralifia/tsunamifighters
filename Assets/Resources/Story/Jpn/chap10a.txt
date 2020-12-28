@@ -1,0 +1,13 @@
+showScene(true,topDown) next
+Fury "Let's help her! あなたは彼女の右側から抱えて、私は左側を支えるから。" move(Fury,0.6) flip(Azumi) move(Azumi,0.8) 2
+Azumi "がんばれ、妹。あなたならできるよ！" 1
+Fury "ああ、波が近づいてくる。" 2
+Azumi "私はとても不安だよ。" next
+transBackground(10_bangunankokoh,radialClock) 1c
+choice "彼女たちはどうしたらいいでしょうか？"
+{
+  "もっと早く走れ。"
+    Load(chap10a1)
+  "高いところにある頑丈な家に入る。"
+    score(scoreA) Load(chap10a2)
+}

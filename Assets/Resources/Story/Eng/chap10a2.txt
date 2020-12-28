@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Fury "Enter the house!" 2
+Azumi "Hurry up!" 1
+Load(chap10acont)

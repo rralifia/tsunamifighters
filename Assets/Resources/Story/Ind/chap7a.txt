@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Ya udah, ayo kita kasih tau orang-orang dan lari bareng-bareng!" setFace(Fury,1_angry) 1
+Fury "Ayo!" 2
+Azumi "Kita jauhin pantai sambil teriakin orang-orang." 1
+Fury "Kita jauhin pantai ke mana?" 2c
+Load(chap8)

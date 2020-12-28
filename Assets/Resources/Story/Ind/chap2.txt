@@ -1,0 +1,15 @@
+showScene(true,topDown) setFace(Azumi,3_anxious) multiplay next
+Azumi "Eh, kalau misalnya keluarga kita lagi ada di tempat yang beda-beda waktu lagi gempa bumi, gimana caranya biar bisa ketemu?" 1c
+choice "Bagaimana cara keluarga yang berada di tempat berbeda bertemu ketika terjadi gempa bumi?"
+{
+  "Telpon, kirim email atau pesan melalui media sosial"
+    score(jijoA) Load(chap2a)
+  "Menaruh informasi di papan pengungsian"
+    score(kyojoA) Load(chap2c)
+  "Memanfaatkan internet pemerintah yang tetap berfungsi saat bencana"
+    score(kojoA) Load(chap2e)
+  "Pergi ke titik kumpul yang sudah disepakati"
+    score(jijoA) Load(chap2b)
+  "Sering memberi informasi ke orang sekitar"
+    score(kyojoA) Load(chap2d)
+}

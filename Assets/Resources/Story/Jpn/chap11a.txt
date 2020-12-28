@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "できるよ。 私のカバンには懐中電灯が入っているから、それを使えるよ。" 1
+Load(chap12)

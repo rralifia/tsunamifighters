@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "We can help cook, or exercise with the people here." 1c
+Load(chap16)

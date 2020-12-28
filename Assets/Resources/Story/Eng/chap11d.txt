@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "We could. If we have joined the local night disaster drill, we can implement it." 1
+Load(chap12)

@@ -1,0 +1,13 @@
+showScene(true,topDown) next
+Fury "Ayo kita tolong, cepet! Kamu bantu di kanan, aku di kiri." move(Fury,0.6) flip(Azumi) move(Azumi,0.8) 2
+Azumi "Ayo, dek, kamu kuat!" 1
+Fury "Oh tidak, airnya udah deket." 2
+Azumi "Gimana dong?" next
+transBackground(10_bangunankokoh,radialClock) 1c
+choice "Apa yang harus mereka lakukan?"
+{
+  "Berlari lebih cepat"
+    Load(chap10a1)
+  "Masuk ke rumah kokoh yang posisinya agak tinggi"
+    score(scoreA) Load(chap10a2)
+}

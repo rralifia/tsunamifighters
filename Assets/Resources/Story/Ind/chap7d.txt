@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Ayo cari info status peringatan tsunaminya di HP dulu." setFace(Fury,1_angry) 1
+Fury "Apa infonya?" 2
+Azumi "Gempa di Anyer dan berpotensi tsunami dengan status siaga. Harus segera menjauhi pantai." 1
+Fury "Ke mana nih?" 2c
+Load(chap8)

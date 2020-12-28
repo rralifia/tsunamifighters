@@ -1,0 +1,35 @@
+showScene(true,topDown) next
+Fury "It's okay to visit first, if later we are escorted to the inn. It's been a while since I met Uncle Tama." setFace(Fury,1_happy) setFace(Azumi,3_happy) 2
+Azumi "I'll follow Fury, Ma'am." 1
+Ibu as [mom_eng] "OK. Then prepare what you want to bring to the study tour." setFace(Ibu,flat) 2
+Azumi "Surely, Ma'am." exit(Ibu) 1
+narrator "And they prepare everything they need to bring." exit(Fury;Azumi) next
+transBackground(03_rumahsakit,radialClock) 2 playMusic(at_the_end_of_hope)
+narrator "The next day, they went to the hospital to visit Uncle Tama. Uncle Tama was being treated in the Melati room on the third floor of the hospital." 1
+enter(Tante) setPosition(Tante,0.8) setFace(Tante,happy) enter(Fury) flip(Fury) setPosition(Fury,0.5) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) next
+Fury "How is Uncle Tama?" 2
+Tante as [aunt_eng] "It's getting much better now. He just needs to rest. By the way, who is this?" 1
+Fury "Ah, right.She is Azumi, my best friend from Japan. We live together." 2
+Azumi "Nice to meet you, Aunty." exit(Fury;Azumi;Tante) 1
+enter(Tante) setPosition(Tante,0.8) setFace(Tante,happy) enter(Ibu) flip(Ibu) setPosition(Ibu,0.2) setFace(Ibu,happy) enter(Ayah) flip(Ayah) setFace(Ayah,happy) setPosition(Ayah,0.5) next
+Ayah as [dad_eng] "Hopefully Tama will soon be well and be able to go home. The visit time is almost over. Goodbye…" 2
+Tante as [aunt_eng] "Bye, thank you for visiting us." exit(Tante;Ayah;Ibu) 1
+enter(Fury) setPosition(Fury,0.2) enter(Azumi) setPosition(Azumi,0.5) enter(Ibu) setPosition(Ibu,0.8) setFace(Ibu,flat) next
+Fury "I wanna go to the toilet, Mom. You and Dad can go downstairs first." 2
+Ibu as [mom_eng] "OK, we will wait in the car." 1
+exit(Fury;Azumi;Ibu) next
+narrator "Fury and Azumi went to the toilet." 2
+narrator "After going to the toilet, they went down to the first floor using the elevator." transBackground(05_liftrumahsakit,radialClock) 1
+narrator "In the elevator..." 2
+enter(Fury) flip(Fury) setPosition(Fury,0.5) setFace(Fury,1_anxious) enter(Azumi) setPosition(Azumi,0.8) setFace(Azumi,3_anxious) next
+Azumi "Earthquake alert came from LINE!" 1
+Fury "Oh My God! What should we do?" 2c
+choice "What should they do?"
+{
+  "Press the emergency button"
+    Load(chap4a1)
+  "Push all the buttons for the destination floors"
+    score(scoreB) Load(chap4a2)
+  "Tell Mom where they are"
+    Load(chap4a3)
+}

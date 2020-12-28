@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Ya udah, ayo kita ikutin jalur evakuasi!" setFace(Fury,1_angry) 1
+Fury "Itu papannya!" 2
+Azumi "Di mana? Papan evakuasinya ngarahin ke mana?" 1
+Fury "Itu! Ke mana tuh?" 2c
+Load(chap8)

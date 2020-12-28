@@ -1,0 +1,4 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Alright, come on! そう、私はここから走る準備はできてるよ。" setFace(Fury,1_angry) 1
+Fury "どこに走るの？" 2c
+Load(chap8)

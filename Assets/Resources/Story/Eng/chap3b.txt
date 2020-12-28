@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Hopefully, if we have determined the meeting point, we can meet the family at the gathering point. Oh yeah, when will the summer camp program be announced?" next
+Load(chap4)

@@ -1,0 +1,9 @@
+showScene(true,topDown) next
+Azumi "Gimana ke sananya? Lari atau gimana?" 1c
+choice "Bagaimana cara ke sana?"
+{
+  "Berlari"
+    score(scoreA) Load(chap9a)
+  "Naik kendaraan"
+    Load(chap9b)
+}

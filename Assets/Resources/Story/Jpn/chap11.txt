@@ -1,0 +1,18 @@
+showScene(true,topDown) next
+narrator "津波は収まりはじめました。暗くなってきます。沿岸の建物は津波に襲われました。少しして、救助隊が到着します。" 1 playMusic(enchanted_tiki)
+transBackground(08_jalangelap,radialClock) next
+enter(Fury) flip(Fury) setPosition(Fury,0.5) setFace(Fury,1_anxious) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) setFace(Azumi,3_flat) next
+Fury "この暗い中で、どうやって避難所にたどりつけるかな？" 2c
+choice "夜、避難所に着くまで、どうやったら安全でいられるだろう？"
+{
+  "緊急キットのバッグに入っている懐中電灯を使えばいいよ。"
+    score(kojoB) Load(chap11e)
+  "地元の夜間災害訓練で学んだ知識を実践する。"
+    score(kyojoB) Load(chap11d)
+  "緊急キットのバッグに入っている懐中電灯を使えばいいよ。"
+    score(jijoB) Load(chap11a)
+  "今の情報・ニュースを注意深く聞いて。"
+    score(jijoB) Load(chap11b)
+  "避難しながら周囲の人たちに声をかけよう。"
+    score(kyojoB) Load(chap11c)
+}

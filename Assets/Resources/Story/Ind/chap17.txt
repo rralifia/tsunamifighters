@@ -1,0 +1,16 @@
+showScene(true,topDown) next
+Azumi "Yang penting aku nggak sendiri." 1
+enter(Ayah) flip(Ayah) setPosition(Ayah,0.2) setFace(Ayah,happy) enter(Ibu) flip(Ibu) setPosition(Ibu,0.4) setFace(Ibu,happy) next
+Ayah "Azumi..Ayah dapat telpon dari guru kamu." setFace(Azumi,3_anxious) 2
+Azumi "Oh, ya? Apa katanya?" 1
+Ayah "Katanya kedutaan besar Jepang di Indonesia bakal jemput kamu untuk bawa kamu pulang ke Jepang." 2
+Azumi "Kapan dijemputnya?" 1
+Ayah "Mereka bilang hari ini." 2
+Azumi "Wah.." setFace(Azumi,3_happy) setFace(Fury,1_anxious) 1
+Fury "Serius, Bu? Kenapa?" 2
+Ibu "Karena bencana ini." 1
+Fury "Padahal aku masih pengen bareng sama Azumi." 2
+Ibu "Itu untuk kebaikan Azumi juga, sayang." 1
+Fury "Iya sih, Bu." 2
+Azumi "Baiklah. Kalau gitu, ayo kita menghabiskan waktu sambil nunggu aku dijemput." setFace(Fury,1_happy) 1
+Fury "Ayo!" playMusic(null) end

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "緊急キットバッグに、おもちゃや本があるよ。私達は遊んだり、本を読んだりできるよ。" 1c
+Load(chap16)

@@ -1,0 +1,12 @@
+showScene(true,topDown) next
+choice "彼女たちはどこに行くべきですか？"
+{
+  "早く逃げるために車。"
+    Load(chap8c)
+  "頑丈な家や高い建物"
+    score(scoreB) Load(chap8b)
+  "他の友達をじっと待つ。"
+    Load(chap8d)
+  "丘などの高い土地。"
+    score(scoreB) Load(chap8a)
+}

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Kalau kita sering ngadain dan ikut drill bencana bareng tetangga, nanti kita terlatih dan bisa ke luar rumah dengan aman." 2
+Load(chap2)

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Kalau bencana udah reda, kita harus cepet beli makanan." 1
+Load(chap15)

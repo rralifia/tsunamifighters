@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "できるよ。 私達は避難しながら周囲の人たちに声をかけなくちゃ。" 1
+Load(chap12)

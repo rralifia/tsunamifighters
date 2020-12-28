@@ -1,0 +1,18 @@
+showScene(true,topDown) next
+setFace(Azumi,3_happy) setFace(Fury,1_happy) 1
+Fury "Paling bulan depan. Habis ini, jangan ajak aku ngobrol lagi, ya! Ngobrol bikin aku nggak fokus." 2
+Azumi "Baiklah, kalau gitu, aku balik ke kamarku aja, ya." flip(Azumi) 1
+Fury "Jangan, kamu di sini aja temenin aku, tapi jangan tidur. Kamu bisa baca buku.. nonton youtube.. atau.. nyiapin barang-barang buat karya wisata besok." 2
+enter(Ibu) flip(Ibu) setPosition(Ibu,0.2) setFace(Ibu,anxious) next
+Ibu "Anak-anak, adiknya Ayah, Paman Tama, sakit tipes, udah dirawat dari dua hari yang lalu, rencananya besok Ayah sama Ibu mau jenguk. Berangkatnya jam tiga sore. Kalian mau ikut jenguk nggak?" setFace(Azumi,3_anxious) setFace(Fury,1_anxious) 1
+Fury "Besok ada karya wisata, Bu, kumpulnya jam dua siang di sekolah." 2
+Ibu "Karya wisata ke mana?" 1
+Fury "Nggak jauh-jauh sih, Bu, ke Anyer." 2
+Ibu "Terserah kalian sih, kalau mau ikut jenguk, nanti nyusul aja, dianter, paling tiga puluh menit dari rumah sakitnya." 1c
+choice "Apa yang sebaiknya mereka pilih?"
+{
+  "Ikut menjenguk Paman Tama"
+    Load(chap4a)
+  "Tidak ikut menjenguk"
+    Load(chap4b)
+}

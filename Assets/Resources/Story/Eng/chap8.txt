@@ -1,0 +1,12 @@
+showScene(true,topDown) next
+choice "Where should they go?"
+{
+  "A car to escape quickly"
+    Load(chap8c)
+  "Sturdy houses and high buildings"
+    score(scoreB) Load(chap8b)
+  "Stay and wait for other friends"
+    Load(chap8d)
+  "High land such as hill"
+    score(scoreB) Load(chap8a)
+}

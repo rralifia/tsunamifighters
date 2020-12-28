@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Fury "家に入って！" 2
+Azumi "急ごう！" 1
+Load(chap10acont)

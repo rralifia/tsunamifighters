@@ -1,0 +1,19 @@
+showScene(true,topDown) next
+Azumi "Udah, nggak ada. Apa aku beli aja ya? Kamu mau nemenin aku ke supermarket nggak?" 1
+Fury "Boleh aja, yuk!" exit(Azumi;Fury) 2
+transBackground(04_supermarket,radialClock) next
+narrator "Mereka pun berhasil menemukan supermarket." 1
+enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) enter(Fury) flip(Fury) setPosition(Fury,0.5) next
+Fury "Naah..ketemu!" move(Fury,0.7) move(Azumi,0.5) 2
+setFace(Azumi,3_anxious) next
+Azumi "Eeehh..eehh..kok goyang-goyang.." setFace(Fury,1_angry) 1
+Fury "Ada peringatan gempa! AWAS, raknya mau jatuh!" 2c
+choice "Apa yang harus mereka lakukan?"
+{
+  "Lari ke luar sambil merunduk"
+    Load(chap4b2a)
+  "Diam di tempat, merunduk sambil melindungi kepala dengan tas"
+    Load(chap4b2b)
+  "Lari sambil merunduk ke bagian supermarket yang lapang"
+    score(scoreB) Load(chap4b2c)
+}

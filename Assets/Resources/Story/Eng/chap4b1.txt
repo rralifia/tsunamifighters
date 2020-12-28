@@ -1,0 +1,15 @@
+showScene(true,topDown) next
+Azumi "I've searched, but I can't find it. Do you bring more towel? If you have extra towels, can I borrow one?" 1
+Fury "You can borrow my towel. I have another one." setFace(Azumi,3_happy) 2
+Azumi "How kind you are, where is it?" move(Fury,0.5) 1
+Fury "Here you are. [setFace(Fury,1_anxious)] S-s-support me, please. It seems like I get a headache." setFace(Azumi,3_anxious) 2
+Azumi "E-e-eh, what's wrong? I feel dizzy too, is the world shaking?!" 1
+setFace(Fury,1_angry) next
+Fury "Earthquake?!?" 2c
+choice "What should they do?"
+{
+  "Evacuate under the table"
+    score(scoreB) Load(chap4b1a)
+  "Go outside the inn"
+    Load(chap4b1b)
+}

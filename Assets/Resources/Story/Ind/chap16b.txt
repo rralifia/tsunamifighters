@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Kita bisa ngobrol sama orang lain di sini, biar saling kenal dan hidup rukun." 2
+Load(chap17)

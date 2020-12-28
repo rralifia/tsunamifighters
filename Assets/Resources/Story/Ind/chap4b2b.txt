@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Cepet nunduk, lindungin kepala pake tas! Kita tunggu gempa reda, habis itu ke luar!" setFace(Fury,1_angry) 1
+Fury "Di sini banyak rak. Takutnya kita kejebak kalau nggak pindah. Kita ke sana aja, di sana nggak banyak rak, ayo cepet!" exit(Fury;Azumi) 2
+Load(chap4b2cont1)

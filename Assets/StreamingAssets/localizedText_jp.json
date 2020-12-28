@@ -1,0 +1,1034 @@
+{"items":[
+ {
+   "key": "login_title",
+   "value": "ログインする"
+ },
+ {
+   "key": "login_button",
+   "value": "サインイン"
+ },
+ {
+   "key": "create_button",
+   "value": "アカウントを作成する"
+ },
+ {
+   "key": "createRoom",
+   "value": "新しい部屋を作成"
+ },
+ {
+   "key": "startButton",
+   "value": "ゲームをスタート"
+ },
+ {
+   "key": "name",
+   "value": "Name"
+ },
+ {
+   "key": "username",
+   "value": "Username"
+ },
+ {
+   "key": "age",
+   "value": "Age"
+ },
+ {
+   "key": "loc",
+   "value": "Location"
+ },
+ {
+   "key": "gender",
+   "value": "Gender"
+ },
+ {
+   "key": "leaveRoom",
+   "value": "部屋を出る"
+ },
+ {
+   "key": "nextButton",
+   "value": "次へ"
+ },
+ {
+   "key": "pauseButton",
+   "value": "一時停止"
+ },
+ {
+   "key": "homeButton",
+   "value": "Back to Novel Menu?"
+ },
+ {
+   "key": "chatButton",
+   "value": "チャット"
+ },
+ {
+   "key": "sendButton",
+   "value": "送信する"
+ },
+ {
+   "key": "backButton",
+   "value": "戻る"
+ },
+ {
+   "key": "enterRoomName",
+   "value": "部屋名を入力してください..."
+ },
+ {
+   "key": "welcome",
+   "value": "ようこそ"
+ },
+ {
+   "key": "status",
+   "value": "状態"
+ },
+ {
+   "key": "joinRoom",
+   "value": "既存の部屋に参加する"
+ },
+ {
+   "key": "score",
+   "value": "スコア:"
+ },
+ {
+   "key": "turn",
+   "value": "Turn Status"
+ },
+ {
+   "key": "number",
+   "value": "Number:      / 20"
+ },
+ {
+   "key": "player1score",
+   "value": "| プレイヤー1"
+ },
+ {
+   "key": "player2score",
+   "value": "プレイヤー2 |"
+ },
+ {
+   "key": "resume",
+   "value": "履歴書"
+ },
+ {
+   "key": "waitPlayer",
+   "value": "他のプレイヤーを待っています"
+ },
+ {
+   "key": "startGame",
+   "value": "ゲームを始められます"
+ },
+ {
+   "key": "endGame",
+   "value": "ストーリーを完了しました"
+ },
+ {
+   "key": "chatRoom",
+   "value": "チャットルーム"
+ },
+ {
+   "key": "beginTest",
+   "value": "テストを開始する"
+ },
+ {
+   "key": "learnFirst",
+   "value": "最初に学んでおくこと"
+ },
+ {
+   "key": "pretest",
+   "value": "事前テスト"
+ },
+ {
+   "key": "pretestIntro",
+   "value": "プレイする前に、まずこのクイズに挑戦しましょう！"
+ },
+ {
+   "key": "startPretest",
+   "value": "事前テストを開始"
+ },
+ {
+   "key": "soalpretest1",
+   "value": "自然災害とは？"
+ },
+ {
+   "key": "soalpretest2",
+   "value": "地震の原因は何ですか？"
+ },
+ {
+   "key": "soalpretest3",
+   "value": "強い地震の特徴は..."
+ },
+ {
+   "key": "soalpretest4",
+   "value": "地震がいつ起こるかを予測することはできますか？"
+ },
+ {
+   "key": "soalpretest5",
+   "value": "あなたが建物の中にいるときに、地震が起きたら、あなたはどうしたらいいですか？,"
+ },
+ {
+   "key": "soalpretest6",
+   "value": "地震が発生したときに、あなたが行くべき最も安全な場所なのはどこですか？"
+ },
+ {
+   "key": "soalpretest7",
+   "value": "あなたがビルの中にいる時に、強い地震が起きると…"
+ },
+ {
+   "key": "soalpretest8",
+   "value": "あなたが車を運転しているときに地震が発生したらどうしたらいいですか？"
+ },
+ {
+   "key": "soalpretest9",
+   "value": "すべての地震は津波を引き起こしますか？"
+ },
+ {
+   "key": "soalpretest10",
+   "value": "津波を起こす最大の原因は何ですか？"
+ },
+ {
+   "key": "soalpretest11",
+   "value": "津波の兆候は何ですか？"
+ },
+ {
+   "key": "soalpretest12",
+   "value": "海水が急に後退したらどうしますか？"
+ },
+ {
+   "key": "soalpretest13",
+   "value": "以下のうち、津波警報でないものはどれでしょう？"
+ },
+ {
+   "key": "soalpretest14",
+   "value": "あなたが津波警報に気が付いたら、どうすべきですか？"
+ },
+ {
+   "key": "soalpretest15",
+   "value": "津波警報は解除されたり、変更されたりすることがありますか？"
+ },
+ {
+   "key": "soalpretest16",
+   "value": "どの地域が津波リスクが最も高いでしょうか？"
+ },
+ {
+   "key": "soalpretest17",
+   "value": "以下のうち、津波警報のカテゴリーとして間違っているのはどれでしょう。"
+ },
+ {
+   "key": "soalpretest18",
+   "value": "地震と津波に対する備えをよりよくするために、私達は何をすべきでしょうか？"
+ },
+ {
+   "key": "soalpretest19",
+   "value": "緊急キットバッグに含まれていないものはどれですか？"
+ },
+ {
+   "key": "soalpretest20",
+   "value": "あなたは、どの防災訓練を受けたことがありますか？"
+ },
+ {
+   "key": "pretest1a",
+   "value": "人の行為による災害"
+ },
+ {
+   "key": "pretest1b",
+   "value": "社会的暴動による災害"
+ },
+ {
+   "key": "pretest1c",
+   "value": "自然現象による災害"
+ },
+ {
+   "key": "pretest2a",
+   "value": "地球の地殻変動"
+ },
+ {
+   "key": "pretest2b",
+   "value": "火山活動"
+ },
+ {
+   "key": "pretest2c",
+   "value": "地すべり"
+ },
+ {
+   "key": "pretest2d",
+   "value": "ハリケーンと雷"
+ },
+ {
+   "key": "pretest2e",
+   "value": "石油の掘削"
+ },
+ {
+   "key": "pretest3a",
+   "value": "めまいを引き起こす地震"
+ },
+ {
+   "key": "pretest3b",
+   "value": "強い揺れ、人々はほとんど立っていることができません"
+ },
+ {
+   "key": "pretest3c",
+   "value": "長い地震とその後の余震"
+ },
+ {
+   "key": "pretest3d",
+   "value": "建物の倒壊やひび割れ"
+ },
+ {
+   "key": "pretest3e",
+   "value": "すべての答えは正解です"
+ },
+ {
+   "key": "pretest4a",
+   "value": "はい"
+ },
+ {
+   "key": "pretest4b",
+   "value": "いいえ"
+ },
+ {
+   "key": "pretest4c",
+   "value": "わからない"
+ },
+ {
+   "key": "pretest5a",
+   "value": "すぐに建物の外に走り出る"
+ },
+ {
+   "key": "pretest5b",
+   "value": "地震が収まるまで建物の中にいる。"
+ },
+ {
+   "key": "pretest5c",
+   "value": "自分の身を守る。とくにガラス製品から身を守る"
+ },
+ {
+   "key": "pretest6a",
+   "value": "道路/通り"
+ },
+ {
+   "key": "pretest6b",
+   "value": "運動場のような広場"
+ },
+ {
+   "key": "pretest6c",
+   "value": "自分の家"
+ },
+ {
+   "key": "pretest7a",
+   "value": "テーブルの下に避難する"
+ },
+ {
+   "key": "pretest7b",
+   "value": "ぶら下がっているものから離れる。"
+ },
+ {
+   "key": "pretest7c",
+   "value": "窓やガラスのものから離れる。"
+ },
+ {
+   "key": "pretest7d",
+   "value": "地震が収まったらすぐに離れる。"
+ },
+ {
+   "key": "pretest7e",
+   "value": "わからない。"
+ },
+ {
+   "key": "pretest8a",
+   "value": "路肩に寄せて、運転を停止する。"
+ },
+ {
+   "key": "pretest8b",
+   "value": "気にせず、運転を続ける。"
+ },
+ {
+   "key": "pretest9a",
+   "value": "はい。"
+ },
+ {
+   "key": "pretest9b",
+   "value": "いいえ。"
+ },
+ {
+   "key": "pretest9c",
+   "value": "わからない。"
+ },
+ {
+   "key": "pretest10a",
+   "value": "海底の急激な変位。"
+ },
+ {
+   "key": "pretest10b",
+   "value": "海底火山活動"
+ },
+ {
+   "key": "pretest10c",
+   "value": "海底地すべり"
+ },
+ {
+   "key": "pretest10d",
+   "value": "ハリケーン/竜巻"
+ },
+ {
+   "key": "pretest10e",
+   "value": "わからない。"
+ },
+ {
+   "key": "pretest11a",
+   "value": "強い地震"
+ },
+ {
+   "key": "pretest11b",
+   "value": "海岸沿いの水位が急に下がること。"
+ },
+ {
+   "key": "pretest11c",
+   "value": "水平線の大きな波。"
+ },
+ {
+   "key": "pretest11d",
+   "value": "爆発音のような大きな音"
+ },
+ {
+   "key": "pretest11e",
+   "value": "わからない。"
+ },
+ {
+   "key": "pretest12a",
+   "value": "海（海岸）から逃げる"
+ },
+ {
+   "key": "pretest12b",
+   "value": "そこにいて、何もしない。"
+ },
+ {
+   "key": "pretest12c",
+   "value": "ビーチの近くにいる人を助ける。"
+ },
+ {
+   "key": "pretest13a",
+   "value": "ニュース"
+ },
+ {
+   "key": "pretest13b",
+   "value": "サイレン、通知"
+ },
+ {
+   "key": "pretest13c",
+   "value": "悲鳴"
+ },
+ {
+   "key": "pretest14a",
+   "value": "ビーチから離れて高い場所に逃げる。"
+ },
+ {
+   "key": "pretest14b",
+   "value": "すぐに避難所に避難する。"
+ },
+ {
+   "key": "pretest14c",
+   "value": "落ち着いて、パニックにならない。"
+ },
+ {
+   "key": "pretest14d",
+   "value": "上記は全て正しい。"
+ },
+ {
+   "key": "pretest14e",
+   "value": "わからない。"
+ },
+ {
+   "key": "pretest15a",
+   "value": "正しい。"
+ },
+ {
+   "key": "pretest15b",
+   "value": "間違い。"
+ },
+ {
+   "key": "pretest15c",
+   "value": "わからない。"
+ },
+ {
+   "key": "pretest16a",
+   "value": "川沿い"
+ },
+ {
+   "key": "pretest16b",
+   "value": "森"
+ },
+ {
+   "key": "pretest16c",
+   "value": "海洋"
+ },
+ {
+   "key": "pretest16d",
+   "value": "海岸線"
+ },
+ {
+   "key": "pretest16e",
+   "value": "わからない"
+ },
+ {
+   "key": "pretest17a",
+   "value": "大津波警報"
+ },
+ {
+   "key": "pretest17b",
+   "value": "Normal"
+ },
+ {
+   "key": "pretest17c",
+   "value": "津波警報"
+ },
+ {
+   "key": "pretest17d",
+   "value": "津波注意法"
+ },
+ {
+   "key": "pretest17e",
+   "value": "わからない"
+ },
+ {
+   "key": "pretest18a",
+   "value": "地震と津波に関する知識を得る"
+ },
+ {
+   "key": "pretest18b",
+   "value": "緊急キットを準備する"
+ },
+ {
+   "key": "pretest18c",
+   "value": "自己救助訓練やワークショップに参加する。"
+ },
+ {
+   "key": "pretest18d",
+   "value": "ラジオ、テレビなどからの情報を聞く。"
+ },
+ {
+   "key": "pretest18e",
+   "value": "すべての答えは正しい。"
+ },
+ {
+   "key": "pretest19a",
+   "value": "すぐに食べられる食べ物"
+ },
+ {
+   "key": "pretest19b",
+   "value": "洋服や毛布"
+ },
+ {
+   "key": "pretest19c",
+   "value": "個人文書"
+ },
+ {
+   "key": "pretest19d",
+   "value": "ブーツ"
+ },
+ {
+   "key": "pretest19e",
+   "value": "薬と応急処置キット"
+ },
+ {
+   "key": "pretest20a",
+   "value": "応急処置または基本的な救命方法"
+ },
+ {
+   "key": "pretest20b",
+   "value": "災害訓練または災害ワークショップ"
+ },
+ {
+   "key": "pretest20c",
+   "value": "偵察訓練"
+ },
+ {
+   "key": "pretest20d",
+   "value": "すべて終了した。"
+ },
+ {
+   "key": "pretest20e",
+   "value": "何も参加していない。"
+ },
+ {
+   "key": "quizCompleted",
+   "value": "クイズを完了しました！"
+ },
+ {
+   "key": "prepStatus",
+   "value": "準備状況:"
+ },
+ {
+   "key": "notPrep",
+   "value": "準備ができていません"
+ },
+ {
+   "key": "lessPrep",
+   "value": "準備が少し足りません"
+ },
+ {
+   "key": "Prepared",
+   "value": "準備できています"
+ },
+ {
+   "key": "veryPrep",
+   "value": "とてもよく準備ができています"
+ },
+ {
+   "key": "playNow",
+   "value": "今すぐプレイ"
+ },
+ {
+   "key": "learnNow",
+   "value": "今すぐ学ぶ"
+ },
+ {
+   "key": "predicate",
+   "value": "PREDICATE"
+ },
+ {
+   "key": "restartQuiz",
+   "value": "Retake the quiz"
+ },
+ {
+   "key": "postTest",
+   "value": "事後テスト"
+ },
+ {
+   "key": "feedback",
+   "value": "地震と津波についての知識は増えましたか？"
+ },
+ {
+   "key": "startPosttest",
+   "value": "事後テストを開始"
+ },
+ {
+   "key": "jawabBenar",
+   "value": "あなたの回答は正しいです！"
+ },
+ {
+   "key": "jawabSalah",
+   "value": "あなたの回答は間違っています！"
+ },
+ {
+   "key": "jawabKurang",
+   "value": "There is a better answer"
+ },
+ {
+   "key": "postTest1",
+   "value": "自然災害は、地震、火山噴火、地滑り、山火事などの自然現象によって引き起こされます。"
+ },
+ {
+   "key": "postTest2",
+   "value": "地震の原因は地球の地殻変動と火山活動です。地すべりは地震の結果です。"
+ },
+ {
+   "key": "postTest3",
+   "value": "強い地震の特徴：\n1.人はめまいを感じ、立ち上がれない\n2.多くの建物がひび割れ、倒壊している\n3.長時間発生し、その後余震が続く"
+ },
+ {
+   "key": "postTest4",
+   "value": "地震の発生は予測できません。"
+ },
+ {
+   "key": "postTest5",
+   "value": "ガラス製品から身を守り、テーブルの下に留まることは、地震時に行うことができる最善の行動かもしれません。"
+ },
+ {
+   "key": "postTest6",
+   "value": "最も安全な場所は広場です。道路は推奨される場所ではありませんが、建物の中よりは良いです。"
+ },
+ {
+   "key": "postTest7",
+   "value": "最も適切な行動は、テーブルの下に避難することです。ぶら下がっている物体やガラスから離れることも大切です。余震が発生する可能性がありますので、地震のすぐあとには出ないでください。"
+ },
+ {
+   "key": "postTest8t",
+   "value": "運転しているときに地震がおきたら、すぐに道路の路肩に停車し、運転をやめなくてはなりません。路肩に停車するときも、広い場所に止めましょう。"
+ },
+ {
+   "key": "postTest8f",
+   "value": "運転しているときに地震がおきたら、すぐに道路の路肩に停車し、運転をやめなくてはなりません。路肩に停車するときも、広い場所に止めましょう。"
+ },
+ {
+   "key": "postTest9",
+   "value": "すべての地震が津波を引き起こすわけではありません。津波は海底の変位によって引き起こされます。"
+ },
+ {
+   "key": "postTest10",
+   "value": "津波は大量の水の動きです。水の動きを引き起こす可能性のあるイベント：海底地震、海底で発生する地滑り、水中への落下物（隕石、火山噴火、兵器の爆発）。"
+ },
+ {
+   "key": "postTest11",
+   "value": "津波は、正確には海岸沿いで水位の急激な下降（後退）のあとに水位の急激な上昇（大きな波）がきます。強い地震は、津波を引き起こす可能性が高くなります。"
+ },
+ {
+   "key": "postTest12",
+   "value": "突然後退した海水は津波の兆候です。だから、すぐに海から逃げなければなりません。そうしなければ、私達は非常に大きな波に襲われます。"
+ },
+ {
+   "key": "postTest13",
+   "value": "非常放送、サイレンやドラは、伝統的な津波警報として使われます。津波警報は、お互いに合意していれば、スマホを使うなど近代的な形式にすることもできます。"
+ },
+ {
+   "key": "postTest14",
+   "value": "津波が発生した場合、私たちがしなければならないことは、（i）ビーチから離れる、（ii）高台に走る、（iii）避難エリアに急いで行く、（iv）パニック状態にならないことです。"
+ },
+ {
+   "key": "postTest15",
+   "value": "津波が発生していないことが判明した場合、津波警報は解除されます。"
+ },
+ {
+   "key": "postTest16",
+   "value": "海の近くや浜辺は、津波のときに最も危ない地域です。"
+ },
+ {
+   "key": "postTest17",
+   "value": "3つの津波警報カテゴリがあります:\n1. 大津波警報（> 3メートル）\n2. 津波警報（1-3メートル）\n3. 津波注意報（<1メートル）"
+ },
+ {
+   "key": "postTest18",
+   "value": "災害に関する知識を増やし、防災バッグを準備し、防災訓練に参加し、さまざまなメディアからの情報を聞くことによって、災害への備えをすることができます。"
+ },
+ {
+   "key": "postTest19",
+   "value": "緊急用キットには、衣類、毛布、すぐに食べられる食べ物、重要な文書、医薬品、飲料水、携帯電話、緊急用お金、照明器具（懐中電灯）、笛、応急処置キット、電池式ラジオなどが含まれます。"
+ },
+ {
+   "key": "postTest20",
+   "value": "防災スキルを向上させることは非常に重要です。これは、防災訓練、応急処置、基本的な救命法などのトレーニングコースに参加することで可能になります。"
+ },
+ {
+   "key": "closingPostTest",
+   "value": "Keep improving your skills!"
+ },
+ {
+   "key": "knowledgeLevel",
+   "value": "知識レベル:"
+ },
+ {
+   "key": "decrease",
+   "value": "減少した"
+ },
+ {
+   "key": "increase",
+   "value": "改善された"
+ },
+ {
+   "key": "same",
+   "value": "同じ"
+ },
+ {
+   "key": "totalScore",
+   "value": "すべてのスコアを表示"
+ },
+ {
+   "key": "pretestScore",
+   "value": "事前テストのスコア:"
+ },
+ {
+   "key": "posttestScore",
+   "value": "事後テストのスコア:"
+ },
+ {
+   "key": "gameScore",
+   "value": "ゲームスコア:"
+ },
+ {
+   "key": "jijoScore",
+   "value": "自助スコア:"
+ },
+ {
+   "key": "kyojoScore",
+   "value": "共助スコア:"
+ },
+ {
+   "key": "kojoScore",
+   "value": "公助スコア:"
+ },
+ {
+   "key": "backtoMenu",
+   "value": "メインメニューに戻る"
+ },
+ {
+   "key": "transferFailed",
+   "value": "データ転送に失敗しました"
+ },
+ {
+   "key": "tryAgain",
+   "value": "再試行"
+ },
+ {
+   "key": "mainMenu",
+   "value": "メインメニュー"
+ },
+ {
+   "key": "start",
+   "value": "始める"
+ },
+ {
+   "key": "instruction",
+   "value": "やり方"
+ },
+ {
+   "key": "content",
+   "value": "このゲームは、（1）事前テスト（2）ビジュアル対話型ゲーム、および（3）事後テストの3つの部分で構成されています。事前テストと事後テストでは、プレーヤーは地震と津波に関する20問の選択問題に回答してください。ビジュアル対話型ゲームでは、プレイヤーは地震と津波を経験する2人のキャラクターとして行動し、災害への対処方法と行動を選択するよう要求されます。"
+ },
+ {
+   "key": "settings",
+   "value": "設定"
+ },
+ {
+   "key": "quit",
+   "value": "終了する"
+ },
+ {
+   "key": "playersProfile",
+   "value": "Pプレイヤーのプロフィール"
+ },
+ {
+   "key": "more",
+   "value": "もっと"
+ },
+ {
+   "key": "profile",
+   "value": "プロフィール"
+ },
+ {
+   "key": "gameInstruction",
+   "value": "ゲームのやり方"
+ },
+ {
+   "key": "sound",
+   "value": "音"
+ },
+ {
+   "key": "language",
+   "value": "言語"
+ },
+ {
+   "key": "music",
+   "value": "音楽"
+ },
+ {
+   "key": "about",
+   "value": "ゲームについて"
+ },
+ {
+   "key": "gameDesc",
+   "value": "Tsunami Fighters は、災害への備え、特に地震と津波に関連する教育ゲームです。ゲームはクイズとビジュアル対話型ゲームで構成されています。このゲームは2人でプレイする必要があり、約15分間続きます。ゲームをすることで、地震と津波に対処する際のプレイヤーの知識のレベルと行動のタイプを測定することができます。"
+ },
+ {
+   "key": "login",
+   "value": "ログインする"
+ },
+ {
+   "key": "signIn",
+   "value": "サインイン"
+ },
+ {
+   "key": "createAccount",
+   "value": "アカウントを作成する"
+ },
+ {
+   "key": "signingUp",
+   "value": "サインアップ"
+ },
+ {
+   "key": "usernTaken",
+   "value": "This username already taken"
+ },
+ {
+   "key": "enterName",
+   "value": "名前を入力してください..."
+ },
+ {
+   "key": "enterUsername",
+   "value": "Eユーザーネームを入力してください..."
+ },
+ {
+   "key": "enterPassword",
+   "value": "パスワードを入力してください..."
+ },
+ {
+   "key": "enterAge",
+   "value": "年齢を入力してください..."
+ },
+ {
+   "key": "guideText",
+   "value": "(*) 名前は8文字以上にする必要があります。\n\n(**) パスワードは8文字以上の文字、数字または記号で構成する必要があります。\n\n(***) ユーザーネームは6文字以上の文字、数字または記号で構成する必要があります。"
+ },
+ {
+   "key": "enterGender",
+   "value": "性別を選択してください："
+ },
+ {
+   "key": "male",
+   "value": "男性"
+ },
+ {
+   "key": "female",
+   "value": "女性"
+ },
+ {
+   "key": "location",
+   "value": "場所/住所を選択してください："
+ },
+ {
+   "key": "indonesia",
+   "value": "インドネシア"
+ },
+ {
+   "key": "japan",
+   "value": "日本"
+ },
+ {
+   "key": "otherLoc",
+   "value": "その他"
+ },
+ {
+   "key": "save",
+   "value": "保存する"
+ },
+ {
+   "key": "haveAccount",
+   "value": "すでにアカウントをお持ちですか？"
+ },
+ {
+   "key": "errorBlank",
+   "value": "すべての欄に入力する必要があります。空白のままにしないでください。"
+ },
+ {
+   "key": "disconnect",
+   "value": "ネットワークから切断されています"
+ },
+ {
+   "key": "reconnect",
+   "value": "再接続"
+ },
+ {
+   "key": "cancel",
+   "value": "キャンセル"
+ },
+ {
+   "key": "yes",
+   "value": "はい"
+ },
+ {
+   "key": "quitGame",
+   "value": "ゲームを終了しますか？"
+ },
+ {
+   "key": "retryButton",
+   "value": "もう一度やってみる"
+ },
+ {
+   "key": "comparison",
+   "value": "COMPARISON"
+ },
+ {
+   "key": "inputChat",
+   "value": "ここにテキストを入力してください..."
+ },
+ {
+   "key": "playerTitleA",
+   "value": "プレイヤー1"
+ },
+ {
+   "key": "playerTitleB",
+   "value": "プレイヤー2"
+ },
+ {
+   "key": "warning",
+   "value": "                                                     ATTENTION!\n\n1. You have to continue the story in turn-based with your partner.\n\n2. In the game, you must answer some questions.\n\n3. Your answers will affect the storyline and all the scores you will get.\n\n4. This game will reveal your behavioral tendencies when taking action decisions during disasters which is based on your      jijo,     kyojo, and      kojo scores.\n\n5. You must finish the game in one time because you cannot save your game progress.\n\n                                                     Have a nice play!"
+ },
+ {
+ 	"key": "firstDialogue",
+ 	"value": "Loading the story...\n\nClick the Play Button to continue the story"
+ },
+ {
+   "key": "jijoInfo",
+   "value": "Jijo score shows the tendency of someone who is independent when making decisions that must be done during disaster event."
+ },
+ {
+   "key": "kyojoInfo",
+   "value": "Kyojo score shows the tendency of someone who is dependent on community when making decisions that must be done during disaster event."
+ },
+ {
+   "key": "kojoInfo",
+   "value": "Kojo score shows the tendency of someone who is dependent on government when making decisions that must be done during disaster event."
+ },
+ {
+   "key": "wrongUsername",
+   "value": "Username is not registered"
+ },
+ {
+   "key": "wrongPassword",
+   "value": "Incorrect password"
+ },
+ {
+   "key": "learnMore",
+   "value": "もっと詳しく知る"
+ },
+ {
+   "key": "of",
+   "value": "の"
+ },
+ {
+ 	"key": "closeButton",
+ 	"value": "Close"
+ },
+ {
+   "key": "learning",
+   "value": "学習教材"
+ },
+ {
+   "key": "preDisaster",
+   "value": "災害前の防災活動"
+ },
+ {
+   "key": "duringDisaster",
+   "value": "災害発生時の活動"
+ },
+ {
+   "key": "postDisaster",
+   "value": "災害後の対応活動"
+ },
+ {
+   "key": "behaviorDisaster",
+   "value": "意思決定行動"
+ },
+ {
+   "key": "preTitle",
+   "value": "災害前の防災活動"
+ },
+ {
+   "key": "duringTitle",
+   "value": "災害発生時の活動"
+ },
+ {
+   "key": "postTitle",
+   "value": "災害後の対応活動"
+ },
+ {
+   "key": "behaviorTitle",
+   "value": "意思決定行動"
+ },
+ {
+   "key": "preContent",
+   "value": "1. Learn more knowledge about earthquakes and tsunamis, such as the causes of earthquakes and tsunamis (earthquakes can be caused by collisions between earth plates, fault activities, volcanic activities, or rock collapse; tsunamis can be caused by earthquakes that occur on the seabed, collapse on the seabed, or due to volcanic eruptions at sea) and coastline or seashore is the most dangerous area during tsunami.\n\n2. 地震時に落下、倒壊、移動しないように、家具（キャビネットなど）が壁にくっつく（くぎ付け/結ばれる）ように配置します。\n\n3. 家族の場合は、災害発生後に集まる場所を決めて、お互いを探さないようにする。\n\n4. 訓練シミュレーション、ワークショップ、偵察、応急処置、基本的な生命維持訓練などの災害準備訓練を実施または参加します。\n\n5. Preparing disaster prepared bags containing necessary things such as: dry food (e.g. biscuits, cookies), drinking water, small boxes containing essential medicines, flashlights and extra batteries, candles and lighter, cloth gloves, a pair of clothes and raincoats, important documents, photocopies of ID card in the plastic bags, and important telephone numbers because the earthquake's time is unpredictable."
+ },
+ {
+   "key": "duringContent",
+   "value": "地震時\n\n1. 1階または地上にいる場合は、すぐに建物を出て、空いている場所に行きます。可能であれば頭を保護します。\n\n2. 2階以上にいる場合は、頑丈なテーブルの下に避難してください。\n\n3. .エレベーターにいる場合は、すべてのフロアを押して、ドアが開いたらすぐに終了します。ドアが開いていない場合は、緊急ボタンを押して助けを求めてください。\n\n4. ガラス素材、窓、棚、キャビネット、吊り物（絵画、鏡、掛け時計、ペンダントなど）に近づかないでください。\n\n5. 非常階段を使用し、エレベーターは内部に閉じ込められる危険があるため使用しないでください。\n\n津波時\n\n1. Understanding the early warning status issued by some authorized institutions. There are three tsunami warning categories: major tsunami warning (above 3 meters), tsunami warning (1-3 meters), tsunami advisory (below 1 meter).\n\n2. The community disseminates tsunami early warning news using clams, bells, and drum. The local government sounds an early warning siren. Tsunami warnings can be canceled if there is no tsunami.\n\n3. Stay away from the beach and move to a high place during a strong earthquake, during which the shaking causes dizziness and difficulty standing.\n\n4. 海岸線の後退に注意。水に近づかないで、急いで高い場所まで急いでください。\n\n5. 避難場所に行きます。指定された避難経路に従い、最寄りの安全な場所に向かってください。\n\n6. 最初に自分を救い、失くした家族を急いで探してはいけません。\n\n7. 車を利用するよりも徒歩で避難する方がよい。\n\n8. 有効な情報とニュースを最新に保つ。\n\n9. 当局が状況が安全であることを通知するまで待機します。\n\n10. 障害のある人、妊婦、子供、または可能であれば支援が必要な人を助けます。"
+ },
+ {
+   "key": "postContent",
+   "value": "1. 災害が収まった後、最寄りの避難所（避難場所/難民）に移動し、状況が安全に動員できることを確認します。\n\n2. 避難が夜間に行われる場合は、懐中電灯を使用して、転倒や落下を防止します。\n\n3. 私たちの周りのいくつかの情報源と指示に注意してください。\n\n4. 乳幼児、高齢者、障害者など、特別な支援が必要な人々を支援します。\n\n5. 他の家族に連絡して、最新の状況を更新してもらいます。"
+ },
+ {
+   "key": "behaviorContent",
+   "value": "日本の岡田ら（2013）は、災害前、災害中、災害後に、災害に対処するための行動について判断を下す際の考え方の分類に関連する研究を行いました。\n\nこの分類は、「自助」（自分自身で何とかする能力）、「共助」（コミュニティのなかで支えあう能力）、および「公助」（公的な支援を活用する能力）です。\n\nこの分類は、コミュニティで効果的な災害リスク管理をするのに役立ちます。\n\n自助（あなたが自分自身でなんとかする力）\n災害時に判断を下す際に自分自身で何とかする傾向を示します。\n\n次のようなアクションは、自助カテゴリーに分類されます。\n1. 食器棚をしっかりと固定する。\n2. 通路に家具を置かない。\n3. ソーシャルメディアを介して電話、電子メールまたはメッセージを送信する。\n4. 集合場所に移動する。\n5. 災害情報を探す。\n6. 速く走る。\n7. 緊急バッグに懐中電灯を用意して使用する。\n8. 最新の情報を聞く。\n9. 緊急バッグに事前に食べ物を入れておく。\n10.災害が落ち着いてから買い物をする。\n11. 11.遊ぶためのおもちゃや、読むための本を緊急バッグに入れておく。\n12.他の人と話をして知り合いになり、仲良くする。\n\n共助（コミュニティの中で支えあい、コミュニティとして自立する力）\n災害時に判断を下す際に、コミュニティの中で支えあう傾向を示します。\n\nつぎのようなアクションは共助カテゴリーに分類されます。\n1. 近所の人たちと防災訓練をする。\n2. 家具が転倒する危険性について情報提供する。\n3. 避難所の掲示板に情報を掲示する。\n4. 周りの人たちに情報を頻繁に提供する。\n5. 周りの人たちを誘って、走って一緒に逃げる\n6. 防災訓練から得た知識を実践する\n7. 周りの人たちに声をかける\n8.地元の夜間防災訓練から得た知識を実践する。\n9. 避難所で提供される食べ物を受け取るときに、他の人のことを考慮する。\n10. 避難所が提供する食べ物を受け取るが、子供と高齢者を優先する。\n11. 他の避難者と一緒に、料理や運動するのを手伝う。\n12. 子供を集合させて、一緒に遊ぶ。\n\n公助（公的な支援）\n災害時に判断を下す際に、公的な支援を活用しようとする傾向を示します。\n\n次のようなアクションは公助カテゴリーに分類されます。\n1. 住宅の建築基準の耐震性を高める。\n2. 災害時にも機能する政府のインターネットを活用する。\n3. 避難ルートに従う。\n4. 政府が提供する道路照明を利用する。\n5. 避難場所に、できるだけ多くの食べ物を集める。\n6. コンサートやショーを開催する。"
+ },
+ {
+   "key": "advise",
+   "value": "After this, make sure you really pay attention to the dialog text if you choose to play or the explanation text if you choose to learn."
+ }
+]}

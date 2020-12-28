@@ -1,0 +1,5 @@
+showScene(true,topDown) next
+Fury "Hmm..I... want to find Mom and Dad first." 2
+Azumi "I think it would be better if we stay here, wait for the rescue team and follow their instruction. Calm down, Fury. Hopefully your father and mother are safe." 1
+Fury "Alright, we must wait until the situation is declared safe by the authorities." setFace(Fury,1_flat) exit(Azumi;Fury) 2
+Load(chap11)

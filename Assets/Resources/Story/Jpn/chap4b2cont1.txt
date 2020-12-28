@@ -1,0 +1,8 @@
+showScene(true,topDown) next
+narrator "After a while, the earthquake is getting calmer and they go out of the supermarket building." 1
+narrator "After the situation is safe, they reenter the supermarket building to pay for groceries at the cashier. Then, they returned to the inn." 2
+transBackground(02_hotel,radialClock) next
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setFace(Azumi,3_anxious) setPosition(Azumi,0.5) next
+Azumi "What would happen if we were in this room when the earthquake happened?" 1
+Fury "We must take shelter under the table. If we are on the first floor, near the exit, we must go outside to an open space." 2
+Load(chap4b2cont2)

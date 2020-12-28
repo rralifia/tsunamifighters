@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "We could. We must keep update to the latest news during evacuation." 1
+Load(chap12)

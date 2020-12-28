@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Kalau di sini dikasih makanan, nanti harus kita kumpulin." 1
+Load(chap15)

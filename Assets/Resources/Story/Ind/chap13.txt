@@ -1,0 +1,36 @@
+showScene(true,topDown) next
+Azumi "Ayo!" 1 playMusic(Peaceful_Place)
+PakBasarnas as [officer_id] "Ya, sekarang juga, mulai berjalan! Ikuti teman saya di depan! Jangan berpisah dari rombongan!" 2
+exit(Fury;Azumi;PakBasarnas) next
+narrator "Rombongan mereka pun menyusuri jalanan di tengah gelapnya malam. Penglihatan mereka hanya dibantu oleh cahaya rembulan dan beberapa lampu senter." 1
+enter(PakBasarnas) setFace(PakBasarnas,tegas) setPosition(PakBasarnas,0.8) next
+PakBasarnas as [officer_id] "Sebentar lagi sampai. [transBackground(09_pengungsianmalam,radialClock)] Silakan daftarkan nama dan alamat Anda ke petugas di pusat informasi." 2 exit(PakBasarnas) playMusic(Peaceful_Place)
+enter(Fury) flip(Fury) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setPosition(Azumi,0.5) enter(BuBasarnas) setPosition(BuBasarnas,0.8) setFace(BuBasarnas,flat) next
+Azumi "Tolong daftarin aku, ya." 1
+Fury "Nama saya Fury. Ini teman saya, Azumi. Apakah Pak Tomo dan Bu Nani sudah di sini?" 2
+BuBasarnas as [officer_id] "Mohon maaf, nama tersebut tidak ada di data pengungsian ini." 1
+Fury "Ini pengungsian daerah mana ya?" 2
+BuBasarnas as [officer_id] "Pengungsian Anyer 1." 1
+Fury "Baik. Terima kasih. [exit(BuBasarnas) move(Fury,0.5) move(Azumi,0.8) flip(Azumi)] Ada telepon dari Ibu. Halo, Bu? Ibu di mana?" 2
+enter(Ibu) setFace(Ibu,anxious) flip(Ibu) setPosition(Ibu,0.2) next
+Ibu "Ibu sama Ayah di pengungsian." 1
+setFace(Fury,1_anxious) next
+Fury "Pengungsiannya di mana, Bu? Aku mau nyusul ke sana." 2
+Ibu "Oh, Ibu di pengungsian Anyer 2." 1
+Fury "Kayaknya kita beda pengungsian. Aku sama Azumi di pengungsian Anyer 1, Bu. Terus gimana dong, Bu?" 2
+Ibu "Udah malem, jadi tunggu di pengungsian dulu aja. Besok pagi Ibu ke sana. Tenang aja, ya. Ya udah, Ibu tutup ya." 1
+Fury "Iya, Bu. Ibu juga. Dah Ibu.." exit(Ibu) setFace(Azumi,3_anxious) 2
+Azumi "Perutku sakit. Kayaknya maag-ku kambuh. Kita belum makan malem." 1c
+choice "Apa yang akan Fury lakukan?"
+{
+  "Mengumpulkan makanan sebanyak-banyaknya di pengungsian"
+    score(kojoA) Load(chap13e)
+  "Berbagi makanan yang ada di tasnya"
+    score(jijoA) Load(chap13a)
+  "Mengambil makanan yang disediakan pengungsian namun tetap mempertimbangkan orang lain"
+    score(kyojoA) Load(chap13c)
+  "Berbelanja segera setelah bencana reda"
+    score(jijoA) Load(chap13b)
+  "Mengambil makanan yang disediakan pengungsian namun mendahulukan anak-anak dan lansia"
+    score(kyojoA) Load(chap13d)
+}

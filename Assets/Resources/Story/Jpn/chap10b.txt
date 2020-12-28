@@ -1,0 +1,24 @@
+showScene(true,topDown) next
+Fury "他の人に任せよう。 おいで！走れ！水がここまで来てる！" exit(Fury;Azumi;Rara) 2
+transBackground(10_bangunankokoh,radialClock) next
+enter(BuGuru) SetPosition(BuGuru,0.8) setFace(BuGuru,anxious) next
+BuGuru as [teach_jpn] "皆、こっちに来て！お願い！" 1
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.3) enter(Azumi) flip(Azumi) setFace(Azumi,3_flat) setPosition(Azumi,0.2) next
+Fury "Hosh..hosh.." 2
+BuGuru as [teach_jpn] "皆が無事にここにたどりつけて、私は嬉しいよ。" setFace(BuGuru,happy) 1
+Fury "先生。携帯電話のネットワークつながってますか？借りてもいいですか？私は母に連絡したいんです。" 2
+BuGuru as [teach_jpn] "もちろん。あなたのお母さんにここで安全にしていると伝えてあげて。" 1
+Fury "まだ、つながらない。ふう。" 2
+BuGuru as [teach_jpn] "大丈夫。あとでもう一度やってみて。" 1
+Fury "ありがとうございます。ミルナ(Mirna?)先生。" exit(BuGuru;Fury;Azumi) 2
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.4) enter(Azumi) flip(Azumi) setFace(Azumi,3_happy) setPosition(Azumi,0.2) next
+Azumi "あなたは大丈夫、フューリー？" 1
+Fury "私は大丈夫。ママとパパのことだけ考えてる。彼らはこの近くに来ているはずだよ。" setFace(Azumi,3_happy) 2
+Azumi "最初にママとパパのことを探したい？" 1c
+choice "彼女たちは何を選んだらいいでしょうか？"
+{
+  "ママとパパを探す。"
+    Load(chap10b1)
+  "ママとパパはあとで見つけるよ。"
+    score(scoreA) Load(chap10b2)
+}

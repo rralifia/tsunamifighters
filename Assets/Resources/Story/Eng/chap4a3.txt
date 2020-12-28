@@ -1,0 +1,5 @@
+showScene(true,topDown) next
+Azumi "[setFace(Azumi,3_angry] Hurry up and call mom, tell her that we are trapped in the elevator!" 1
+Fury "Let's get out of here quickly!" 2
+Azumi "I'll press the button for all the destination floors! Get out and find a table!" exit(Fury;Azumi) 1
+Load(chap4acont)

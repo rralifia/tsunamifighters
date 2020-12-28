@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "If food is distributed here, collect a lot." 1
+Load(chap15)

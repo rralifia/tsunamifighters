@@ -1,0 +1,16 @@
+showScene(true,topDown) next
+Azumi "Oh yes, we can do it that way. I was scared again, imagining that I was not with anyone when facing a disaster." 1
+Fury "Yeah, yeah, don't have any friends, worried about families too." 2c
+choice "How do families in different places meet when an earthquake occurs?"
+{
+  "Proactively provide information to people around"
+    score(kyojoB) Load(chap3d)
+  "Go to a place decided by the family"
+    score(jijoB) Load(chap3b)
+  "Utilize internet provided by the government that can be used during disaster"
+    score(kojoB) Load(chap3e)
+  "Send a message by phone, email or SMS."
+    score(jijoB) Load(chap3a)
+  "Post information on the evacuation bulletin board"
+    score(kyojoB) Load(chap3c)
+}

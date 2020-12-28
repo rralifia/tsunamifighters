@@ -1,0 +1,35 @@
+showScene(true,topDown) next
+Fury "Nggak apa-apa sih ikut jenguk dulu kalau emang dianter ke penginapan. Udah lama juga nggak ketemu Paman Tama." setFace(Fury,1_happy) setFace(Azumi,3_happy) 2
+Azumi "Aku ngikut Fury aja, Bu." 1
+Ibu "Ya udah. Kalau gitu, sekarang kalian siapin barang-barang yang mau dibawa buat karya wisata." setFace(Ibu,flat) 2
+Azumi "Oke, Bu." exit(Ibu) 1
+narrator "Mereka pun mempersiapkan segala hal yang perlu mereka bawa." exit(Fury;Azumi) next
+transBackground(03_rumahsakit,radialClock) 2 playMusic(at_the_end_of_hope)
+narrator "Keesokan harinya, mereka pergi ke rumah sakit untuk menjenguk Paman Tama. Paman Tama dirawat di ruang Melati yang berada di lantai tiga rumah sakit." 1
+enter(Tante) setPosition(Tante,0.8) setFace(Tante,happy) enter(Fury) flip(Fury) setPosition(Fury,0.5) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) next
+Fury "Gimana keadaan Paman Tama?" 2
+Tante "Sekarang udah agak baikan. Cuma masih butuh istirahat aja. Oh iya, ini siapa?" 1
+Fury "Oh, ini temenku dari Jepang, Tante. Lagi exchange, namanya Azumi. Dia tinggal sama kita." 2
+Azumi "Salam kenal, Tante." exit(Fury;Azumi;Tante) 1
+enter(Tante) setPosition(Tante,0.8) setFace(Tante,happy) enter(Ibu) flip(Ibu) setPosition(Ibu,0.2) setFace(Ibu,happy) enter(Ayah) flip(Ayah) setFace(Ayah,happy) setPosition(Ayah,0.5) next
+Ayah "Semoga cepet pulih dan bisa cepet pulang, ya. Jam besuknya udah mau habis. Kita pamit ya." 2
+Tante "Iya, makasih banyak udah jenguk." exit(Tante;Ayah;Ibu) 1
+enter(Fury) setPosition(Fury,0.2) enter(Azumi) setPosition(Azumi,0.5) enter(Ibu) setPosition(Ibu,0.8) setFace(Ibu,flat) next
+Fury "Aku mau ke toilet dulu, Bu. Ibu sama Ayah duluan aja ke bawahnya." 2
+Ibu "Oke. Ibu sama Ayah nunggu di mobil, ya." 1
+exit(Fury;Azumi;Ibu) next
+narrator "Fury dan Azumi pun pergi ke toilet." 2
+narrator "Setelah pergi ke toilet, mereka turun ke lantai satu menggunakan lift." transBackground(05_liftrumahsakit,radialClock) 1
+narrator "Di dalam lift..." 2
+enter(Fury) flip(Fury) setPosition(Fury,0.5) setFace(Fury,1_anxious) enter(Azumi) setPosition(Azumi,0.8) setFace(Azumi,3_anxious) next
+Azumi "Ada peringatan gempa di LINE." 1
+Fury "Waduh! Kita harus gimana?" 2c
+choice "Apa yang harus mereka lakukan?"
+{
+  "Menekan tombol bantuan"
+    Load(chap4a1)
+  "Menekan tombol semua lantai"
+    score(scoreB) Load(chap4a2)
+  "Memberi tahu lokasi mereka pada Ibu"
+    Load(chap4a3)
+}

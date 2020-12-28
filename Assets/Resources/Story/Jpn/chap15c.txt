@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "私達は料理をてつだったり、ここにいる人たちと運動したりできるよ。" 1c
+Load(chap16)

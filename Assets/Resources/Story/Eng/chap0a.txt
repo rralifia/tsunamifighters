@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Fix the shelf firmly so that it does not fall." 1
+Load(chap1)

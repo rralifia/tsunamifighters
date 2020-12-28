@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Aku selalu jaga kesehatan tubuh. Jadi, aku siap lari cepet dari sini." 2 playMusic(Decision)
+Load(chap7)

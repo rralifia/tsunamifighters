@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Don't put furniture in the walkway to your door so it's easy to get out of the house." 1
+Load(chap1)

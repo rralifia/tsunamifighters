@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Providing information and asking questions to others." 2
+Load(chap3)

@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Alright, let's follow the evacuation route!" setFace(Fury,1_angry) 1
+Fury "Look over there!" 2
+Azumi "Which one? Where does the sign say to go?" 1
+Fury "That side." 2c
+Load(chap8)

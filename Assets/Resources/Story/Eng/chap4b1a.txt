@@ -1,0 +1,8 @@
+showScene(true,topDown) next
+setFace(Azumi,3_angry) next
+Azumi "Crawl on the spot and cover your head and neck with both hands! Evacuate under the table!" 1
+Fury "Why don't we just go outside?" 2
+Azumi "If we are on the ground floor and close to the exit, we must go outside to open space. But this is on the second floor. Come on, hurry and cover under the table!" exit(Fury;Azumi) 1
+narrator "Shortly thereafter, the earthquake subsides. After the situation is safe, they go back to their room." 2
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setFace(Azumi,3_anxious) setPosition(Azumi,0.5) 2
+Load(chap4b2cont2)

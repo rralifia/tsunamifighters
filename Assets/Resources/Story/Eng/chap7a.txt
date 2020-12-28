@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Alright, let's tell people and run away together!" setFace(Fury,1_angry) 1
+Fury "Go!" 2
+Azumi "We had better stay away from the beach. But we also have to tell people on the beach to run off the beach." 1
+Fury "But, where should we go?" 2c
+Load(chap8)

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Bisa. Kita sambil manggil orang-orang sekitar waktu evakuasi." 1
+Load(chap12)

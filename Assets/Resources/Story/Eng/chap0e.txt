@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Let's improve the earthquake resistance standard of the house." 1
+Load(chap1)

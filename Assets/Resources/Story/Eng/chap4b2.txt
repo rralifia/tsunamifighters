@@ -1,0 +1,19 @@
+showScene(true,topDown) next
+Azumi "I've searched, but I can't find it. Should I just buy it? Want to go to the supermarket with me?" 1
+Fury "Of course, let's go!" exit(Azumi;Fury) 2
+transBackground(04_supermarket,radialClock) next
+narrator "Then they find a nearby supermarket." 1
+enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) enter(Fury) flip(Fury) setPosition(Fury,0.5) next
+Fury "Here it is. I found it!" move(Fury,0.7) move(Azumi,0.5) 2
+setFace(Azumi,3_anxious) next
+Azumi "E-e-eh anyway, do you feel like shaking?" setFace(Fury,1_angry) 1
+Fury "Earthquake alert! Watch out! The shelf is about to fall!" 2c
+choice "What should they do?"
+{
+  "Run outside the store while protecting their head"
+    Load(chap4b2a)
+  "Crouch while protecting their head with a bag"
+    Load(chap4b2b)
+  "Run to a wide area of the supermarket while protecting their head"
+    score(scoreB) Load(chap4b2c)
+}

@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Nunduk! Cepet lari ke luar!" setFace(Fury,1_angry) 1
+Fury "Kita lagi di bagian belakang. Susah kalau mau ke luar. Kita ke sana aja dulu, ke bagian yang nggak ada raknya." exit(Fury;Azumi) 2
+Load(chap4b2cont1)

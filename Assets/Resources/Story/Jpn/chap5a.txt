@@ -1,0 +1,7 @@
+showScene(true,topDown) setFace(Azumi,3_anxious) next
+Azumi "私を待ってて！ 今行くよ。" move(Azumi,0.3) 1
+Fury "ここに来て。" 2
+enter(BuGuru) setFace(BuGuru,anxious) setPosition(BuGuru,0.6) next
+BuGuru as [teach_jpn] "皆、こっちに来て！ Do you see the sudden receding seawater? That's one sign of a tsunami. Here, at the coastline, will be a dangerous area if tsunami happens. We must leave this area immediately." flip(Azumi) flip(Fury) next
+setFace(Fury,1_anxious) move(Azumi,0.4) move(Fury,0.3) exit(BuGuru) 1c
+Load(chap6)

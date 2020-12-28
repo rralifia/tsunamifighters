@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Semoga aja dengan cara ngehubungin keluarga lewat telepon, email, atau media sosial bisa ketemu lagi. Oh iya, kapan pengumuman kelolosan program summer camp-nya?" next
+Load(chap4)

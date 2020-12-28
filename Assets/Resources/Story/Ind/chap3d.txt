@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Semoga aja kalau kita sering ngasih info atau nanya ke orang-orang sekitar, kita lebih gampang dan bisa kumpul sama keluarga kita lagi. Oh iya, kapan pengumuman kelolosan program summer camp-nya?" next
+Load(chap4)

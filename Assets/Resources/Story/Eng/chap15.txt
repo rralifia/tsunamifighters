@@ -1,0 +1,49 @@
+showScene(true,topDown) next
+Fury "Wait a minute, I'll ask the rescue team." 2
+exit(Fury;Azumi) next
+narrator "After a while..." 1
+enter(Azumi) setFace(Azumi,3_flat) setPosition(Azumi,0.8) enter(Fury) flip(Fury) setPosition(Fury,0.5) next
+Fury "Here is the medicine. The rescue team will also give us food as soon as possible." setFace(Azumi,3_happy) 2
+exit(Fury;Azumi) next
+narrator "After finishing dinner, they fell asleep. The shelter was very crowded, but it was a very tiring day, so they slept fast." 1
+narrator "Next day..." 2
+transBackground(09_pengungsiansiang,radialClock) enter(Azumi) setPosition(Azumi,0.8) enter(Fury) setPosition(Fury,0.5) setFace(Fury,1_flat) setFace(Azumi,3_anxious) next
+Azumi "Wake up, wake up! Wake up! You said that you want to meet your Mom." flip(Fury) setFace(Fury,1_happy) 1
+enter(PakBasarnas) setPosition(PakBasarnas,0.2) setFace(PakBasarnas,tegas) next
+PakBasarnas as [officer_eng] "Is there anyone named Fury here? [flip(Fury) setFace(Fury,1_anxious)] Come with me!" setFace(Azumi,3_anxious) 2
+Azumi "What's up?" 1
+Fury "Yes, Sir! Wait here, Azumi." 2
+exit(Azumi;Fury;PakBasarnas) next
+narrator "A few moments later..." 1
+enter(Ibu) flip(Ibu) setPosition(Ibu,0.2) setFace(Ibu,anxious) enter(Fury,0.8) setFace(Fury,1_anxious) next
+move(Fury,0.4) setFace(Fury,1_happy) enter(PakBasarnas) setPosition(PakBasarnas,0.8) setFace(PakBasarnas,tegas) next
+Fury "Mom!" setFace(Ibu,happy) 2
+Ibu as [mom_eng] "Fury! Thank God, you are fine. Where's Azumi?" 1
+Fury "She is over there, Mom. Let's go over there!" flip(Fury) 2
+Ibu as [mom_eng] "Thank you, Sir!" 1
+exit(PakBasarnas;Ibu;Fury) next
+narrator "They went where Azumi was waiting." 2
+enter(Azumi) setPosition(Azumi,0.8) setFace(Azumi,3_flat) enter(Fury) setPosition(Fury,0.6) enter(Ibu) flip(Ibu) setPosition(Ibu,0.4) setFace(Ibu,anxious) next
+Azumi "Ma'am.." setFace(Azumi,3_happy) 1
+Fury "What did you bring, Mom? It's best not to carry it so it's not heavy." 2
+Ibu "Azumi..Thank God, you are safe. [setFace(Ibu,happy)] Oh, this is a disaster prepared bag. I will leave it to you. I call Dad first." 1
+Fury "OK. Be careful, Mom." exit(Ibu) 2
+Azumi "Where is your Father?" 1
+Fury "There, Dad go to the rescue team." 2
+Azumi "What are the things in the disaster prepared bag?" 1
+Fury "There are ready-to-eat meals, drinking water, important documents, money, etc. Let's just open it." 2
+Azumi "Wow, there's a cellphone and radio. There is a first aid kit with medicine. There are clothes and blankets too." 1
+Fury "What can we do here? Am I going to get bored?" 2c
+choice "What can they do to spend their time in the refuge?"
+{
+  "Talk to other people to get along well with them"
+    score(jijoB) Load(chap15b)
+  "Organize a concert or performance"
+    score(kojoB) Load(chap15e)
+  "Cook and do some exercises with new fellows"
+    score(kyojoB) Load(chap15c)
+  "Play toys and read books prepared in emergency kit bag"
+    score(jijoB) Load(chap15a)
+  "Gather the young children and play with them"
+    score(kyojoB) Load(chap15d)
+}

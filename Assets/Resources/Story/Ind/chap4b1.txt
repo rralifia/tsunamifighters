@@ -1,0 +1,15 @@
+showScene(true,topDown) next
+Azumi "Udah, nggak ada. Kamu bawa handuk lebih dari satu nggak? Kalau bawa, aku boleh pinjem nggak?" 1
+Fury "Boleh. Aku bawa satu handuk lagi yang kecil." setFace(Azumi,3_happy) 2
+Azumi "Aku pinjem, ya! Di mana handuknya?" move(Fury,0.5) 1
+Fury "Ini handuknya. [setFace(Fury,1_anxious)] Eeehh.. eehh.. kok pusing ya, kayak goyang-goyang gitu.." setFace(Azumi,3_anxious) 2
+Azumi "Kamu kenapa? Eehh..tapi, aku juga ngerasa goyang-goyang gitu." 1
+setFace(Fury,1_angry) next
+Fury "Gempa!" 2c
+choice "Apa yang harus mereka lakukan?"
+{
+  "Berlindung di bawah meja"
+    score(scoreB) Load(chap4b1a)
+  "Ke luar penginapan"
+    Load(chap4b1b)
+}

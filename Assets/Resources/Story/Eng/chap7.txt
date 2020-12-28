@@ -1,0 +1,16 @@
+showScene(true,topDown) multiplay next
+Azumi "What is the status? Is it major tsunami warning or tsunami warning or just tsunami advisory?" 1
+Fury "I don't know yet. What's important right now is, don't be panicked, get away from the beach as far as possible, then go to the refuge." 2c
+choice "What should they do?"
+{
+  "Talk to everyone nearby and run away together"
+    score(kyojoB) Load(chap7a)
+  "Run fast because they keep their body well"
+    score(jijoB) Load(chap7e)
+  "Practice the knowledge gained through disaster drills"
+    score(kyojoB) Load(chap7b)
+  "Follow the evacuation route"
+    score(kojoB) Load(chap7c)
+  "Find the latest disaster information"
+    score(jijoB) Load(chap7d)
+}

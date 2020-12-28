@@ -1,0 +1,31 @@
+next
+1 playMusic(happytune)
+enter(Fury) setPosition(Fury,0.5) setFace(Fury,1_happy) transBackground(01_kamartidur,radialClock) id next
+Fury "Hi, my name is Fury. I am the only child in my family. Now, I am having a guest from Japan, her name is Azumi. She is like my sister." setFace(Fury,1_flat) move(Fury,0.8) 2
+enter(Azumi) flip(Azumi) setPosition(Azumi,0.5) setFace(Azumi,3_happy) multiplay next
+Azumi "Hi, I am Azumi. I am currently participating in an exchange program in Indonesia. I and Fury are only one year apart. During this exchange period, I study at Fury's school. Now, I'm accompanying Fury in her room." setFace(Fury,1_happy) 1
+Fury "Yep, that's right, I need a friend for staying up late because I have to complete the documents for summercamp program registration that have to be submitted tonight." 2
+Azumi "Good luck, Fury! Treat me some meal if you pass the selection, ok?" 1
+Fury "Ay ay, Capt! [setFace(Fury,1_anxious)] By the way, Azumi, have you heard the news about the predictions of major disasters in Indonesia at the end of this year?" 2
+Azumi "Yes, I've heard that. My friends discussed about that at the class." 1
+Fury "What do you think if the disaster really happens?" 2
+Azumi "The news is just a prediction and still uncertain. Don't worry too much." 1
+Fury "Aren't you afraid of your safety here?" 2
+Azumi "It depends on our preparedness, Fury. Earthquakes also occur frequently in all areas of Japan." 1
+Fury "Then, are you ready?" 2
+Azumi "Quite ready. According to the news you heard, what disaster will occur?" 1
+Fury "It's an earthquake. What should we prepare so that we are safe?" 2
+Azumi "I think, we have to..." 2c
+choice "What must be prepared to be able to get out of the house safely?"
+{
+  "Fix the shelves firmly"
+    score(jijoB) Load(chap0a)
+  "Don't put any furniture on the way to entrance"
+    score(jijoB) Load(chap0b)
+  "Organize a drill with neighboring people"
+    score(kyojoB) Load(chap0c)
+  "Provide information about the risk of furniture collapse"
+    score(kyojoB) Load(chap0d)
+  "Improve housing standard to be resistant to earthquake"
+    score(kojoB) Load(chap0e)
+}

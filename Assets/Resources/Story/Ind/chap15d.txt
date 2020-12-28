@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Kita bisa ngumpulin anak-anak di sini, terus main bareng mereka." 1c
+Load(chap16)

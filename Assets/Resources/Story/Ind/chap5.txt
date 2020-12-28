@@ -1,0 +1,16 @@
+showScene(true,topDown) next
+narrator "Sore ini juga, mereka diminta untuk melakukan observasi untuk mengidentifikasi masalah di tempat yang akan mereka datangi. Di perjalanan, mereka melihat beberapa bangunan yang roboh akibat gempa bumi yang kuat." 2
+narrator "Di tempat tujuan nanti, mereka juga diminta untuk menentukan solusi yang tepat berdasarkan masalah yang telah mereka identifikasi." transBackground(06_pantaisurut,radialClock) 1
+enter(Fury) setPosition(Fury,0.5) enter(Azumi) setPosition(Azumi,0.8) next
+Fury "Hmm.. di sini ada masalah apa, ya?" 2
+Azumi "Pasirnya bersih. Nggak ada sampah di laut juga." 1
+Fury "Kita wawancarain pengunjung aja, yuk!" 2
+Azumi "Lihat, deh, banyak ikan terdampar. Airnya juga tiba-tiba surut." 1
+Fury "Aku mau ke sana, ah. Kali aja dapet inspirasi masalah." setFace(Fury,1_flat) move(Fury,0.2) 2c
+choice "Haruskah Azumi mengikuti langkah Fury?"
+{
+  "Ya"
+    Load(chap5a)
+  "Tidak"
+    score(scoreB) Load(chap5b)
+}

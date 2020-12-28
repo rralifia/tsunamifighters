@@ -1,0 +1,18 @@
+showScene(true,topDown) multiplay next
+Fury "We must be ready." 2
+Azumi "In Indonesia, is there any sign if an earthquake or tsunami happens?" 1
+Fury "From the news, sound of bells, or maybe drum." 2
+Azumi "Oh yeah, nowadays technology has developed, we can know it by the sound of sirens or notifications. What do you think should be prepared so we can get out of the house safely?" 1c
+choice "What must be prepared to be able to get out of the house safely?"
+{
+  "Host disaster drills with neighbors"
+    score(kyojoA) Load(chap1c)
+  "Teach about the danger of furniture falling over"
+    score(kyojoA) Load(chap1d)
+  "Fix the shelves firmly"
+    score(jijoA) Load(chap1a)
+  "No furniture should be placed in the passageway to the entrance"
+    score(jijoA) Load(chap1b)
+  "Improve housing standard to be resistant to earthquake"
+    score(kojoA) Load(chap1e)
+}

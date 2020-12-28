@@ -1,0 +1,138 @@
+Commands for Visual Novel.
+Every click event is a separate line in the file. The events below show how to call actions to make the chapter work.
+Each line may have multiple actions. Actions on the same line should be delimited by a space. Because of this, no value,
+including filenames, should contain spaces.
+
+#DIALOGUE COMMANDS
+#Make a character speak
+  characterName "dialogue"                                                      ex: Raelin "Hi, how are you?"
+  + symbol makes dialogue additive to continue from last segment.               ex: Raelin +"That's good to hear."
+  No name before dialogue means use last speaker.                               ex: +"That's good to hear."
+
+  #USING DIALOGUE COMMAND TAGS
+  commands inside of dialogue can be used to trigger and segment the dialogue into different parts. So instead of having multiple lines for one character,
+  everything can be put on one line.
+  {c} wait for input and clear
+  {a} wait for input and append
+  {w n} wait for n seconds and clear
+  {wa n} wait for n seconds and append                                          ex: INSTEAD OF USING
+                                                                                Raelin "Hi!"
+                                                                                "How are you?"
+                                                                                +" Good!"
+
+                                                                                USE THIS
+
+                                                                                Raelin "Hi!{w}How are you?{a} Good!"
+
+  #USING CHOICES AS EVENTS
+  Every choice should be on its own line. A choice is not a regular event so it is not paired with dialogue.
+  a choice begins with the word 'choice' to signify it is a choice and not a normal line.
+  after choice have the choice title in quotes.
+  then inside of squiggly brackets we have our choices in quotes followed by a single command to be executed if that choice is made.
+                                                                                ex: choice "How are you doing?"
+                                                                                    {
+                                                                                      "Fine"
+                                                                                        Raelin "That is good to hear."
+                                                                                      "Terrible"
+                                                                                        Raelin "Oh? Why is that?"
+                                                                                    }
+
+  #USING EVENTS INSIDE OF dialogue
+  events are contained inside of brackets []. They control things that happen while dialogue is being displayed.
+  Actions can be called withing brackets as they would normally be called at the end of a line. Separate actions by a space character.
+                                                                                ex: "Hello [showScene(true,blur)]everyone!"
+  then there are events that control different things aside from regular actions.
+  [txtSpd speed,charactersPerFrame] - change text architect speed               ex: "Let's move [txtSpd 15,2]slowly."
+  [/txtSpd] - return architet to normal speed.                                  ex: "Move [txtSpd 30,1]slow [/txtSpd]but then return to normal speed."
+
+#REGULAR ACTION COMMANDS##################################################################################################################################
+#Change character expressions
+  setFace(characterName,expressionName)                                         ex: setFace(Raelin,happy01)
+  setBody(characterName,expression)                                             ex: setBody(Raelin,casualF)
+
+  *optional parameters
+    1. speedOfTransition                                                        ex: set___(Raelin,happy01,15)
+
+#Move character on screen
+  move(characterName,targetlocationX,targetLocationY)                           ex: move(Raelin,0.3,0.7)
+
+  *optional parameters
+    1. speed of movement                                                        ex: move(Raelin,0.3,0.7,10)
+    2. smooth movement                                                          ex: move(Raelin,0.3,0.7,10,false)
+
+  setPosition(characterName,targetlocationX,targetLocationY)                    ex: setPosition(Raelin,0.3,0.7)
+
+#Flip a Character
+#Set multiple characters by using ; to separate them.
+  flip(characterName)                                                           ex: flip(Raelin)
+  faceLeft(characterName)                                                       ex: faceLeft(Raelin)
+  faceRight(characterName)                                                      ex: faceRight(Raelin)
+                                                                                or: _____(Raelin;Avira;Enik)
+
+#Make Character fade in and out of scene.
+#use ; for multiple characters...
+  enter(characterName)                                                          ex: enter(Raelin)
+  exit(characterName)                                                           ex: exit(Raelin)
+                                                                                or: _____(Raelin;Avira;Enik)
+
+  *optional parameters
+     1. speed of fade.                                                          ex: enter(Raelin;Avira,15)
+
+#Change Layer Image
+  setBackground(imageName)                                                      ex: setBackground(forest)
+  setCinematic(imageName)                                                       ex: setCinematic(forest)
+  setForeground(imageName)                                                      ex: setForeground(forest)
+
+  *optional parameters (order of parameters does not matter)
+    1. speed of transition                                                      ex: set__________(forest,1.0)
+    2. transition smoothing                                                     ex: set__________(forest,1.0,false)
+
+#Special Transitions For Layers and Overlay
+use special transitions instead of normal fading to fade out entire scene or just change images on a layer like the background or foreground.
+  transBackground(imagename,transitionEffect)                                   ex: transBackground(forest,hurricane)
+  transCinematic(imagename,transitionEffect)                                    ex: transCinematic(forest,hurricane)
+  transForeground(imagename,transitionEffect)                                   ex: transForeground(forest,hurricane)
+
+  *optional parameters (order does not matter)
+    1. speedOfTransition                                                        ex: trans__________(forest,hurricane,5)
+    2. smoothing                                                                ex: trans__________(forest,hurricane,true)
+
+#Show or Hide the entire scene with a special transition to or from black.
+  showScene(true/false,transitionEffect)                                        ex: showScene(false,blackHole)
+
+#Play Sounds and Music and Ambiance
+  playSound(soundName)                                                          ex: playSound(siren)
+  playMusic(songName)                                                           ex: playMusic(suspense) or playMusic(null)[null stops all music]
+  playAmbiance(trackName)                                                       ex: playAmbiance(RainyMood)
+  stopAmbiance(trackName) or stopAmbiance()[no parameter means stop all]        ex: stopAmbiance(RainyMood) or stopAmbiance()
+
+  #Auto advance to the next line
+  next                                                                          ex: enter(Raelin) next
+
+#Save the player's name from the input field to the game file.
+  savePlayerName()
+
+#Save a temporary value that can be recalled later by tag reference (~ symbols are replaced with spaces since spaces are not allowed.)
+  saveTempVal(valueIndex,value)                                                 ex: saveTempVal(3,Grand~Forest)
+  saveTempInput(valueIndex) saves value from input field to cache.              ex: saveTempInput(3)
+
+#SPECIAL COMMANDS######################################################################################################################################
+#Make Choices
+Begin a line with the keyword 'choice' to initiate a player choice.               ex:
+  choice "choice title"                                                         choice "Do you like to write visual novels?"
+  {                                                                             {
+    "Choice A"                                                                    "Yes, I love to."
+      Line to execute when choice is made                                           Load(story_chapterA)
+    "Choice B"                                                                    "No, I don't do that."
+      Line to execute if this choice is made INSTEAD                                Load(story_chapterB)
+    "etc"                                                                         "I'm not answering that."
+      etc.                                                                          Avira "Oh. Okay then."
+  }                                                                             }
+
+#Take user input
+Begin a line with the keyword 'input' to initiate user input                    ex:
+  input "input title" commandToExecuteWhenDone                                  input "What is your name" saveMainCharacterName()
+
+#TAG INJECTIONS##########################################################################################################################################
+[playername] - injects the player's name that is saved on file.
+[tempVal n] - injects one of the 9 temporary values saved to disk.

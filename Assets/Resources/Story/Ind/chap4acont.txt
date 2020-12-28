@@ -1,0 +1,23 @@
+showScene(true,topDown) next
+narrator "Setelah beberapa saat berlindung di bawah meja dan keadaan dirasa sudah aman, mereka pun keluar dari bawah meja." 2
+enter(Fury) setPosition(Fury,0.6) setFace(Fury,1_anxious) enter(Azumi) setPosition(Azumi,0.8) setFace(Azumi,3_anxious) next
+Azumi "Syukurlah, ada meja di deket lift. Kekuatan gempanya berapa ya, aku sampe pusing." 1
+Fury "Kuat sih, kenceng goyangannya sampe bikin aku susah berdiri. Tadi aku juga dapet notifikasi peringatan tsunami." 2
+Azumi "Ohiya? Tadi gempanya terjadi karena apa, ya?" 1
+Fury "Iya, tapi dibatalin. Hmm..gempanya karena pergeseran lempeng aja, bukan karena aktivitas gunung berapi soalnya wilayah ini nggak deket gunung berapi." 2
+Azumi "Kita ke luar sekarang, khawatir ada gempa susulan. Kita turun lewat tangga aja. Biar aman." 1
+exit(Fury;Azumi) transBackground(03_rumahsakit,radialClock) next
+narrator "Fury dan Azumi pun ke luar menuju ruang terbuka, yaitu lapangan parkir." 2
+enter(Fury) setPosition(Fury,0.6) setFace(Fury,1_anxious) enter(Azumi) setPosition(Azumi,0.8) setFace(Azumi,3_anxious) next
+narrator "Setelah situasi dinyatakan aman, mereka mencari Ayah dan Ibu." 1
+enter(Ayah) flip(Ayah) setPosition(Ayah,0.2) setFace(Ayah,anxious) enter(Ibu) flip(Ibu) setFace(Ibu,anxious) setPosition(Ibu,0.4) next
+setFace(Fury,1_happy) setFace(Azumi,3_happy) next
+Fury "Ayah, Ibu! [setFace(Fury,1_anxious)] Tadi pas gempa kita lagi di lift. Kaget banget." setFace(Ibu,happy) 2
+Ibu "Syukurlah kalian nggak apa-apa. Waktu gempa juga Ayah sama Ibu masih di lantai satu, jauh dari pintu keluar lagi, jadi tadi kita berlindung di bawah meja." setFace(Ibu,anxious) 1
+Ayah "Iya, untungnya nggak ada benda pecah belah sama benda yang tergantung di deket mejanya. Ya udah, ayo cepet masuk! Kalian harus nyusul karya wisata." 2
+Azumi "Baik, Ayah." 1
+exit(Ayah;Ibu;Fury;Azumi) next
+narrator "Mereka pun melanjutkan perjalanan untuk menyusul karya wisata. Sesampainya di penginapan, Fury dan Azumi berpamitan pada Ayah dan Ibu." 2
+transBackground(02_hotel,radialClock) enter(Fury) flip(Fury) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setPosition(Azumi,0.5) next
+narrator "Melihat teman-teman sudah berkumpul untuk pergi ke tempat agenda pertama, mereka hanya menaruh barang bawaan ke kamar." exit(Fury;Azumi) 1
+Load(chap5)

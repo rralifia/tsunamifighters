@@ -1,0 +1,18 @@
+showScene(true,topDown) next
+narrator "Tsunami sudah mulai surut dan hari sudah mulai gelap. Bangunan di daerah pantai habis diterjang air. Beberapa saat kemudian, tim SAR pun datang." 1 playMusic(enchanted_tiki)
+transBackground(08_jalangelap,radialClock) next
+enter(Fury) flip(Fury) setPosition(Fury,0.5) setFace(Fury,1_anxious) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) setFace(Azumi,3_flat) next
+Fury "Kalau malem gini, bisa tetep aman ke pengungsian nggak, ya?" 2c
+choice "Cara agar tetap aman ke pengungsian di malam hari?"
+{
+  "Memakai lampu jalan yang disediakan pemerintah"
+    score(kojoB) Load(chap11e)
+  "Mengaplikasikan ilmu dari local night disaster drill"
+    score(kyojoB) Load(chap11d)
+  "Menggunakan alat penerangan yang disiapkan dalam tas"
+    score(jijoB) Load(chap11a)
+  "Mendengarkan info terkini"
+    score(jijoB) Load(chap11b)
+  "Memanggil orang-orang sekitar"
+    score(kyojoB) Load(chap11c)
+}

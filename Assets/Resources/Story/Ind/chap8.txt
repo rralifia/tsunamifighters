@@ -1,0 +1,12 @@
+showScene(true,topDown) next
+choice "Ke mana harus pergi?"
+{
+  "Mobil, agar evakuasi lebih cepat"
+    Load(chap8c)
+  "Rumah atau gedung tinggi yang kokoh"
+    score(scoreB) Load(chap8b)
+  "Diam, menunggu teman-teman yang lain"
+    Load(chap8d)
+  "Dataran tinggi seperti bukit"
+    score(scoreB) Load(chap8a)
+}

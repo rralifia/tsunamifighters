@@ -1,0 +1,19 @@
+showScene(true,topDown) next
+Fury "Pengennya berangkat bareng temen-temen sih, Bu. Biar rame." setFace(Azumi,3_happy) 2
+Ibu "Ya udah. Kalau gitu, Ibu sama Ayah aja yang jenguk. Jangan lupa siapin barang-barang yang mau dibawa, ya. Kalau butuh apa-apa, bilang Ibu aja." 1
+Fury "Oke, Bu." exit(Ibu) 2
+narrator "Mereka pun mempersiapkan segala hal yang perlu mereka bawa." exit(Fury;Azumi) 1
+narrator "Keesokan harinya, mereka berkumpul di sekolah sebelum karya wisata." 2 playMusic(at_the_end_of_hope)
+transBackground(02_hotel,radialClock) next
+narrator "Mereka sampai di Anyer dengan selamat dan langsung dibawa ke penginapan. Mereka ditempatkan di kamar tidur yang sama yang berada di lantai dua." 1
+enter(Fury) flip(Fury) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setPosition(Azumi,0.5) next
+Fury "Akhirnya sampai juga." setFace(Azumi,3_anxious) 2
+Azumi "Aku capek dan kegerahan. Aku mau mandi dulu. [flip(Azumi) move(Azumi,0.8)] Eh, tapi... handukku di mana, ya? Apa nggak kebawa, ya?" 1
+Fury "Coba cari dulu yang bener." 2c
+choice "Apa yang harus Azumi lakukan?"
+{
+  "Pinjam handuk"
+    Load(chap4b1)
+  "Membeli handuk di supermarket"
+    Load(chap4b2)
+}

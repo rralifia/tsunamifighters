@@ -1,0 +1,18 @@
+showScene(true,topDown) next
+narrator "The tsunami has begun to subside. It's getting dark. The coastal buildings were hit by the tsunami. After a while, the rescue team arrives." 1 playMusic(enchanted_tiki)
+transBackground(08_jalangelap,radialClock) next
+enter(Fury) flip(Fury) setPosition(Fury,0.5) setFace(Fury,1_anxious) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) setFace(Azumi,3_flat) next
+Fury "How do we reach an evacuation center in this dark situation?" 2c
+choice "How can they stay safe until they arrive at the shelter at night?"
+{
+  "Use streetlights provided by government"
+    score(kojoB) Load(chap11e)
+  "Implement the knowledge they got from local night disaster drill"
+    score(kyojoB) Load(chap11d)
+  "Use flashlight that had been prepared in emergency kit bag"
+    score(jijoB) Load(chap11a)
+  "Listen and pay attention to the current information"
+    score(jijoB) Load(chap11b)
+  "Call out to neighboring people while evacuating"
+    score(kyojoB) Load(chap11c)
+}

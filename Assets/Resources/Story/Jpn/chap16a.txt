@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "私達は遊んだり、緊急用キットバッグに準備しておいた本を読んだりできるよ。" 2
+Load(chap17)

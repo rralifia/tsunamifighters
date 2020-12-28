@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Naro informasi di papan pengumuman yang ada di pengungsian." 2
+Load(chap3)

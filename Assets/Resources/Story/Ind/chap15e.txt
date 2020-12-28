@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Kita bikin konser atau pertunjukan kayanya seru, menghibur." 1c
+Load(chap16)

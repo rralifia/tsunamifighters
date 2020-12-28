@@ -1,0 +1,16 @@
+showScene(true,topDown) next
+narrator "This afternoon, they were asked to do an observations to identify problems in the place they were going to. On the way, they saw several buildings that collapsed due to a strong earthquake." 2
+narrator "At the destination later, they were also asked to find the right solution to the problems they have identified." transBackground(06_pantaisurut,radialClock) 1
+enter(Fury) setPosition(Fury,0.5) enter(Azumi) setPosition(Azumi,0.8) next
+Fury "Hmm... is there something wrong here?" 2
+Azumi "The sand is clean. There's no trash in the sea either." 1
+Fury "Let's just interview the visitors!" 2
+Azumi "Look, many fishes are being washed up on the beach. The water is also suddenly receding." 1
+Fury "I want to go there. Maybe I can think of something." setFace(Fury,1_flat) move(Fury,0.2) 2c
+choice "Should Azumi follow Fury?"
+{
+  "Yes"
+    Load(chap5a)
+  "No"
+    score(scoreB) Load(chap5b)
+}

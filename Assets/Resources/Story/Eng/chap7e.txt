@@ -1,0 +1,4 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Alright, come on! I am ready to run fast from here!" setFace(Fury,1_angry) 1
+Fury "Where to run?" 2c
+Load(chap8)

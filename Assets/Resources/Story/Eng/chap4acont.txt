@@ -1,0 +1,23 @@
+showScene(true,topDown) next
+narrator "After that, the situation becomes safer. After evacuating under the table for a while, they emerge from under the table." 2
+enter(Fury) setPosition(Fury,0.6) setFace(Fury,1_anxious) enter(Azumi) setPosition(Azumi,0.8) setFace(Azumi,3_anxious) next
+Azumi "It was nice to have a table near the elevator. How much is the earthquake strength? I got dizzy because of that." 1
+Fury "It was so strong, the shake was so strong it made it hard for me to stand up. I also got a tsunami warning notification." 2
+Azumi "Oh, yes? What caused the earthquake just now, huh?" 1
+Fury "Yes, but it was canceled. Hmm ... the earthquake is due to the shifting of the plates, not because of volcanic activity because this area is far from the volcano." 2
+Azumi " I think it's safer to go down the emergency stairs. Safety first." 1
+exit(Fury;Azumi) transBackground(03_rumahsakit,radialClock) next
+narrator "Fury and Azumi go outside to the open space, which is the parking lot." 2
+enter(Fury) setPosition(Fury,0.6) setFace(Fury,1_anxious) enter(Azumi) setPosition(Azumi,0.8) setFace(Azumi,3_anxious) next
+narrator "After the situation declared safe, they look for Mom and Dad." 1
+enter(Ayah) flip(Ayah) setPosition(Ayah,0.2) setFace(Ayah,anxious) enter(Ibu) flip(Ibu) setFace(Ibu,anxious) setPosition(Ibu,0.4) next
+setFace(Fury,1_happy) setFace(Azumi,3_happy) next
+Fury "Dad, Mom! [setFace(Fury,1_anxious)] I was really surprised. We were in the elevator when the earthquake hit." setFace(Ibu,happy) 2
+Ibu as [mom_eng] "Thank God It is really good that you both were safe. When the earthquake happened, Dad and Mom were still on the first floor and far from the exit, so we took shelter under the table." setFace(Ibu,anxious) 1
+Ayah as [dad_eng] "Yes, fortunately there were no glassware and objects hanging near the table. Come! You guys have to catch up on the study tour." 2
+Azumi "Yes, Dad." 1
+exit(Ayah;Ibu;Fury;Azumi) next
+narrator "They continued to move to join the study tour. Arriving at the inn, Fury and Azumi say goodbye to Dad and Mom." 2
+transBackground(02_hotel,radialClock) enter(Fury) flip(Fury) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setPosition(Azumi,0.5) next
+narrator "Seeing their friends have gathered to go to the first agenda place, they just put their luggage to the room." exit(Fury;Azumi) 1
+Load(chap5)

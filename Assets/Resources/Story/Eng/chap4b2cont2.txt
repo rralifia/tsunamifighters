@@ -1,0 +1,22 @@
+showScene(true,topDown) next
+Azumi "What if we are on the ground floor and not near the exit?" 1
+Fury "Stay under the table and stay away from glass objects and hanging objects." 2
+Azumi "We must be vigilant, afraid of aftershocks if the earthquake is strong. What caused the earthquake just now, huh?" 1
+Fury "Hmm ... the earthquake is due to the shifting of the plates, not because of volcanic activity because this area is far from the volcano. Take a shower before everyone gathers. No more than 10 minutes, deal?" 2
+Azumi "I am not sure..." exit(Azumi) 1
+Fury "It's a phone call... from my Mom... There was an earthquake here. Did you feel any shaking?" enter(Ibu) setFace(Ibu,anxious) setPosition(Ibu,0.8) 2
+Ibu as [mom_eng] "Yeah, I shook here as well. You are safe, aren't you?" 1
+Fury "We were scared, but now it's okay. The earthquake is strong, Mom. I'm dizzy until I can't stand up." 2
+Ibu as [mom_eng] "Yes, the shake is fast. Mom also received a tsunami warning notification but was canceled. Thank God you're all right. [setFace(Ibu,happy)] What time did you arrive at Anyer?" setFace(Fury,1_happy) 1
+Fury "Around 16:00, Mom." 2
+Ibu as [mom_eng] "And when does the activity begin...?" 1
+Fury "It will start at 5 o'clock. By the way, how is Uncle Tama?" 2
+Ibu as [mom_eng] "He's good now. He just has to take a good rest. You should prepare. It's already 16:45. If anything happens, call me. Then I'll hang up the phone. Bye bye." 1
+Fury "Bye, Mom." exit(Ibu) 2
+enter(Azumi) setPosition(Azumi,0.8) next
+Azumi "From who?" 1
+Fury "From Mom. Have you finished taking a bath? How fast" 2
+Azumi "It's your turn. Hurry up!" setFace(Fury,1_anxious) 1
+Fury "Fifteen minutes left to five. Oh no..." 2
+narrator "They prepare and get together with other friends." exit(Fury;Azumi) 1
+Load(chap5)

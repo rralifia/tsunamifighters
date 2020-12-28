@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Let me check my phone first. We will see if there is any information about this disaster." 2 playMusic(Decision)
+Load(chap7)

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "災害が収まったら、食料を買わなくちゃ。" 1
+Load(chap15)

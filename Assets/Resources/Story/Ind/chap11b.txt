@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Bisa. Kita ikutin info terkini selama evakuasi." 1
+Load(chap12)

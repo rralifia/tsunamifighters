@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "We can organize a concerts or performance, it seems fun." 1c
+Load(chap16)

@@ -1,0 +1,6 @@
+showScene(true,topDown) next
+Fury "Let's run! Hurry up!" 2
+transBackground(07_pantai_tsunami,radialClock) move(Azumi,0.5) next
+Azumi "Come on! We are too close with the coastline, it will be dangerous for us." move(Fury,0.4) 1
+Fury "We have to get to the higher-land to be safe. Hosh..hosh.." 2
+Load(chap10)

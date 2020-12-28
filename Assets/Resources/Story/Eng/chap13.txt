@@ -1,0 +1,36 @@
+showScene(true,topDown) next
+Azumi "Let's go!" 1 playMusic(Peaceful_Place)
+PakBasarnas as [officer_eng] "From now on, we will go to the evacuation site. Please be careful and concentrate. Keep up with the rescue team and don't leave the group!" 2
+exit(Fury;Azumi;PakBasarnas) next
+narrator "At midnight, the group walk on the road. Only the moonlight and some flashlights helped their sight." 1
+enter(PakBasarnas) setFace(PakBasarnas,tegas) setPosition(PakBasarnas,0.8) next
+PakBasarnas as [officer_eng] "It's getting closer, we'll be there soon! [transBackground(09_pengungsianmalam,radialClock)] Please register your name and address with the information center staff." 2 exit(PakBasarnas) playMusic(Peaceful_Place)
+enter(Fury) flip(Fury) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setPosition(Azumi,0.5) enter(BuBasarnas) setPosition(BuBasarnas,0.8) setFace(BuBasarnas,flat) next
+Azumi "Please register me." 1
+Fury "My name is Fury. This is my friend, Azumi. Are Mr. Tomo and Mrs. Nani already here?" 2
+BuBasarnas as [officer_eng] "Sorry. Those people are not here." 1
+Fury "Where is this refuge located?" 2
+BuBasarnas as [officer_eng] "This is the first shelter in Anyer." 1
+Fury "Thank you. [exit(BuBasarnas) move(Fury,0.5) move(Azumi,0.8) flip(Azumi)] There is a call from my mother. Hello, Mom? Where are you, Mom?" 2
+enter(Ibu) setFace(Ibu,anxious) flip(Ibu) setPosition(Ibu,0.2) next
+Ibu as [mom_eng] "Mom and Dad in the refuge." 1
+setFace(Fury,1_anxious) next
+Fury "Where is the refuge? I wanna go there." 2
+Ibu as [mom_eng] "Oh, Mom is in the second shelter in Anyer." 1
+Fury "I think we are in the different refuge area. Azumi and I are in the first shelter in Anyer. Then what should we do?" 2
+Ibu as [mom_eng] "It's already midnight so it's dangerous to get out of the shelter. See you tomorrow morning. Stay calm and stay safe, please. I'll hang up the phone." 1
+Fury "Okay, Mom. You too. Bye, Mom." exit(Ibu) setFace(Azumi,3_anxious) 2
+Azumi "Ouch, my stomach hurts. We have not had dinner." 1c
+choice "What should Fury do?"
+{
+  "Gather as much food as possible in advance in the refuge"
+    score(kojoA) Load(chap13e)
+  "Share her food in her bag"
+    score(jijoA) Load(chap13a)
+  "Receive food provided in the refuge in consideration of others"
+    score(kyojoA) Load(chap13c)
+  "Go shopping immediately after the disaster hits"
+    score(jijoA) Load(chap13b)
+  "Receive food provided in the refuge, but distribute it from children and elder persons"
+    score(kyojoA) Load(chap13d)
+}

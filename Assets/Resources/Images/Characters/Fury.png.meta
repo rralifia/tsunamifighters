@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: aaa711001ebbab44dabba308a274b454
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8121491811172582621
+    second: 1_happy
+  - first:
+      213: -2837223078437839
+    second: 1_flat
+  - first:
+      213: -834745735877090861
+    second: 1_anxious
+  - first:
+      213: 5807578200370297858
+    second: 1_angry
+  - first:
+      213: -3205463634837895560
+    second: Fury_full_23
+  - first:
+      213: -850169470139380284
+    second: 2_happy
+  - first:
+      213: 2611865480794144808
+    second: 2_flat
+  - first:
+      213: 8899975433576769836
+    second: 2_anxious
+  - first:
+      213: -5409748381023719240
+    second: 2_angry
+  - first:
+      213: 7122703236122181728
+    second: Fury_full_32
+  - first:
+      213: 3202353346151870836
+    second: Fury_full_33
+  - first:
+      213: 618660907167297948
+    second: Fury_full_34
+  - first:
+      213: 7064757843748818025
+    second: Fury_full_35
+  - first:
+      213: 8443794069567685322
+    second: Fury_full_36
+  - first:
+      213: 6374418642487775200
+    second: 3_happy
+  - first:
+      213: -5169659935383891246
+    second: 3_flat
+  - first:
+      213: 570245572678951710
+    second: 3_anxious
+  - first:
+      213: 6609769579547177168
+    second: 3_angry
+  - first:
+      213: -4766263010710455254
+    second: Fury_full_44
+  - first:
+      213: 6024771371714760854
+    second: Fury_full_45
+  - first:
+      213: -9029235804022590987
+    second: Fury_full_46
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1_happy
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1641
+        width: 468
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed25e7f5393c8b41bc28d824823d3dc
+      internalID: 8121491811172582621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_flat
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1642
+        width: 452
+        height: 651
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564c3b781ba494c4f86c5b31c360162f
+      internalID: -2837223078437839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_anxious
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1660
+        width: 452
+        height: 651
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acea574a6a12e24797befe9e4a6961a
+      internalID: -834745735877090861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_angry
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1667
+        width: 452
+        height: 650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65730b162003ee459636b8424751a28
+      internalID: 5807578200370297858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_happy
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 877
+        width: 455
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb3915d28984af4b8ce36b72a424509
+      internalID: -850169470139380284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_flat
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 887
+        width: 464
+        height: 712
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c537d18fef4ef14baf0ee8a07350fbb
+      internalID: 2611865480794144808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_anxious
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 893
+        width: 455
+        height: 711
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1730ee0a29265274facbdec3a82632ae
+      internalID: 8899975433576769836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_angry
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 909
+        width: 457
+        height: 716
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a7178e92f1a6446b86c23f987eef4b
+      internalID: -5409748381023719240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fury_full_34
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 880
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfc3bc91cce5b24d9f6e795e66fbc9c
+      internalID: 618660907167297948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_happy
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 123
+        width: 467
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5afe8edde89914ca01e00fd8009fd0
+      internalID: 6374418642487775200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_flat
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 117
+        width: 467
+        height: 699
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1a0a7967acc6444af8ee75142b0de0
+      internalID: -5169659935383891246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_anxious
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 125
+        width: 465
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e9f48bded8f9b42a30b43ac93891e3
+      internalID: 570245572678951710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_angry
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 145
+        width: 466
+        height: 679
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786496833eaae8c47aa37dae335e6222
+      internalID: 6609769579547177168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fury_full_44
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 127
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28416d5a32c99bd43833eacce3980272
+      internalID: -4766263010710455254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fury_full_45
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55f5bf232985584eb8c6034c2b4c3b0
+      internalID: 6024771371714760854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

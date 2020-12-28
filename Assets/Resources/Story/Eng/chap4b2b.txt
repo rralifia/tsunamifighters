@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Lower your head, protect it with the bag! I hope this doesn't last long. Then we can get out of here." setFace(Fury,1_angry) 1
+Fury "There are so many shelves here. If we don't move, we'll be locked in. Let's go there! There's nothing there, so nothing falls to us." exit(Fury;Azumi) 2
+Load(chap4b2cont1)

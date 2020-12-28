@@ -1,0 +1,7 @@
+showScene(true,topDown) setFace(Azumi,3_anxious) next
+Azumi "Tunggu aku! Aku ikut deh." move(Azumi,0.3) 1
+Fury "Ayo sini." 2
+enter(BuGuru) setFace(BuGuru,anxious) setPosition(BuGuru,0.6) next
+BuGuru as [teach_id] "Kalian, cepet ke sini! Kalian lihat air laut yang tiba-tiba surut itu? Itu salah satu tanda tsunami. Di sini zona dekat dan rawan tsunami. Kita harus segera pergi dari sini." flip(Azumi) flip(Fury) next
+setFace(Fury,1_anxious) move(Azumi,0.4) move(Fury,0.3) exit(BuGuru) 1c
+Load(chap6)

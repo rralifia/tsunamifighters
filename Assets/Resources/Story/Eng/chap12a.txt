@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "I also have a flashlight in my bag, just in case something happens." 2
+Load(chap13)

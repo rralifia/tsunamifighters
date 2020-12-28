@@ -1,0 +1,19 @@
+showScene(true,topDown) next
+Fury "I want to go there with my friends, Mom. It is more exciting." setFace(Azumi,3_happy) 2
+Ibu as [mom_eng] "Okay then. Me and Dad will visit Uncle Tama at the hospital. Don't forget to pack what you need. Let me know if you need anything." 1
+Fury "Of course, Mom." exit(Ibu) 2
+narrator "And they prepared everything they needed." exit(Fury;Azumi) 1
+narrator "The next day, they gather at school before going on a study tour." 2 playMusic(at_the_end_of_hope)
+transBackground(02_hotel,radialClock) next
+narrator "They arrived safely at Anyer and were immediately taken to the inn. They were assigned to the same bedroom on the second floor." 1
+enter(Fury) flip(Fury) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setPosition(Azumi,0.5) next
+Fury "Finally, we arrived." setFace(Azumi,3_anxious) 2
+Azumi "I'm tired and sweay. I want to take a bath first. [flip(Azumi) move(Azumi,0.8)] Uh...where is my towel? Did I leave my towel?" 1
+Fury "Try to find it carefully." 2c
+choice "What should Azumi do?"
+{
+  "Borrow a towel"
+    Load(chap4b1)
+  "Buy a towel at the supermarket"
+    Load(chap4b2)
+}

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Nggak naruh perabot di jalan masuk biar gampang ke luar." 1
+Load(chap1)

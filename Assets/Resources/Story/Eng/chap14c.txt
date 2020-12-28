@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "If food is being distributed here, we have to think about other people." 1
+Load(chap15)

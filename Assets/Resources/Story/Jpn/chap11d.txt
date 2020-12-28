@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "できるよ。 もし地元の夜間災害訓練に参加していたら、実践できるよ。" 1
+Load(chap12)

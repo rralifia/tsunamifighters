@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "When the disaster subsides, we have to buy food." 1
+Load(chap15)

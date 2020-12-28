@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Provide information about the risk of furniture collapse." 1
+Load(chap1)

@@ -1,0 +1,24 @@
+showScene(true,topDown) next
+Fury "Let's leave it to others. Come! Run! The water is here! The water is coming here!" exit(Fury;Azumi;Rara) 2
+transBackground(10_bangunankokoh,radialClock) next
+enter(BuGuru) SetPosition(BuGuru,0.8) setFace(BuGuru,anxious) next
+BuGuru as [teach_eng] "You guys, come over here! Please!" 1
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.3) enter(Azumi) flip(Azumi) setFace(Azumi,3_flat) setPosition(Azumi,0.2) next
+Fury "Hosh..hosh.." 2
+BuGuru as [teach_eng] "I'm glad you got here safely." setFace(BuGuru,happy) 1
+Fury "Ma'am, is your mobile phone connected to the network? Can I borrow it? I want to contact my mother." 2
+BuGuru as [teach_eng] "Of course. Tell your mother that you are safe here." 1
+Fury "I still can't connect, huh." 2
+BuGuru as [teach_eng] "Let's try again later." 1
+Fury "Alright. Thank you, Ms. Mina. Huuft.." exit(BuGuru;Fury;Azumi) 2
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.4) enter(Azumi) flip(Azumi) setFace(Azumi,3_happy) setPosition(Azumi,0.2) next
+Azumi "Are you okay, Fury?" 1
+Fury "I'm OK. I'm only thinking about my Mom and Dad. They should be near here." setFace(Azumi,3_happy) 2
+Azumi "Want to find Mom and Dad first?" 1c
+choice "What should they choose?"
+{
+  "Looking for Mom and Dad"
+    Load(chap10b1)
+  "Find Mom and Dad later"
+    score(scoreA) Load(chap10b2)
+}

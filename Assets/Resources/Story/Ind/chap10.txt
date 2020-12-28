@@ -1,0 +1,12 @@
+showScene(true,topDown) next
+enter(Rara) setFace(Rara,cry) setPosition(Rara,0.7) next
+Azumi "Ada anak kecil jatuh!" 1
+Rara "Aww..aduh, sakit." 2
+Azumi "Gimana nih? Tolong jangan?" 1c
+choice "Apa yang harus dilakukan?"
+{
+  "Menolong anak kecil tersebut"
+    Load(chap10a)
+  "Tetap berlari ke dataran tinggi"
+    score(scoreA) Load(chap10b)
+}

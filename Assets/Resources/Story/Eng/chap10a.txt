@@ -1,0 +1,13 @@
+showScene(true,topDown) next
+Fury "Let's help her! You hold her from the right side, I support the left side." move(Fury,0.6) flip(Azumi) move(Azumi,0.8) 2
+Azumi "Be strong, sister. We know you can do this!" 1
+Fury "Oh, the waves are approaching." 2
+Azumi "I am very anxious." next
+transBackground(10_bangunankokoh,radialClock) 1c
+choice "What should they do?"
+{
+  "Run faster"
+    Load(chap10a1)
+  "Enter a sturdy house in a high place"
+    score(scoreA) Load(chap10a2)
+}

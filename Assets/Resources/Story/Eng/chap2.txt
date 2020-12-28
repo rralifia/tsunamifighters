@@ -1,0 +1,15 @@
+showScene(true,topDown) setFace(Azumi,3_anxious) multiplay next
+Azumi "Uh, if our families were in different places at the time of the earthquake happens, how would we get together?" 1c
+choice "How do families in different places meet when an earthquake strikes?"
+{
+  "Call, send email or message through social media"
+    score(jijoA) Load(chap2a)
+  "Put information on the refuge board"
+    score(kyojoA) Load(chap2c)
+  "Utilize internet provided by the government that can be used during disaster"
+    score(kojoA) Load(chap2e)
+  "Go to the agreed gathering point"
+    score(jijoA) Load(chap2b)
+  "Give information actively to people around"
+    score(kyojoA) Load(chap2d)
+}

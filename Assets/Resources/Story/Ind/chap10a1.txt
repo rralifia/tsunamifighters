@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Fury "Ayo cepet! Cepet lari sekuat tenaga!" 2
+Azumi "Susah, ke rumah itu aja!" 1
+Load(chap10acont)

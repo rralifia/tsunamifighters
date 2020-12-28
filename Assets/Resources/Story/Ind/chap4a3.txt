@@ -1,0 +1,5 @@
+showScene(true,topDown) next
+Azumi "[setFace(Azumi,3_angry] Cepet telepon Ibu, kasih tau kita di dalem lift!" 1
+Fury "Mending kita cepet ke luar dari sini!" 2
+Azumi "Aku pencet tombol semua lantai ya! Ke luar, cari meja!" exit(Fury;Azumi) 1
+Load(chap4acont)

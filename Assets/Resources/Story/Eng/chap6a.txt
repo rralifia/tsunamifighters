@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Call out to all persons nearby and escape together!" 2 playMusic(Decision)
+Load(chap7)

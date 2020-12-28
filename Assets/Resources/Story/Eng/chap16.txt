@@ -1,0 +1,14 @@
+showScene(true,topDown) next
+choice "What can they do to spend their time in the refuge?"
+{
+  "Cook with new friends or get some exercise"
+    score(kyojoA) Load(chap16c)
+  "Play with toys or read the books they have in the emergency kit bag"
+    score(jijoA) Load(chap16a)
+  "Gather young children and play together"
+    score(kyojoA) Load(chap16d)
+  "Plan concerts and performances"
+    score(kojoA) Load(chap16e)
+  "Talk to others to get along well with them"
+    score(jijoA) Load(chap16b)
+}

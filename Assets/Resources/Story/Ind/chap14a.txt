@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Aku kayaknya bawa makanan di tas." 1
+Load(chap15)

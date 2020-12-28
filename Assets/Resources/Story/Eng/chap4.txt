@@ -1,0 +1,18 @@
+showScene(true,topDown) next
+setFace(Azumi,3_happy) setFace(Fury,1_happy) 1
+Fury "Maybe next month. Don't talk to me anymore after this! If you chat, I can't concentrate." 2
+Azumi "Then I'll go back to my room." flip(Azumi) 1
+Fury "No, you can stay here to accompany me, but don't sleep. You can read books.. watch YouTube.. or.. prepare for tomorrow's study tour." 2
+enter(Ibu) flip(Ibu) setPosition(Ibu,0.2) setFace(Ibu,anxious) next
+Ibu as [mom_eng] "Fury, Azumi, Dad's brother, Uncle Tama was hospitalized two days ago for typhus. Dad and Mom want to visit tomorrow at three o'clock in the afternoon. Do you guys want to go visit him?" setFace(Azumi,3_anxious) setFace(Fury,1_anxious) 1
+Fury "Mom, tomorrow we'll go on a study tour. The meeting time is 2:00 pm." 2
+Ibu as [mom_eng] "Where are you going on a study tour?" 1
+Fury "Not so far, Mom. We are going to Anyer." 2
+Ibu as [mom_eng] "It's up to you. If you want to visit Uncle Tama, we will drive you to Anyer, only 30 minutes from the hospital." 1c
+choice "What should they choose?"
+{
+  "Visiting Uncle Tama"
+    Load(chap4a)
+  "Did not go to visit Uncle Tama"
+    Load(chap4b)
+}

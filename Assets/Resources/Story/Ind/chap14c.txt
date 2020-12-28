@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Kalau di sini dikasih makanan, nanti kita ambil sesuai jatah, biar semuanya dapet." 1
+Load(chap15)

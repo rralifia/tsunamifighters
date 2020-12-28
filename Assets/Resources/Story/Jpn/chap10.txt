@@ -1,0 +1,12 @@
+showScene(true,topDown) next
+enter(Rara) setFace(Rara,cry) setPosition(Rara,0.7) next
+Azumi "子どもが転んだ！" 1
+Rara "ああ…痛い。" 2
+Azumi "What should we do? Should we help her?" 1c
+choice "彼女たちはどうしたらいいでしょうか？"
+{
+  "子どもを助ける。"
+    Load(chap10a)
+  "丘に向かって走り続ける"
+    score(scoreA) Load(chap10b)
+}

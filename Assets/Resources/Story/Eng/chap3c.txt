@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Hopefully, if we put the information on the refuge bulletin board we can meet the family again. Oh yeah, when will the summer camp program be announced?" next
+Load(chap4)

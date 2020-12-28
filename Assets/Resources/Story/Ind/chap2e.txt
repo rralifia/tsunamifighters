@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Manfaatin fasilitas internet dari pemerintah yang masih jalan walaupun lagi bencana." 2
+Load(chap3)

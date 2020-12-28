@@ -1,0 +1,18 @@
+showScene(true,topDown) multiplay next
+Fury "Kita harus siap siaga, ya." 2
+Azumi "Di Indonesia ada suatu tanda kalau terjadi gempa atau tsunami nggak?" 1
+Fury "Dari suara kentongan..lonceng..atau..bedug mungkin kalau zaman dulu." 2
+Azumi "Oh gitu, zaman sekarang teknologi udah berkembang ya, kita bisa tau dari bunyi sirine atau notifikasi aplikasi ya. Ohiya, kalau menurut kamu apa yang harus disiapin biar kita bisa keluar rumah dengan aman?" 1c
+choice "Apa yang harus disiapkan agar selamat?"
+{
+  "Menyelenggarakan acara drill dengan tetangga"
+    score(kyojoA) Load(chap1c)
+  "Memberi informasi tentang resiko jatuhnya perabotan"
+    score(kyojoA) Load(chap1d)
+  "Mengikat lemari dengan kuat"
+    score(jijoA) Load(chap1a)
+  "Tidak menaruh perabot di jalan masuk"
+    score(jijoA) Load(chap1b)
+  "Meningkatkan standar tempat tinggal agar tahan gempa"
+    score(kojoA) Load(chap1e)
+}

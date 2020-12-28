@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "To the car! To evacuate faster." 1
+Fury "I don't know where the car is. Just follow those people to the hill." 2
+Load(chap9)

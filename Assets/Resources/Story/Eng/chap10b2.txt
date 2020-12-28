@@ -1,0 +1,5 @@
+showScene(true,topDown) next
+Fury "Hmm...We can find Mom and Dad after this. Wait until the situation is declared safe by the authorities." 2
+Azumi "OK, then." setFace(Fury,1_happy) 1
+Fury "I hope they are safe." setFace(Fury,1_flat) exit(Azumi;Fury) 2
+Load(chap11)

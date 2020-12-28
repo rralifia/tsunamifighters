@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "待って、まず私のスマホで確認する。" setFace(Fury,1_angry) 1
+Fury "どんな情報？" 2
+Azumi "アニエールで地震が起きて、津波の可能性があるって。私たちはすぐにビーチから離れなくちゃ。" 1
+Fury "どこに行く？" 2c
+Load(chap8)

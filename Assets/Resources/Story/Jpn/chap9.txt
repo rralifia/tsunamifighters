@@ -1,0 +1,9 @@
+showScene(true,topDown) next
+Azumi "どうやって、あそこに行く？ Run or..how?" 1c
+choice "そこに行くための一番いい方法はどれですか？"
+{
+  "走る。"
+    score(scoreA) Load(chap9a)
+  "乗り物で。"
+    Load(chap9b)
+}

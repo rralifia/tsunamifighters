@@ -1,0 +1,16 @@
+showScene(true,topDown) next
+Azumi "Oh ya, bisa bisa. Jadi takut lagi aku, ngebayangin kalau misalnya lagi nggak bareng siapa-siapa waktu lagi bencana." 1
+Fury "Iya juga sih ya, udah nggak ada temen, khawatir juga sama keluarga yang lain." 2c
+choice "Bagaimana cara keluarga yang berada di tempat berbeda bertemu ketika terjadi gempa bumi?"
+{
+  "Sering memberi informasi ke orang sekitar"
+    score(kyojoB) Load(chap3d)
+  "Pergi ke titik kumpul yang sudah disepakati"
+    score(jijoB) Load(chap3b)
+  "Memanfaatkan internet pemerintah yang tetap berfungsi saat bencana"
+    score(kojoB) Load(chap3e)
+  "Telpon, kirim email atau pesan melalui media sosial"
+    score(jijoB) Load(chap3a)
+  "Menaruh informasi di papan pengungsian"
+    score(kyojoB) Load(chap3c)
+}

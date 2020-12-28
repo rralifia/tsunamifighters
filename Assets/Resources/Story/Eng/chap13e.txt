@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Hopefully it will be provided here. If we get food, we must collect it as much as possible." 2c
+Load(chap14)

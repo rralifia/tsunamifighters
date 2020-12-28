@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Let's follow the evacuation signs until we arrive the evacuation area, now." 2 playMusic(Decision)
+Load(chap7)

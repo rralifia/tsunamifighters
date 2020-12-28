@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Ngikat lemari kuat-kuat biar nggak jatuh." 1
+Load(chap1)

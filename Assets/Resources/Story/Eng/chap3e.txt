@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Hopefully the government internet that is still working when a disaster occurs can be a medium to connect us and our families. Oh yeah, when will the summer camp program be announced?" next
+Load(chap4)

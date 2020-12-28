@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "In the emergency kit bag, there are toys and books. We can play or read books." 1c
+Load(chap16)

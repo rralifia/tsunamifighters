@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Fury "できるだけ早く走れ！" 2
+Azumi "それはほとんど不可能だよ。私はあの家に行ったほうがいいと思うよ。" 1
+Load(chap10acont)

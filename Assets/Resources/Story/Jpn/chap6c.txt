@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "避難場所に到着するまで避難標識をたどりましょう。" 2 playMusic(Decision)
+Load(chap7)

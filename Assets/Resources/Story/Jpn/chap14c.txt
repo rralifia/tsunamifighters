@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "もし、ここで食べ物が配られているとしたら、他のひとのことも考えなくちゃ。" 1
+Load(chap15)

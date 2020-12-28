@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "If food is to be distributed here, we have to give priority to children and the elderly." 1
+Load(chap15)

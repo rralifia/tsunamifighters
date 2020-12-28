@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Kita bisa bikin konser atau pertunjukan yang menghibur." 2
+Load(chap17)

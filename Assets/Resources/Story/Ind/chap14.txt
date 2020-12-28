@@ -1,0 +1,14 @@
+showScene(true,topDown) next
+choice "Apa yang dipikirkan Azumi?"
+{
+  "Mengambil makanan yang disediakan pengungsian namun mendahulukan anak-anak dan lansia"
+    score(kyojoB) Load(chap14d)
+  "Berbelanja segera setelah bencana reda"
+    score(jijoB) Load(chap14b)
+  "Mengumpulkan makanan sebanyak-banyaknya di pengungsian"
+    score(kojoB) Load(chap14e)
+  "Mengambil makanan yang disediakan pengungsian namun tetap mempertimbangkan orang lain"
+    score(kyojoB) Load(chap14c)
+  "Mengambil makanan di dalam tasnya."
+    score(jijoB) Load(chap14a)
+}

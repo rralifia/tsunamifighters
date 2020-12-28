@@ -1,0 +1,12 @@
+showScene(true,topDown) next
+enter(Rara) setFace(Rara,cry) setPosition(Rara,0.7) next
+Azumi "A child fell down!" 1
+Rara "Ah... it hurts." 2
+Azumi "What should we do? Should we help her?" 1c
+choice "What should they do?"
+{
+  "Help the child"
+    Load(chap10a)
+  "Keep running towards the hill"
+    score(scoreA) Load(chap10b)
+}

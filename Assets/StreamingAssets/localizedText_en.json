@@ -1,0 +1,1034 @@
+{"items":[
+ {
+   "key": "login_title",
+   "value": "LOG IN TO YOUR ACCOUNT"
+ },
+ {
+   "key": "login_button",
+   "value": "Login"
+ },
+ {
+   "key": "create_button",
+   "value": "Create Account"
+ },
+ {
+   "key": "createRoom",
+   "value": "Create New Room"
+ },
+ {
+   "key": "startButton",
+   "value": "Start Game"
+ },
+ {
+   "key": "name",
+   "value": "Name"
+ },
+ {
+   "key": "username",
+   "value": "Username"
+ },
+ {
+   "key": "age",
+   "value": "Age"
+ },
+ {
+   "key": "loc",
+   "value": "Location"
+ },
+ {
+   "key": "gender",
+   "value": "Gender"
+ },
+ {
+   "key": "leaveRoom",
+   "value": "Leave Room"
+ },
+ {
+   "key": "nextButton",
+   "value": "Next"
+ },
+ {
+   "key": "pauseButton",
+   "value": "Pause"
+ },
+ {
+   "key": "homeButton",
+   "value": "Back to Novel Menu?"
+ },
+ {
+   "key": "chatButton",
+   "value": "Chat"
+ },
+ {
+   "key": "sendButton",
+   "value": "Send"
+ },
+ {
+   "key": "backButton",
+   "value": "Back"
+ },
+ {
+   "key": "enterRoomName",
+   "value": "Enter room name..."
+ },
+ {
+   "key": "welcome",
+   "value": "Welcome"
+ },
+ {
+   "key": "status",
+   "value": "Status"
+ },
+ {
+   "key": "joinRoom",
+   "value": "Join Existing Rooms"
+ },
+ {
+   "key": "score",
+   "value": "Score:"
+ },
+ {
+   "key": "turn",
+   "value": "Turn Status"
+ },
+ {
+   "key": "number",
+   "value": "Number:      / 20"
+ },
+ {
+   "key": "player1score",
+   "value": "| Player 1"
+ },
+ {
+   "key": "player2score",
+   "value": "Player 2 |"
+ },
+ {
+   "key": "resume",
+   "value": "Resume"
+ },
+ {
+   "key": "waitPlayer",
+   "value": "Waiting for another player"
+ },
+ {
+   "key": "startGame",
+   "value": "You can start the game"
+ },
+ {
+   "key": "endGame",
+   "value": "Story completed"
+ },
+ {
+   "key": "chatRoom",
+   "value": "Chat Room"
+ },
+ {
+   "key": "beginTest",
+   "value": "Begin Test"
+ },
+ {
+   "key": "learnFirst",
+   "value": "Learn First"
+ },
+ {
+   "key": "pretest",
+   "value": "Pre-test"
+ },
+ {
+   "key": "pretestIntro",
+   "value": "Before we play, let's take this quiz first!"
+ },
+ {
+   "key": "startPretest",
+   "value": "Start Pretest"
+ },
+ {
+   "key": "soalpretest1",
+   "value": "What is a natural disaster?"
+ },
+ {
+   "key": "soalpretest2",
+   "value": "What is/are the cause(s) of the earthquake?"
+ },
+ {
+   "key": "soalpretest3",
+   "value": "The characteristics of a strong earthquake is/are..."
+ },
+ {
+   "key": "soalpretest4",
+   "value": "Is it possible to predict when an earthquake will occur?"
+ },
+ {
+   "key": "soalpretest5",
+   "value": "What should you do if an earthquake occurs when you are inside a building?"
+ },
+ {
+   "key": "soalpretest6",
+   "value": "Where is the safest place to go in the event of an earthquake?"
+ },
+ {
+   "key": "soalpretest7",
+   "value": "If you have a strong earthquake while you are in a building..."
+ },
+ {
+   "key": "soalpretest8",
+   "value": "What should you do if earthquake occurs while you were driving?"
+ },
+ {
+   "key": "soalpretest9",
+   "value": "Do all earthquakes cause a tsunami?"
+ },
+ {
+   "key": "soalpretest10",
+   "value": "What is the biggest cause of the tsunami?"
+ },
+ {
+   "key": "soalpretest11",
+   "value": "What is/are the sign(s) of a tsunami?"
+ },
+ {
+   "key": "soalpretest12",
+   "value": "What if the seawater suddenly recedes?"
+ },
+ {
+   "key": "soalpretest13",
+   "value": "Which of the following is not a tsunami warning?"
+ },
+ {
+   "key": "soalpretest14",
+   "value": "What should you do when you notice a tsunami alert?"
+ },
+ {
+   "key": "soalpretest15",
+   "value": "Is the tsunami warning canceled or changed?"
+ },
+ {
+   "key": "soalpretest16",
+   "value": "Which region has the highest tsunami risk?"
+ },
+ {
+   "key": "soalpretest17",
+   "value": "Which of the following is wrong as the tsunami warning category?"
+ },
+ {
+   "key": "soalpretest18",
+   "value": "What should we do to better prepare for earthquakes and tsunamis?"
+ },
+ {
+   "key": "soalpretest19",
+   "value": "Which one is not included in emergency kit bag?"
+ },
+ {
+   "key": "soalpretest20",
+   "value": "Which disaster drill have you received?"
+ },
+ {
+   "key": "pretest1a",
+   "value": "Disaster caused by human act"
+ },
+ {
+   "key": "pretest1b",
+   "value": "Disaster due to social riots"
+ },
+ {
+   "key": "pretest1c",
+   "value": "Disaster due to natural event"
+ },
+ {
+   "key": "pretest2a",
+   "value": "Crustal movement of the earth"
+ },
+ {
+   "key": "pretest2b",
+   "value": "Volcanic activity"
+ },
+ {
+   "key": "pretest2c",
+   "value": "Landslide"
+ },
+ {
+   "key": "pretest2d",
+   "value": "Hurricane and thunder"
+ },
+ {
+   "key": "pretest2e",
+   "value": "Oil drilling"
+ },
+ {
+   "key": "pretest3a",
+   "value": "Earthquake causing dizziness"
+ },
+ {
+   "key": "pretest3b",
+   "value": "Strong shake, people can hardly stand up"
+ },
+ {
+   "key": "pretest3c",
+   "value": "Long earthquake & subsequent aftershocks"
+ },
+ {
+   "key": "pretest3d",
+   "value": "Building collapse or crack"
+ },
+ {
+   "key": "pretest3e",
+   "value": "All answers are correct"
+ },
+ {
+   "key": "pretest4a",
+   "value": "True"
+ },
+ {
+   "key": "pretest4b",
+   "value": "False"
+ },
+ {
+   "key": "pretest4c",
+   "value": "Do not know"
+ },
+ {
+   "key": "pretest5a",
+   "value": "Run out of the building immediately"
+ },
+ {
+   "key": "pretest5b",
+   "value": "Stay inside until the earthquake subsidesr"
+ },
+ {
+   "key": "pretest5c",
+   "value": "Protect yourself from glassware"
+ },
+ {
+   "key": "pretest6a",
+   "value": "Road/ street"
+ },
+ {
+   "key": "pretest6b",
+   "value": "Playground-like open space"
+ },
+ {
+   "key": "pretest6c",
+   "value": "Home sweet home"
+ },
+ {
+   "key": "pretest7a",
+   "value": "Shelter under a table"
+ },
+ {
+   "key": "pretest7b",
+   "value": "Stay away from the hanging ones"
+ },
+ {
+   "key": "pretest7c",
+   "value": "Stay away from window & glass objects"
+ },
+ {
+   "key": "pretest7d",
+   "value": "Leave as soon as the earthquake has subsided"
+ },
+ {
+   "key": "pretest7e",
+   "value": "Do not know"
+ },
+ {
+   "key": "pretest8a",
+   "value": "Pull over and stop driving"
+ },
+ {
+   "key": "pretest8b",
+   "value": "Continue driving without worrying about it"
+ },
+ {
+   "key": "pretest9a",
+   "value": "Yes, it does"
+ },
+ {
+   "key": "pretest9b",
+   "value": "No, it does not"
+ },
+ {
+   "key": "pretest9c",
+   "value": "Do not know"
+ },
+ {
+   "key": "pretest10a",
+   "value": "Rapid displacement of the seabed"
+ },
+ {
+   "key": "pretest10b",
+   "value": "Submarine volcanic activity"
+ },
+ {
+   "key": "pretest10c",
+   "value": "Submarine landslide"
+ },
+ {
+   "key": "pretest10d",
+   "value": "Hurricane/Tornado"
+ },
+ {
+   "key": "pretest10e",
+   "value": "Do not know"
+ },
+ {
+   "key": "pretest11a",
+   "value": "Strong earthquake"
+ },
+ {
+   "key": "pretest11b",
+   "value": "A rapid fall of water along the coast"
+ },
+ {
+   "key": "pretest11c",
+   "value": "A big wave on the horizon"
+ },
+ {
+   "key": "pretest11d",
+   "value": "A loud sound like an explosion"
+ },
+ {
+   "key": "pretest11e",
+   "value": "Do not know"
+ },
+ {
+   "key": "pretest12a",
+   "value": "Escape from the sea (coast)"
+ },
+ {
+   "key": "pretest12b",
+   "value": "Stay there and do nothing"
+ },
+ {
+   "key": "pretest12c",
+   "value": "Help people who are near the beach"
+ },
+ {
+   "key": "pretest13a",
+   "value": "News"
+ },
+ {
+   "key": "pretest13b",
+   "value": "Siren, notification"
+ },
+ {
+   "key": "pretest13c",
+   "value": "Scream"
+ },
+ {
+   "key": "pretest14a",
+   "value": "Escape to high places away from the beach"
+ },
+ {
+   "key": "pretest14b",
+   "value": "Evacuate to the shelter immediately"
+ },
+ {
+   "key": "pretest14c",
+   "value": "Calm down and do not panic"
+ },
+ {
+   "key": "pretest14d",
+   "value": "All answers above are correct"
+ },
+ {
+   "key": "pretest14e",
+   "value": "Do not know"
+ },
+ {
+   "key": "pretest15a",
+   "value": "True"
+ },
+ {
+   "key": "pretest15b",
+   "value": "False"
+ },
+ {
+   "key": "pretest15c",
+   "value": "Do not know"
+ },
+ {
+   "key": "pretest16a",
+   "value": "River side"
+ },
+ {
+   "key": "pretest16b",
+   "value": "Woods"
+ },
+ {
+   "key": "pretest16c",
+   "value": "Ocean"
+ },
+ {
+   "key": "pretest16d",
+   "value": "Coastline"
+ },
+ {
+   "key": "pretest16e",
+   "value": "Do not know"
+ },
+ {
+   "key": "pretest17a",
+   "value": "Major tsunami warning"
+ },
+ {
+   "key": "pretest17b",
+   "value": "Normal"
+ },
+ {
+   "key": "pretest17c",
+   "value": "Tsunami warning"
+ },
+ {
+   "key": "pretest17d",
+   "value": "Tsunami advisory"
+ },
+ {
+   "key": "pretest17e",
+   "value": "Do not know"
+ },
+ {
+   "key": "pretest18a",
+   "value": "Gain knowledge about earthquakes & tsunamis"
+ },
+ {
+   "key": "pretest18b",
+   "value": "Prepare an emergency kit"
+ },
+ {
+   "key": "pretest18c",
+   "value": "Participate in self-rescue training & workshops"
+ },
+ {
+   "key": "pretest18d",
+   "value": "Listen to information from radio, TV, etc."
+ },
+ {
+   "key": "pretest18e",
+   "value": "All answers are correct"
+ },
+ {
+   "key": "pretest19a",
+   "value": "Ready-to-eat food"
+ },
+ {
+   "key": "pretest19b",
+   "value": "Clothes and blanket"
+ },
+ {
+   "key": "pretest19c",
+   "value": "Personal documents"
+ },
+ {
+   "key": "pretest19d",
+   "value": "Boots"
+ },
+ {
+   "key": "pretest19e",
+   "value": "Medicine and first aid kit"
+ },
+ {
+   "key": "pretest20a",
+   "value": "First aid or basic lifesaving methods"
+ },
+ {
+   "key": "pretest20b",
+   "value": "Drill simulation or disaster workshop"
+ },
+ {
+   "key": "pretest20c",
+   "value": "Reconnaissance training"
+ },
+ {
+   "key": "pretest20d",
+   "value": "All"
+ },
+ {
+   "key": "pretest20e",
+   "value": "Nothing participated"
+ },
+ {
+   "key": "quizCompleted",
+   "value": "Quiz finished!"
+ },
+ {
+   "key": "prepStatus",
+   "value": "Readiness:"
+ },
+ {
+   "key": "notPrep",
+   "value": "Not prepared"
+ },
+ {
+   "key": "lessPrep",
+   "value": "Less prepared"
+ },
+ {
+   "key": "Prepared",
+   "value": "Prepared"
+ },
+ {
+   "key": "veryPrep",
+   "value": "Very prepared"
+ },
+ {
+   "key": "playNow",
+   "value": "Play Now"
+ },
+ {
+   "key": "learnNow",
+   "value": "Learn Now"
+ },
+ {
+   "key": "predicate",
+   "value": "PREDICATE"
+ },
+ {
+   "key": "restartQuiz",
+   "value": "Retake the quiz"
+ },
+ {
+   "key": "postTest",
+   "value": "Post-test"
+ },
+ {
+   "key": "feedback",
+   "value": "Make sure your knowledge about the earthquake and tsunami increases!"
+ },
+ {
+   "key": "startPosttest",
+   "value": "Start Posttest"
+ },
+ {
+   "key": "jawabBenar",
+   "value": "Your answer is correct!"
+ },
+ {
+   "key": "jawabSalah",
+   "value": "Your answer is incorrect"
+ },
+ {
+   "key": "jawabKurang",
+   "value": "There is a better answer"
+ },
+ {
+   "key": "postTest1",
+   "value": "Natural disasters are caused by natural phenomena such as earthquakes, volcanic eruptions, landslides and forest fires."
+ },
+ {
+   "key": "postTest2",
+   "value": "The causes of earthquake are earth crust shifting and volcanic activity. Landslides are the result of earthquake."
+ },
+ {
+   "key": "postTest3",
+   "value": "Characteristics of strong earthquakes:\n1. People feel dizzy and cannot stand up\n2. Many buildings are cracked or collapsed\n3. It occurs for a long time and aftershocks continue"
+ },
+ {
+   "key": "postTest4",
+   "value": "The occurrence of an earthquake cannot be predicted."
+ },
+ {
+   "key": "postTest5",
+   "value": "Protecting yourself from glass items and stay under a table may be the best actions you can do during an earthquake."
+ },
+ {
+   "key": "postTest6",
+   "value": "The safest place is an open space. Road is not a recommended place, but still, better than inside a building."
+ },
+ {
+   "key": "postTest7",
+   "value": "The most appropriate action is sheltering under a table. Keeping away from hanging objects and glass is also true. Do not leave right after the quake stops, because aftershocks may be happened."
+ },
+ {
+   "key": "postTest8t",
+   "value": "You must immediately pull over to stop. Remember, stop in an open space!"
+ },
+ {
+   "key": "postTest8f",
+   "value": "You must immediately pull over to stop. Remember, stop in an open space!"
+ },
+ {
+   "key": "postTest9",
+   "value": "Not all earthquakes cause tsunamis. Tsunami is caused by displacement of the seabed."
+ },
+ {
+   "key": "postTest10",
+   "value": "Tsunami is a movement of a large amount of water. Events that can cause water movement: submarine earthquakes, landslides that occur at the bottom of the sea, objects falling into the water (meteorites, volcanic eruptions, weapon explosions)."
+ },
+ {
+   "key": "postTest11",
+   "value": "To be precise, a tsunami has a sharp drop (recession) in water level followed by a sharp rise (large wave) in water level along the coast. Strong earthquakes are more likely to cause a tsunami."
+ },
+ {
+   "key": "postTest12",
+   "value": "Sudden receding seawater is a sign of a tsunami. So we have to escape from the sea right away. If we don't, we will be hit by a huge wave."
+ },
+ {
+   "key": "postTest13",
+   "value": "Emergency broadcasts, sirens and gongs are used as traditional tsunami alerts. The tsunami warning can also be in a modern format, such as using a smartphone, if they agree with each other."
+ },
+ {
+   "key": "postTest14",
+   "value": "In the event of a tsunami, all we have to do is (i) leave the beach, (ii) run uphill, (iii) rush to an evacuation area, and (iv) not panic."
+ },
+ {
+   "key": "postTest15",
+   "value": "If it is determined that no tsunami has occurred, the tsunami warning will be canceled."
+ },
+ {
+   "key": "postTest16",
+   "value": "Near the sea and beaches are the most dangerous areas in case of a tsunami."
+ },
+ {
+   "key": "postTest17",
+   "value": "There are three tsunami warning categories:\n1. Major tsunami warning (above 3 meters)\n2. Tsunami warning (1-3 meters)\n3. Tsunami advisory (below 1 meter)"
+ },
+ {
+   "key": "postTest18",
+   "value": "Prepare for disasters by increasing knowledge about disasters, preparing disaster prevention bags, participate in disaster drills, and listening to information from various media."
+ },
+ {
+   "key": "postTest19",
+   "value": "Emergency kits include clothing, blankets, ready-to-eat food, important documents, medicines, drinking water, cell phones, emergency money, lighting (flashlight), whistles, first aid kits, battery-powered radios, and more."
+ },
+ {
+   "key": "postTest20",
+   "value": "Improving disaster prevention skills is very important. This is possible by attending training courses such as disaster drills, first aid and basic lifesaving techniques."
+ },
+ {
+   "key": "closingPostTest",
+   "value": "Keep improving your skills!"
+ },
+ {
+   "key": "knowledgeLevel",
+   "value": "Knowledge:"
+ },
+ {
+   "key": "decrease",
+   "value": "Diminished"
+ },
+ {
+   "key": "increase",
+   "value": "Improved"
+ },
+ {
+   "key": "same",
+   "value": "The Same"
+ },
+ {
+   "key": "totalScore",
+   "value": "View Scores"
+ },
+ {
+   "key": "pretestScore",
+   "value": "Pre-test score:"
+ },
+ {
+   "key": "posttestScore",
+   "value": "Post-test score:"
+ },
+ {
+   "key": "gameScore",
+   "value": "Game score:"
+ },
+ {
+   "key": "jijoScore",
+   "value": "Jijo score:"
+ },
+ {
+   "key": "kyojoScore",
+   "value": "Kyojo score:"
+ },
+ {
+   "key": "kojoScore",
+   "value": "Kojo score:"
+ },
+ {
+   "key": "backtoMenu",
+   "value": "Return To Main Menu"
+ },
+ {
+   "key": "transferFailed",
+   "value": "Data transfer failed"
+ },
+ {
+   "key": "tryAgain",
+   "value": "Try again"
+ },
+ {
+   "key": "mainMenu",
+   "value": "Main Menu"
+ },
+ {
+   "key": "start",
+   "value": "Start"
+ },
+ {
+   "key": "instruction",
+   "value": "Instruction"
+ },
+ {
+   "key": "content",
+   "value": "This game consists of three parts: (1) the initial test (2) visual novel game, and (3) the final test. In the initial and final tests, the player must answer 20 multiple choice questions about the earthquake and tsunami. In the visual novel, the player acts as two characters who experience earthquake and tsunami and must choose the way and behavior in dealing with the disasters.\n\nBelow are the things that must be considered when playing visual novel.\n\n1. Players have to continue the story in turn-based with their partner.\n2. In the game, players must answer some questions.\n3. Players' answers will affect the storyline and all the scores you will get.\n4. This game will reveal players' behavioral tendencies when taking decisions during disasters. Those are taken from the jijo, kyojo and kojo scores.\n5. Players must finish the game in one time; players cannot save game progress."
+ },
+ {
+   "key": "settings",
+   "value": "Settings"
+ },
+ {
+   "key": "quit",
+   "value": "Quit"
+ },
+ {
+   "key": "playersProfile",
+   "value": "Player's Profile"
+ },
+ {
+   "key": "more",
+   "value": "More"
+ },
+ {
+   "key": "profile",
+   "value": "Profile"
+ },
+ {
+   "key": "gameInstruction",
+   "value": "Game Instruction"
+ },
+ {
+   "key": "sound",
+   "value": "Sound"
+ },
+ {
+   "key": "language",
+   "value": "Language"
+ },
+ {
+   "key": "music",
+   "value": "Music"
+ },
+ {
+   "key": "about",
+   "value": "About the Game"
+ },
+ {
+   "key": "gameDesc",
+   "value": "Tsunami Fighters is an educational mobile game related to disaster preparedness, especially earthquake and tsunami. The game consists of quizzes and visual novel. It must be played by two people and lasts about 25 minutes. The game can measure the level of knowledge and type of behavior of players in dealing with the earthquake and tsunami."
+ },
+ {
+   "key": "login",
+   "value": "Login"
+ },
+ {
+   "key": "signIn",
+   "value": "Sign in"
+ },
+ {
+   "key": "createAccount",
+   "value": "Create Account"
+ },
+ {
+   "key": "signingUp",
+   "value": "Signing up"
+ },
+ {
+   "key": "usernTaken",
+   "value": "This username has already taken"
+ },
+ {
+   "key": "enterName",
+   "value": "Enter name..."
+ },
+ {
+   "key": "enterUsername",
+   "value": "Enter username..."
+ },
+ {
+   "key": "enterPassword",
+   "value": "Enter password..."
+ },
+ {
+   "key": "enterAge",
+   "value": "Enter age..."
+ },
+ {
+   "key": "guideText",
+   "value": "(*) Name must consist of a minimum 8 letters.\n\n(**) Username must consist of at minimum 6 letters and/ or characters.\n\n(***) Password must consist of a minimum of 8 letters and/ or characters."
+ },
+ {
+   "key": "enterGender",
+   "value": "Choose gender:"
+ },
+ {
+   "key": "male",
+   "value": "Male"
+ },
+ {
+   "key": "female",
+   "value": "Female"
+ },
+ {
+   "key": "location",
+   "value": "Choose location:"
+ },
+ {
+   "key": "indonesia",
+   "value": "Indonesia"
+ },
+ {
+   "key": "japan",
+   "value": "Jepang"
+ },
+ {
+   "key": "otherLoc",
+   "value": "Others"
+ },
+ {
+   "key": "save",
+   "value": "Submit"
+ },
+ {
+   "key": "haveAccount",
+   "value": "Already have an account?"
+ },
+ {
+   "key": "errorBlank",
+   "value": "All fields are required, don't leave it blank."
+ },
+ {
+   "key": "disconnect",
+   "value": "Network disconnected"
+ },
+ {
+   "key": "reconnect",
+   "value": "Reconnect"
+ },
+ {
+   "key": "cancel",
+   "value": "Cancel"
+ },
+ {
+   "key": "yes",
+   "value": "Yes"
+ },
+ {
+   "key": "quitGame",
+   "value": "Quit game?"
+ },
+ {
+   "key": "retryButton",
+   "value": "Retry"
+ },
+ {
+   "key": "comparison",
+   "value": "COMPARISON"
+ },
+ {
+   "key": "inputChat",
+   "value": "Enter your text here..."
+ },
+ {
+   "key": "playerTitleA",
+   "value": "Player 1"
+ },
+ {
+   "key": "playerTitleB",
+   "value": "Player 2"
+ },
+ {
+   "key": "warning",
+   "value": "                                                     ATTENTION!\n\n1. You have to continue the story in turn-based with your partner.\n\n2. In the game, you must answer some questions.\n\n3. Your answers will affect the storyline and all the scores you will get.\n\n4. This game will reveal your behavioral tendencies when taking action decisions during disasters which is based on your      jijo,     kyojo, and      kojo scores.\n\n5. You must finish the game in one time because you cannot save your game progress.\n\n                                                     Have a nice play!"
+ },
+ {
+ 	"key": "firstDialogue",
+ 	"value": "Loading the story...\n\nClick the Play Button to continue the story"
+ },
+ {
+   "key": "jijoInfo",
+   "value": "Jijo score shows the tendency of someone who is independent when making decisions that must be done during disaster event."
+ },
+ {
+   "key": "kyojoInfo",
+   "value": "Kyojo score shows the tendency of someone who is dependent on community when making decisions that must be done during disaster event."
+ },
+ {
+   "key": "kojoInfo",
+   "value": "Kojo score shows the tendency of someone who is dependent on government when making decisions that must be done during disaster event."
+ },
+ {
+   "key": "wrongUsername",
+   "value": "Username not found"
+ },
+ {
+   "key": "wrongPassword",
+   "value": "Incorrect password"
+ },
+ {
+   "key": "learnMore",
+   "value": "Learn More"
+ },
+ {
+   "key": "of",
+   "value": "of"
+ },
+ {
+ 	"key": "closeButton",
+ 	"value": "Close"
+ },
+ {
+   "key": "learning",
+   "value": "Learning Materials"
+ },
+ {
+   "key": "preDisaster",
+   "value": "Disaster Mitigation Activities"
+ },
+ {
+   "key": "duringDisaster",
+   "value": "Disaster Occurence Actions"
+ },
+ {
+   "key": "postDisaster",
+   "value": "Disaster Response Activities"
+ },
+ {
+   "key": "behaviorDisaster",
+   "value": "Decision Making Behavior"
+ },
+ {
+   "key": "preTitle",
+   "value": "Disaster Mitigation Activities"
+ },
+ {
+   "key": "duringTitle",
+   "value": "Disaster Occurence Actions"
+ },
+ {
+   "key": "postTitle",
+   "value": "Disaster Response Activities"
+ },
+ {
+   "key": "behaviorTitle",
+   "value": "Decision Making Behavior"
+ },
+ {
+   "key": "preContent",
+   "value": "1. Learn more knowledge about earthquakes and tsunamis, such as the causes of earthquakes and tsunamis (earthquakes can be caused by collisions between earth plates, fault activities, volcanic activities, or rock collapse; tsunamis can be caused by earthquakes that occur on the seabed, collapse on the seabed, or due to volcanic eruptions at sea) and coastline or seashore is the most dangerous area during tsunami.\n\n2. Arrange furniture (such as cabinets, etc.) so that it sticks to the wall (nailed / tied) to avoid falling, collapsing, and shifting during an earthquake.\n\n3. For family, determine and agree on a place to gather after a disaster occurs so as not to look for one another.\n\n4. Conduct or join disaster preparedness training, such as drill simulation, workshop, scouting, first aid and basic life support training.\n\n5. Preparing disaster prepared bags containing necessary things such as: dry food (e.g. biscuits, cookies), drinking water, small boxes containing essential medicines, flashlights and extra batteries, candles and lighter, cloth gloves, a pair of clothes and raincoats, important documents, photocopies of ID card in the plastic bags, and important telephone numbers because the earthquake's time is unpredictable."
+ },
+ {
+   "key": "duringContent",
+   "value": "DURING EARTHQUAKE\n\n1. If you are on the first floor or ground, immediately exit the building and go to an open place. protecting your head if possible.\n\n2. If you are on the second or higher floor, take shelter under a sturdy table.\n\n3. If you are in the elevator, press all floors and exit immediately when the door is open. If the door is not open, press the emergency button to call for help.\n\n4. Stay away from glass materials, windows, shelves, cabinets and hanging items (e.g. paintings, mirrors, wall clocks, pendants, etc.)\n\n5. Use the emergency stairs, do not use elevators because of the risk of being trapped inside.\n\nDURING TSUNAMI\n\n1. Understanding the early warning status issued by some authorized institutions. There are three tsunami warning categories: major tsunami warning (above 3 meters), tsunami warning (1-3 meters), tsunami advisory (below 1 meter).\n\n2. The community disseminates tsunami early warning news using clams, bells, and drum. The local government sounds an early warning siren. Tsunami warnings can be canceled if there is no tsunami.\n\n3. Stay away from the beach and move to a high place during a strong earthquake, during which the shaking causes dizziness and difficulty standing.\n\n4. Be aware of receding water in the coastline. Do not walk closer to the water, but hurry up to a high place.\n\n5. Go to the evacuation site. Follow the designated evacuation route to the nearest safe place.\n\n6. Save yourself first and do not rashly search for a lost family.\n\n7. It is better to evacuate on foot than using a vehicle.\n\n8. Keep up to date with valid information and news.\n\n9. Stay before the authorities notify that the situation is safe.\n\n10. Help people with disabilities, pregnant women, children, or people who need assistance if possible."
+ },
+ {
+   "key": "postContent",
+   "value": "1. Go to the nearest shelter (evacuation area/ refugee) after the disaster subsided, ensure the condition's been safe to do mobilization.\n\n2. If the evacuation process takes place at night, use a flashlight to prevent tripping and falling.\n\n3. Pay attention to several sources of information and instructions around us.\n\n4. Help people who need special assistance, such as infants, elderly people, and people with disabilities.\n\n5. Contact other family members to give update of our latest conditions."
+ },
+ {
+   "key": "behaviorContent",
+   "value": "Okada et al. (2013) in Japan have conducted research related to the categorization of a person performing decision making on actions that must be taken in dealing with disasters, both before, during and after a disaster.\n\nThese categories are \"Kyojo\" (Community Self-Reliance), \"Jijo\" (Individual Self-Reliance), and \"Kojo\" (Government Assistance).\n\nThis categorization is useful to determine effective disaster risk management in managing disaster risk in the community.\n\nJIJO (Individual Self-Reliance)\nShows the tendency of someone who depends on themselves in making decisions when facing a disaster.\n\nThose with Jijo category usually do the following actions:\n1. Rope a cupboard tightly\n2. Do not place furniture on the driveway\n3. Call, send email or message through social media\n4. Go to the assembly point\n5. Look for disaster information\n6. Run fast\n7. Use lighting that has been prepared in the bag\n8. Listen to the latest info\n9. Take a food that has been prepared beforehand in the bag\n10. Shop the daily needs as soon as the disaster's over\n11. Play toys and read books from prepared disaster bag\n12. Talk with others to get to know and get along\n\nKYOJO (Community Self-Reliance)\nShows the tendency of someone who is dependent on the community to make decisions in dealing with disasters.\n\nThose with Kyojo category usually do the following actions:\n1. Hold a drill with neighbors\n2. Provide information about the risk of falling furniture\n3. Put information on the evacuation board\n4.Give information to surrounding frequently\n5. Invite people to run together\n6. Apply knowledge gained from disaster drills\n7. Call people around\n8. Apply knowledge from local night disaster drill\n9. Take food provided by the refugee camp while still considering others\n10. Take food provided by refugee camps but prioritize children and the elderly\n11. Help to cook and exercise with other refugees\n12. Gather children and play together\n\nKOJO (Government Assistance)\nShows the tendency of someone who is dependent on the government in making decisions in dealing with disasters.\n\nThose with Kojo category usually do the following actions:\n1. Increase the standard of residence to be earthquake resistant\n2. Utilize government internet that still works during disasters\n3. Follow the evacuation route\n4. Use street lights provided by the government\n5. Collect as much food as possible at the evacuation site\n6. Hold a concert or show"
+ },
+ {
+   "key": "advise",
+   "value": "After this, make sure you really pay attention to the dialog text if you choose to play or the explanation text if you choose to learn."
+ }
+]}

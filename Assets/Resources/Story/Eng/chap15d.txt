@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "We can gather the young children, and play with them." 1c
+Load(chap16)

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Buat acara drill bareng tetangga." 1
+Load(chap1)

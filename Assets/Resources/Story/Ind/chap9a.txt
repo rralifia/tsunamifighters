@@ -1,0 +1,6 @@
+showScene(true,topDown) next
+Fury "Lari aja! Ayo, cepet!" 2
+transBackground(07_pantai_tsunami,radialClock) move(Azumi,0.5) next
+Azumi "Ayo! Kita masih di zona sedang." move(Fury,0.4) 1
+Fury "Kita harus sampai ke zona jauh biar aman. Hosh..hosh.." 2
+Load(chap10)

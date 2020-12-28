@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Ke dataran tinggi kayak bukit!" 1
+Fury "Ayo, cepet!" 2
+Load(chap9)

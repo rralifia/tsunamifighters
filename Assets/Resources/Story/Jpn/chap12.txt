@@ -1,0 +1,17 @@
+showScene(true,topDown) next
+enter(PakBasarnas) setPosition(PakBasarnas,0.8) setFace(PakBasarnas,tegas) next
+PakBasarnas as [officer_jpn] "Everyone, please get ready! Soon we will walk to the refuge. 暗くなってきた。だから、注意してね。" 2
+Azumi "うまくいけば、私達は無事に避難所に到着できるよ。" 1c
+choice "この暗い中で、どうやって避難所にたどりつけるかな？"
+{
+  "避難しながら周囲の人たちに声をかけよう。"
+    score(kyojoA) Load(chap12c)
+  "今の情報・ニュースを注意深く聞いて。"
+    score(jijoA) Load(chap12b)
+  "緊急キットのバッグに入っている懐中電灯を使えばいいよ。"
+    score(jijoA) Load(chap12a)
+  "政府が提供する道路の照明を使う。"
+    score(kojoA) Load(chap12e)
+  "地元の夜間災害訓練で学んだ知識を実践する。"
+    score(kyojoA) Load(chap12d)
+}

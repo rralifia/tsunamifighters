@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Wait! How about our friends?" 1
+Fury "Waiting for other people will take time. We better go to the highland, like those people." 2
+Load(chap9)

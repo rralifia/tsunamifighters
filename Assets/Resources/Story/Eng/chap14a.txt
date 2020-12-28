@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "I think I brought some food in my bag." 1
+Load(chap15)

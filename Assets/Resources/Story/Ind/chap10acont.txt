@@ -1,0 +1,19 @@
+showScene(true,topDown) next
+Fury "Cepet naik!" setFace(Azumi,3_anxious) 2
+Azumi "Semoga kita selamat" setFace(Fury,1_happy) 1
+Fury "Tenang ya, Dek." 2
+Rara "Huhuhu..aku takut." 1
+exit(Fury;Azumi;Rara) next
+narrator "Air sudah mencapai bangunan tersebut. Mereka merasakan goyangan akibat terjangan tsunami." 2
+narrator "Mereka berhasil selamat karena bangunan tempat mereka berlindung memiliki struktur yang kokoh dan berada di posisi yang lebih tinggi." 1
+enter(Fury) setPosition(Fury,0.7) enter(Rara) setFace(Rara,cry) setPosition(Rara,0.5) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) next
+Fury "Syukurlah kita selamat. Ayo kita ke luar." 2
+Azumi "Hati-hati ya, Dek." exit(Fury;Azumi;Rara) 1
+narrator "Mereka pun berjalan ke tempat di mana banyak orang berkumpul." 2
+enter(Fury) flip(Fury) setPosition(Fury,0.1) enter(Rara) setFace(Rara,cry) setPosition(Rara,0.3) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) enter(Ortu) setFace(Ortu,anxious) setPosition(Ortu,0.8) next
+Ortu as [kidm_id] "Rara..rara.." 1
+setFace(Rara,happy) setFace(Ortu,happy) next
+Rara "Ibu.." move(Rara,0.7) setFace(Azumi,3_happy) 2
+Ortu as [kidm_id] "Makasih banyak ya, udah nyelamatin anak saya." 1
+Fury "Sama-sama, Bu." 2
+exit(Ortu;Rara;Fury;Azumi) Load(chap11)

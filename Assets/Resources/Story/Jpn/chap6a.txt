@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "近くの人全員に声をかけて、一緒に逃げる" 2 playMusic(Decision)
+Load(chap7)

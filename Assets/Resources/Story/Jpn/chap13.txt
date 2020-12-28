@@ -1,0 +1,36 @@
+showScene(true,topDown) next
+Azumi "行こう！" 1 playMusic(Peaceful_Place)
+PakBasarnas as [officer_jpn] "これから、私達は避難場所に行きます。お願いですから集中して注意してください。救助隊についていき、グループから離れないでください！" 2
+exit(Fury;Azumi;PakBasarnas) next
+narrator "真夜中に、一団は道路を歩いていきます。 彼らの視界の助けになるのは、月明かりといくつかの懐中電灯だけでした。" 1
+enter(PakBasarnas) setFace(PakBasarnas,tegas) setPosition(PakBasarnas,0.8) next
+PakBasarnas as [officer_jpn] "近くなってきた、もうすぐ着くよ！ [transBackground(09_pengungsianmalam,radialClock)] インフォメーションセンターの係に、あなたの氏名と住所を登録してください。" 2 exit(PakBasarnas) playMusic(Peaceful_Place)
+enter(Fury) flip(Fury) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setPosition(Azumi,0.5) enter(BuBasarnas) setPosition(BuBasarnas,0.8) setFace(BuBasarnas,flat) next
+Azumi "Please register me." 1
+Fury "私の名前はフューリーです。こちらは友達のあずみです。トモさんと、ナニさんは、もうここにいますか？" 2
+BuBasarnas as [officer_jpn] "ごめんなさい。その人たちはここにはいません。" 1
+Fury "この避難所はどこの地区にあるんですか？" 2
+BuBasarnas as [officer_jpn] "アニエール第１避難所です。" 1
+Fury "ありがとうございます。 [exit(BuBasarnas) move(Fury,0.5) move(Azumi,0.8) flip(Azumi)] There is a call from my mother. もしもし、ママ？ママ、どこにいるの？" 2
+enter(Ibu) setFace(Ibu,anxious) flip(Ibu) setPosition(Ibu,0.2) next
+Ibu as [mom_jpn] "避難所のママとパパ。" 1
+setFace(Fury,1_anxious) next
+Fury "Where is the refuge? I wanna go there." 2
+Ibu as [mom_jpn] "あらら、ママはアニエール第2避難所にいるよ。" 1
+Fury "避難所はどこ？私はそっちに行きたいよ。 Azumi and I are at Anyer 1 Refuge. What to do, then?" 2
+Ibu as [mom_jpn] "もう真夜中なので、避難所の外に出るのは危険だよ。明日の朝に会おう。 落ち着いて、安全な場所にいて、お願い。 いい、では電話を切るよ。" 1
+Fury "オーケー、ママ。ママもね。 バイバイ、ママ。" exit(Ibu) setFace(Azumi,3_anxious) 2
+Azumi "痛い。胃が痛い。 あらやだ。私達、夕ご飯食べてなかったね。" 1c
+choice "フューリーは、どうしたらいいですか？"
+{
+  "避難所には前もってできるだけたくさんの食べ物を備蓄しておく。"
+    score(kojoA) Load(chap13e)
+  "彼女のカバンの中にある食べ物を分けあう。"
+    score(jijoA) Load(chap13a)
+  "避難所で配られる食べ物を受け取るが、他の人のことを考慮する。"
+    score(kyojoA) Load(chap13c)
+  "災害が発生した直後に買い物に行く"
+    score(jijoA) Load(chap13b)
+  "避難所で配られる食べ物を受け取るが、他の人のことを考慮する。"
+    score(kyojoA) Load(chap13d)
+}

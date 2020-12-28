@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "We will use the street lights provided by the government for lighting." 2
+Load(chap13)

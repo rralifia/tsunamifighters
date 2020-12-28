@@ -1,0 +1,14 @@
+showScene(true,topDown) next
+choice "What should they do?"
+{
+  "Run fast because they keep their body well"
+    score(jijoA) Load(chap6e)
+  "Follow the evacuation route"
+    score(kojoA) Load(chap6c)
+  "Call out to all persons nearby and escape together"
+    score(kyojoA) Load(chap6a)
+  "Implement the knowledge they got from disaster preparedness training"
+    score(kyojoA) Load(chap6b)
+  "Searching latest information about the disaster"
+    score(jijoA) Load(chap6d)
+}

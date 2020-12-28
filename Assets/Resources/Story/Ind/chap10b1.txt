@@ -1,0 +1,5 @@
+showScene(true,topDown) next
+Fury "Hmm..Aku...Aku mau cari Ayah Ibu dulu." 2
+Azumi "Sepertinya lebih baik kita tetep di tempat dulu, tunggu tim SAR dateng dan ngasih arahan. Tenang ya, Fury." 1
+Fury "Oh iya ya, tunggu sampe situasi dibilang aman sama pihak berwajib ya." setFace(Fury,1_flat) exit(Azumi;Fury) 2
+Load(chap11)

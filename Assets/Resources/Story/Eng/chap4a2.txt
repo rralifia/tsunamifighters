@@ -1,0 +1,5 @@
+showScene(true,topDown) next
+Azumi "[setFace(Azumi,3_angry] Push all the buttons for the destination floors and get off at the first stop!" 1
+Fury "We got out of the elevator, where should we go?" 2
+Azumi "Get under the table, quickly!" exit(Fury;Azumi) 1
+Load(chap4acont)

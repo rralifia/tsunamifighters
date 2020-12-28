@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "If we often make and join a disaster drill with our neighbors, we will be trained and be able to get out the house safely." 2
+Load(chap2)

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Bisa. Di tas aku ada senter satu, bisa buat nerangin jalan." 1
+Load(chap12)

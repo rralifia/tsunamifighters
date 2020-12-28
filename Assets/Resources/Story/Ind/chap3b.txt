@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Semoga aja kalau udah nentuin titik kumpul bisa ketemu keluarga di titik kumpul itu. Oh iya, kapan pengumuman kelolosan program summer camp-nya?" next
+Load(chap4)

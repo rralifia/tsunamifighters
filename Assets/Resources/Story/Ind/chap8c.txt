@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Ke mobil! Biar bisa evakuasi lebih cepet." 1
+Fury "Mobilnya nggak tau di mana. Kita ikutin orang-orang itu aja ke bukit itu." 2
+Load(chap9)

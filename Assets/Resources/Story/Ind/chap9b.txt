@@ -1,0 +1,11 @@
+showScene(true,topDown) next
+Fury "Itu ada orang bawa mobil! Ayo kita numpang!" 2
+transBackground(07_pantai_tsunami,radialClock) move(Azumi,0.5) next
+move(Fury,0.4) next
+narrator "Mereka pun masuk ke dalam mobil." 1
+narrator "Di perjalanan..." 2
+Azumi "Oh, tidak.. Macet!" 1
+Fury "Kita harus ke luar mobil!" 2
+Azumi "Ayo, cepet. Ini masih di zona sedang!" 1
+Fury "Ayo, lari ke sana sampai masuk zona jauh yang aman!" 2 playMusic(null)
+Load(chap10)

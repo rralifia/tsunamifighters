@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Fury "Hurry up! Run as fast as possible!" 2
+Azumi "That's almost impossible. I think we should go to that house." 1
+Load(chap10acont)

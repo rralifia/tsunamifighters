@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "できるよ。 私達は政府が提供してくれる道路の照明が使える。" 1
+Load(chap12)

@@ -1,0 +1,4 @@
+//file for details regarding characters and their dialogue. All elements are double spaced. This first line is omitted.
+name=Raelin  nickname=r  name color=#5DFFDFFF  dialogue font=_Raelin
+name=Gwynne  nickname=g  name color=#00FF00FF  dialogue font=_Gwynne
+name=Maeko  nickname=m  name color=#FFA700FF  dialogue font=_Maeko

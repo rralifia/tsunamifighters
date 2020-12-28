@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Nunduk! Cepet lari ke sana yang nggak banyak raknya!" 1
+Fury "Ayo, cepet!" exit(Fury;Azumi) 2
+Load(chap4b2cont1)

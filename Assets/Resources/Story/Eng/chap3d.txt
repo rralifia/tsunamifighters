@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Hopefully, if we often give info or ask people around, we are easier to get together with our family again. Oh yeah, when will the summer camp program be announced?" next
+Load(chap4)

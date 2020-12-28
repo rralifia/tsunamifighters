@@ -1,0 +1,24 @@
+showScene(true,topDown) next
+Fury "Udah, biar yang lain aja. Ayo, cepet lari! Takut air keburu ke sini!" exit(Fury;Azumi;Rara) 2
+transBackground(10_bangunankokoh,radialClock) next
+enter(BuGuru) SetPosition(BuGuru,0.8) setFace(BuGuru,anxious) next
+BuGuru as [teach_id] "Kalian, cepet ke sini!" 1
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.3) enter(Azumi) flip(Azumi) setFace(Azumi,3_flat) setPosition(Azumi,0.2) next
+Fury "Hosh..hosh.." 2
+BuGuru as [teach_id] "Syukurlah, kalian selamat. Di sini udah aman." setFace(BuGuru,happy) 1
+Fury "Apa Ibu ada jaringan? Apakah saya boleh pinjam? Saya mau telepon Ibu saya." 2
+BuGuru as [teach_id] "Ada. Kabarkan ke Ibu kamu kalau kamu selamat." 1
+Fury "Hmm.. Belum bisa nyambung." 2
+BuGuru as [teach_id] "Coba lagi nanti, ya." 1
+Fury "Baik, terima kasih, Bu. Huuft.." exit(BuGuru;Fury;Azumi) 2
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.4) enter(Azumi) flip(Azumi) setFace(Azumi,3_happy) setPosition(Azumi,0.2) next
+Azumi "Kamu nggak apa-apa, Fury?" 1
+Fury "Nggak apa-apa, aku khawatir sama Ibu Ayah. Mereka aman nggak, ya? Seharusnya mereka juga nggak jauh-jauh dari sini." setFace(Azumi,3_happy) 2
+Azumi "Kamu mau cari Ibu Ayah dulu sebelum ke pengungsian?" 1c
+choice "Apa yang akan dipilih?"
+{
+  "Mencari Ayah Ibu dahulu"
+    Load(chap10b1)
+  "Nanti saja"
+    score(scoreA) Load(chap10b2)
+}

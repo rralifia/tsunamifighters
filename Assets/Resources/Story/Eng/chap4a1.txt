@@ -1,0 +1,8 @@
+showScene(true,topDown) next
+Azumi "[setFace(Azumi,3_angry] Press the help button quickly!" 1
+Fury "Just push all the buttons on the floor quickly!" exit(Fury;Azumi) 2
+narrator "They were able to get off the elevator safely." 1
+enter(Fury) flip(Fury) setPosition(Fury,0.2) setFace(Fury,1_anxious) enter(Azumi) flip(Azumi) setPosition(Azumi,0.4) setFace(Azumi,3_anxious) next
+Fury "Where should we go?" 2
+Azumi "Let's go to the table over there! Hurry up!" exit(Fury;Azumi) 1
+Load(chap4acont)

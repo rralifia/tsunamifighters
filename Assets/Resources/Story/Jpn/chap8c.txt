@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "車に！ より速く避難するために。" 1
+Fury "車がどこにあるかわからない。丘まで、その人たちについて行こう。" 2
+Load(chap9)

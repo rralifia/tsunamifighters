@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Lower your head! Let's go over there, in a wide area of the supermarket!" 1
+Fury "Hurry up!" exit(Fury;Azumi) 2
+Load(chap4b2cont1)

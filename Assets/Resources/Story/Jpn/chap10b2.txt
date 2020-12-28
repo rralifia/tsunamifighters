@@ -1,0 +1,5 @@
+showScene(true,topDown) next
+Fury "うーん…このあとママとパパを見つけられるよ。 状況が当局によって安全であると宣言されるまで待つ。" 2
+Azumi "わかった。" setFace(Fury,1_happy) 1
+Fury "彼らが安全であることを願ってる。" setFace(Fury,1_flat) exit(Azumi;Fury) 2
+Load(chap11)

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "We could. We can use streetlights provided by government." 1
+Load(chap12)

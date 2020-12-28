@@ -1,0 +1,16 @@
+showScene(true,topDown) next
+Azumi "The important thing is that I am not alone." 1
+enter(Ayah) flip(Ayah) setPosition(Ayah,0.2) setFace(Ayah,happy) enter(Ibu) flip(Ibu) setPosition(Ibu,0.4) setFace(Ibu,happy) next
+Ayah as [dad_eng] "Azumi..I received a call from your teacher." setFace(Azumi,3_anxious) 2
+Azumi "Oh? What did he say?" 1
+Ayah as [dad_eng] "He said the Japanese Embassy in Indonesia will pick you up to take you home to Japan." 2
+Azumi "When will I be picked up?" 1
+Ayah as [dad_eng] "They said today." 2
+Azumi "Whoa..." setFace(Azumi,3_happy) setFace(Fury,1_anxious) 1
+Fury "Really, Mom? Why?" 2
+Ibu as [mom_eng] "Because of this disaster." 1
+Fury "Awful, I want to be with Azumi more." 2
+Ibu as [mom_eng] "That's for Azumi's good sake too, honey. We can see her at a better time, right?" 1
+Fury "Yeah, that's right, Mom." 2
+Azumi "Yeah, sure. Well, let's enjoy the rest of the time until the Embassy picks me up." setFace(Fury,1_happy) 1
+Fury "Yeah!" playMusic(null) end

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Hopefully, by contacting family via telephone, email, or social media, we can meet them again. Oh yeah, when will the summer camp program be announced?" next
+Load(chap4)

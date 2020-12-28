@@ -1,0 +1,7 @@
+showScene(true,topDown) next
+move(Azumi,0.4) setFace(Azumi,3_anxious) next
+Azumi "Feeling aku nggak enak. Mending kita jauh-jauh dari sini." 1
+Fury "Kenapa?" 2
+Azumi "Karena kalau air cepet surut dan banyak ikan terdampar, jangan-jangan...bakal ada tsunami. Di sini zona dekat dan rawan tsunami." setFace(Fury,1_anxious) next
+flip(Fury) flip(Azumi) 1c
+Load(chap6)

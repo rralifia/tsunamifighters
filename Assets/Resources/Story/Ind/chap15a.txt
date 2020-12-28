@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Di tas siaga bencana kayanya ada mainan sama buku. Kita bisa main atau baca buku." 1c
+Load(chap16)

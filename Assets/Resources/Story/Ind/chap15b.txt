@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Kita bisa ngobrol sama orang lain di sini, biar saling kenal, terus hidup rukun." 1c
+Load(chap16)

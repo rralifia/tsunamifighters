@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Lower your head! Run out of this building!" setFace(Fury,1_angry) 1
+Fury "We're at the back of this building, so it's deadly if we try to get out. There is a spacious room without shelves, so let's go there first." exit(Fury;Azumi) 2
+Load(chap4b2cont1)

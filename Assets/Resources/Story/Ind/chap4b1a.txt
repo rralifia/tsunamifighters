@@ -1,0 +1,8 @@
+showScene(true,topDown) next
+setFace(Azumi,3_angry) next
+Azumi "Nunduk, lindungin kepala pake tangan! Cepet ke bawah meja!" 1
+Fury "Kenapa kita nggak ke luar aja?" 2
+Azumi "Kalau di lantai dasar dan deket pintu ke luar, kita harus cepet ke luar dan cari ruang terbuka. Tapi ini di lantai dua. Ayo, cepet berlindung ke bawah meja!" exit(Fury;Azumi) 1
+narrator "Setelah beberapa saat, gempa mulai mereda. Mereka turun dan ke luar penginapan. Setelah situasi aman, mereka kembali ke kamar." 2
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setFace(Azumi,3_anxious) setPosition(Azumi,0.5) 2
+Load(chap4b2cont2)

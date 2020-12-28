@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Let's do disaster drill with neighbors." 1
+Load(chap1)

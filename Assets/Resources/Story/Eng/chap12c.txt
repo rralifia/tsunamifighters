@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Let's call people around when we have to go for evacuation." 2
+Load(chap13)

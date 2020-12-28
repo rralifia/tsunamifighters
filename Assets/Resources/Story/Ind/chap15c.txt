@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Kita bisa bantu masak, atau olahraga bareng orang-orang di sini." 1c
+Load(chap16)

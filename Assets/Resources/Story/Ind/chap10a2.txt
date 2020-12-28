@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Fury "Ayo ke rumah itu!" 2
+Azumi "Ayo, cepet!" 1
+Load(chap10acont)

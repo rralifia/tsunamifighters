@@ -1,0 +1,19 @@
+showScene(true,topDown) next
+Fury "急いで、上にのぼって！" setFace(Azumi,3_anxious) 2
+Azumi "生き延びられるといいな。" setFace(Fury,1_happy) 1
+Fury "落ち着け、妹。" 2
+Rara "フーフーフー、私怖い。" 1
+exit(Fury;Azumi;Rara) next
+narrator "津波が建物に到達しました。建物を揺り動かしていて、中の人たちも危険にさらされています。" 2
+narrator "でも、彼女たちはなんとか生き延びました。彼女たちが避難した建物は頑丈な構造で、高い土地に建っていたからです。" 1
+enter(Fury) setPosition(Fury,0.7) enter(Rara) setFace(Rara,cry) setPosition(Rara,0.5) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) next
+Fury "よかった、安全になった。外に出てみよう。" 2
+Azumi "お願い、気を付けて。" exit(Fury;Azumi;Rara) 1
+narrator "そのあと、彼女たちは人々が集まっているところに歩いていきます。" 2
+enter(Fury) flip(Fury) setPosition(Fury,0.1) enter(Rara) setFace(Rara,cry) setPosition(Rara,0.3) enter(Azumi) flip(Azumi) setPosition(Azumi,0.2) enter(Ortu) setFace(Ortu,anxious) setPosition(Ortu,0.8) next
+Ortu as [kidm_jpn] "ララ。。ララ。。" 1
+setFace(Rara,happy) setFace(Ortu,happy) next
+Rara "Mommy.." move(Rara,0.7) setFace(Azumi,3_happy) 2
+Ortu as [kidm_jpn] "私の娘を救ってくれて本当にありがとう。" 1
+Fury "どういたしまして、おかあさん。" 2
+exit(Ortu;Rara;Fury;Azumi) Load(chap11)

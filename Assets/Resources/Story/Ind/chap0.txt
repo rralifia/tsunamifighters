@@ -1,0 +1,31 @@
+1 playMusic(happytune)
+enter(Fury) setPosition(Fury,0.5) setFace(Fury,1_happy) transBackground(01_kamartidur,radialClock) next
+Fury "Halo, nama aku Fury. Aku anak tunggal. Sekarang, aku lagi kedatangan tamu dari Jepang, namanya Azumi. Dia udah aku anggep kayak adik kandung aku sendiri." setFace(Fury,1_flat) move(Fury,0.8) id 2
+enter(Azumi) flip(Azumi) setPosition(Azumi,0.5) setFace(Azumi,3_happy) multiplay next
+Azumi "Hai, aku Azumi. Aku lagi ikut program exchange di Indonesia. Aku sama Fury cuma beda satu tahun. Selama exchange ini, aku belajar di sekolah Fury. Sekarang, aku lagi nemenin Fury di kamarnya." setFace(Fury,1_happy) chat 1
+Fury "Yap, betul sekali, aku lagi butuh temen begadang karena aku harus menyelesaikan dokumen untuk daftar program summercamp yang deadline-nya malam ini." 2
+Azumi "Semoga kamu beruntung, Fury! Kalau kamu lolos, kamu harus traktir aku, ya!" 1
+Fury "Siap! [setFace(Fury,1_anxious)] By the way, Azumi, kamu pernah denger isu kalau bakal ada bencana besar di Indonesia akhir tahun ini nggak?" 2
+Azumi "Iya, aku pernah denger, isu bencana alam itu kan? Isunya pernah dibahas sama temen-temenku di kelas." 1
+Fury "Iya, isu bencana besar karena kejadian di alam. Gimana menurut kamu kalau bencana itu beneran terjadi?" 2
+Azumi "Itu isu yang belum pasti. Menurut aku, nggak usah terlalu dipikirin." 1
+Fury "Kamu nggak takut sama keselamatan diri kamu di sini?" 2
+Azumi "Tergantung kita siap nggak menghadapi bencana itu, Fury. Di Jepang juga sering terjadi bencana." 1
+Fury "Terus kamu siap?" 2
+Azumi "Cukup siap, sih. Memangnya, kalau menurut isu yang kamu denger, bencana besar apa yang bakal terjadi?" 1
+Fury "Gempa bumi. Kalau gempa buminya terjadi di lingkungan dekat pantai, mungkin juga bakal terjadi tsunami." 2
+Azumi "Bencana gempa bumi nggak bisa diprediksi kapan terjadinya. Selain gempa bumi, tsunami juga mungkin aja terjadi kalau ada longsor di dasar laut atau ada benda yang jatuh ke laut." 1
+Fury "Ya ya, kamu benar. Kalau ada gunung meletus di laut juga bisa bikin tsunami. Kita harus nyiapin apa ya biar kita selamat?" 2c
+choice "Apa yang harus disiapkan agar selamat?"
+{
+  "Mengikat lemari dengan kuat"
+    score(jijoB) Load(chap0a)
+  "Tidak menaruh perabot di jalan masuk"
+    score(jijoB) Load(chap0b)
+  "Menyelenggarakan acara drill dengan tetangga"
+    score(kyojoB) Load(chap0c)
+  "Memberi informasi tentang resiko jatuhnya perabotan"
+    score(kyojoB) Load(chap0d)
+  "Meningkatkan standar tempat tinggal agar tahan gempa"
+    score(kojoB) Load(chap0e)
+}

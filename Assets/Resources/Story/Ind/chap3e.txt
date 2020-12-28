@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Semoga aja internet pemerintah yang masih jalan kalau bencana bisa jadi media kita dan keluarga kita terkoneksi lagi. Oh iya, kapan pengumuman kelolosan program summer camp-nya?" next
+Load(chap4)

@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "We can hold concerts or performances to entertain the people here." 2
+Load(chap17)

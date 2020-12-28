@@ -1,0 +1,14 @@
+showScene(true,topDown) next
+choice "彼女たちは、避難所で時間を過ごすために何ができるでしょうか？"
+{
+  "新しい仲間たちと料理をしたり、少し運動したりする。"
+    score(kyojoA) Load(chap16c)
+  "おもちゃで遊んだり、緊急キットバッグに準備しておいた本を読む。"
+    score(jijoA) Load(chap16a)
+  "幼い子たちを集合させて、一緒に遊ぶ。"
+    score(kyojoA) Load(chap16d)
+  "コンサートやパフォーマンスを企画する。"
+    score(kojoA) Load(chap16e)
+  "他の人たちとうまくやっていくために、話しかける。"
+    score(jijoA) Load(chap16b)
+}

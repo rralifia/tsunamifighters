@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Bisa. Kalau udah ikut local night disaster drill bisa kita aplikasiin." 1
+Load(chap12)

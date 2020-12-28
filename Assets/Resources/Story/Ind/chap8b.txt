@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "Ke rumah...atau gedung tinggi yang kokoh!" 1
+Fury "Waktunya masih cukup untuk ke dataran tinggi." 2
+Load(chap9)

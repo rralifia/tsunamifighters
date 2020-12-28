@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Alright, come on, I'm ready to apply knowledge from disaster drills!" setFace(Fury,1_angry) 1
+Fury "来て、急いで！ From the drills you got, what should we do now?" 2
+Azumi "今すぐビーチから離れなくちゃ。" 1
+Fury "で、でも、どこに？" 2c
+Load(chap8)

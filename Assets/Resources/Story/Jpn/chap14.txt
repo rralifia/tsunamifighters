@@ -1,0 +1,14 @@
+showScene(true,topDown) next
+choice "あずみは…"
+{
+  "避難所で配られる食料を受け取るが、子供やお年寄りから先に配る。"
+    score(kyojoB) Load(chap14d)
+  "災害が発生した直後に買い物に行く"
+    score(jijoB) Load(chap14b)
+  "避難所には前もってできるだけたくさんの食べ物を備蓄しておく。"
+    score(kojoB) Load(chap14e)
+  "避難所で配られる食べ物を受け取るが、他の人のことを考慮する。"
+    score(kyojoB) Load(chap14c)
+  "彼女のカバンから食べ物をとる。"
+    score(jijoB) Load(chap14a)
+}

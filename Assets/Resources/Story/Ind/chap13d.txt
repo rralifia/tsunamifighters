@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Fury "Semoga nanti dikasih dari pengungsian. Tapi kita ambilnya kalau orang-orang yang udah tua sama anak-anak udah kebagian semua." 2c
+Load(chap14)

@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Alright, let's follow the evacuation route!" setFace(Fury,1_angry) 1
+Fury "向こうを見て！" 2
+Azumi "どっち？標識には、どっちに行くように書いてある？" 1
+Fury "そっち側" 2c
+Load(chap8)

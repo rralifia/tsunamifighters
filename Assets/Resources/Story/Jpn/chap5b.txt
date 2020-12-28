@@ -1,0 +1,7 @@
+showScene(true,topDown) next
+move(Azumi,0.4) setFace(Azumi,3_anxious) next
+Azumi "いやな予感がする。 ここから出たほうがいい。" 1
+Fury "どうして？" 2
+Azumi "見て！海が急に引いたし、海岸にたくさんの魚が打ち上げられてる。これは…津波がくるよ。 Here is the coastline and coastline will be a dangerous place if tsunami happens." setFace(Fury,1_anxious) next
+flip(Fury) flip(Azumi) 1c
+Load(chap6)

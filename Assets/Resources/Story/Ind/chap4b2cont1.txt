@@ -1,0 +1,8 @@
+showScene(true,topDown) next
+narrator "Setelah beberapa saat, gempa mereda dan mereka keluar supermarket." 1
+narrator "Setelah situasi aman, mereka masuk ke supermarket untuk membayar belanjaan ke kasir. Kemudian, mereka kembali ke penginapan." 2
+transBackground(02_hotel,radialClock) next
+enter(Fury) flip(Fury) setFace(Fury,1_anxious) setPosition(Fury,0.2) enter(Azumi) flip(Azumi) setFace(Azumi,3_anxious) setPosition(Azumi,0.5) next
+Azumi "Kalau tadi pas gempa kita lagi di kamar ini gimana ya?" 1
+Fury "Berlindung di bawah meja. Kalau kita di lantai satu, deket pintu ke luar, kita ke luar ruangan." 2
+Load(chap4b2cont2)

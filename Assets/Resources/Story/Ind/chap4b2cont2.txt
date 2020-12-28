@@ -1,0 +1,22 @@
+showScene(true,topDown) next
+Azumi "Kalau tadi pas gempa kita lagi di lantai dasar dan nggak deket pintu ke luar gimana?" 1
+Fury "Tetep berlindung di bawah meja dan jauhin benda-benda dari kaca sama benda yang digantung." 2
+Azumi "Iya ya, takutnya kita ketimpa. Kita harus waspada, takutnya ada gempa susulan kalau gempanya kuat. Gempanya terjadi karena apa, ya?" 1
+Fury "Hmm..gempanya karena pergeseran lempeng aja, bukan karena aktivitas gunung berapi soalnya wilayah ini nggak deket gunung berapi. Cepet sana kamu mandi, sebelum disuruh kumpul. Jangan lama-lama, ya! 10 menit aja." 2
+Azumi "Nggak janji." exit(Azumi) 1
+Fury "Ada telepon. Oh..dari Ibu. Halo, Bu. Tadi ada gempa, Bu. Ibu ngerasa nggak?" enter(Ibu) setFace(Ibu,anxious) setPosition(Ibu,0.8) 2
+Ibu "Iya, kerasa sampai sini. Tapi kalian nggak apa-apa, kan?" 1
+Fury "Kita nggak apa-apa, Bu. Gempanya kuat ya Bu, aku sampe pusing nggak bisa berdiri." 2
+Ibu "Iya, goyangannya kenceng. Ibu juga dapet notifikasi peringatan tsunami tapi dibatalin. Tapi, syukurlah kalian nggak apa-apa. [setFace(Ibu,happy)] Sampe Anyer jam berapa tadi?" setFace(Fury,1_happy) 1
+Fury "Jam empat, Bu." 2
+Ibu "Mulai kegiatan jam berapa?" 1
+Fury "Jam lima. Paman Tama gimana, Bu?" 2
+Ibu "Paman Tama masih butuh istirahat, tapi udah baikan. Bentar lagi jam lima. Cepet sana siap-siap. Kalau ada apa-apa, telepon Ibu, ya. Sudah, ya, Ibu tutup. Daahh.." 1
+Fury "Dah Ibu.." exit(Ibu) 2
+enter(Azumi) setPosition(Azumi,0.8) next
+Azumi "Siapa yang telepon?" 1
+Fury "Ibu. Cepet juga udah selesai mandinya." 2
+Azumi "Cepet sana kamu mandi!" setFace(Fury,1_anxious) 1
+Fury "Lima belas menit lagi jam lima. Oh tidaak..." 2
+narrator "Setelah mereka siap, mereka berkumpul bersama teman-teman lainnya." exit(Fury;Azumi) 1
+Load(chap5)

@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "待つ！ 他の友達はどうしたかな？" 1
+Fury "他の人を待ってたら時間がかかるよ。私たちはあの人たちみたいに、あそこに行こう。" 2
+Load(chap9)

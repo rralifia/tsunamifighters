@@ -1,0 +1,14 @@
+showScene(true,topDown) next
+choice "Azumi will.."
+{
+  "Receive the food distributed at the shelter but distribute it to children and the elderly first"
+    score(kyojoB) Load(chap14d)
+  "Go shopping right after the disaster"
+    score(jijoB) Load(chap14b)
+  "Store as much food as possible in advance in the shelter"
+    score(kojoB) Load(chap14e)
+  "Receive food distributed at shelters but consider others"
+    score(kyojoB) Load(chap14c)
+  "Take food from her bag"
+    score(jijoB) Load(chap14a)
+}

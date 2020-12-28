@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 16f31135b89dd5145bb45cc026d6390d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4840341095714143264
+    second: PakBasarnas_smile
+  - first:
+      213: -5702820834014808151
+    second: flat
+  - first:
+      213: 5895771385460732254
+    second: Ortu_happy
+  - first:
+      213: -5925782952782490179
+    second: Guru_happy
+  - first:
+      213: 4991948221486414352
+    second: Anak_happy
+  - first:
+      213: 7369586017034899334
+    second: Basarnas_ortu_guru_12
+  - first:
+      213: 6564767617235687671
+    second: Basarnas_ortu_guru_18
+  - first:
+      213: 4933123777513290869
+    second: Basarnas_ortu_guru_19
+  - first:
+      213: 3566836943120849435
+    second: Basarnas_ortu_guru_20
+  - first:
+      213: -8850446493800990190
+    second: PakBasarnas_tegas
+  - first:
+      213: -193466550111534155
+    second: tegas
+  - first:
+      213: -959311705774090609
+    second: Ortu_cemas
+  - first:
+      213: 1429354311490497873
+    second: Guru_tegas
+  - first:
+      213: -1976090437409675488
+    second: Anak_sad
+  - first:
+      213: 8067730554043524565
+    second: Basarnas_ortu_guru_30
+  - first:
+      213: 6026170218477945036
+    second: Basarnas_ortu_guru_35
+  - first:
+      213: 1360340474078792502
+    second: Basarnas_ortu_guru_37
+  - first:
+      213: 2454232578073407283
+    second: Basarnas_ortu_guru_38
+  - first:
+      213: -3369983128325575076
+    second: Basarnas_ortu_guru_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flat
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1824
+        width: 560
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce0b7a2ed1f0a04599a280cc2864415
+      internalID: -5702820834014808151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tegas
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1033
+        width: 559
+        height: 618
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da04d2e57a85c040900080907eb1377
+      internalID: -193466550111534155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,16 @@
+showScene(true,topDown) multiplay next
+Azumi "Ini status peringatan tsunaminya waspada, siaga, atau awas?" 1
+Fury "Aku belum tau. Yang penting sekarang, kita gak boleh panik, cepet menjauhi pantai, terus ke pengungsian." 2c
+choice "Apa yang harus mereka lakukan?"
+{
+  "Mengajak orang-orang lari"
+    score(kyojoB) Load(chap7a)
+  "Berlari dengan cepat karena memiliki tubuh yang fit"
+    score(jijoB) Load(chap7e)
+  "Mengaplikasikan ilmu yang didapat dari drills bencana"
+    score(kyojoB) Load(chap7b)
+  "Mengikuti jalur evakuasi"
+    score(kojoB) Load(chap7c)
+  "Mencari informasi bencana"
+    score(jijoB) Load(chap7d)
+}

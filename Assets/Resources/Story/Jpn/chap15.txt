@@ -1,0 +1,49 @@
+showScene(true,topDown) next
+Fury "ちょっとまって、救助隊に聞いてみる。" 2
+exit(Fury;Azumi) next
+narrator "それから少しして…" 1
+enter(Azumi) setFace(Azumi,3_flat) setPosition(Azumi,0.8) enter(Fury) flip(Fury) setPosition(Fury,0.5) next
+Fury "はい。これがお薬。 救助隊は、私達にもできるだけ早く食料を分けてくれるって。" setFace(Azumi,3_happy) 2
+exit(Fury;Azumi) next
+narrator "夕食を終えたあと、彼女たちは眠りにつきました。避難所はとても混雑していましたが、とても疲れる1日だったので、彼女たちは、すぐにぐっすり寝てしまいました。" 1
+narrator "次の日...." 2
+transBackground(09_pengungsiansiang,radialClock) enter(Azumi) setPosition(Azumi,0.8) enter(Fury) setPosition(Fury,0.5) setFace(Fury,1_flat) setFace(Azumi,3_anxious) next
+Azumi "起きて、起きて！起きなよ！お母さんに会いたいって言ったでしょう。" flip(Fury) setFace(Fury,1_happy) 1
+enter(PakBasarnas) setPosition(PakBasarnas,0.2) setFace(PakBasarnas,tegas) next
+PakBasarnas as [officer_jpn] "ここにフューリーという名前の人はいますか？ [flip(Fury) setFace(Fury,1_anxious)] 私と来て！" setFace(Azumi,3_anxious) 2
+Azumi "どうしたの？" 1
+Fury "はい。ここで待ってて、あずみ！" 2
+exit(Azumi;Fury;PakBasarnas) next
+narrator "少しして…" 1
+enter(Ibu) flip(Ibu) setPosition(Ibu,0.2) setFace(Ibu,anxious) enter(Fury,0.8) setFace(Fury,1_anxious) next
+move(Fury,0.4) setFace(Fury,1_happy) enter(PakBasarnas) setPosition(PakBasarnas,0.8) setFace(PakBasarnas,tegas) next
+Fury "ママ ！" setFace(Ibu,happy) 2
+Ibu as [mom_jpn] "フューリー！神様ありがとうございます、あなたは無事ね。あずみはどこ？" 1
+Fury "彼女はあっちだよ、ママ。あっちに行こう。" flip(Fury) 2
+Ibu as [mom_jpn] "ありがとうございます！" 1
+exit(PakBasarnas;Ibu;Fury) next
+narrator "彼らはあずみが待っているところに行きました。" 2
+enter(Azumi) setPosition(Azumi,0.8) setFace(Azumi,3_flat) enter(Fury) setPosition(Fury,0.6) enter(Ibu) flip(Ibu) setPosition(Ibu,0.4) setFace(Ibu,anxious) next
+Azumi "おかあさん。" setFace(Azumi,3_happy) 1
+Fury "おかあさん、何をもってきたの？それは重くないように、運ばないで置いていったほうがいいよ。" 2
+Ibu "Azumi..神様ありがとうございます。あなたは無事ね。 [setFace(Ibu,happy)] あ、これは防災バッグだよ。あなたに預けるよ。私はまずパパに電話する。" 1
+Fury "いいよ、おかあさん。" exit(Ibu) 2
+Azumi "Where is your Father?" 1
+Fury "あそこで、パパは救助隊のところに行ったよ。" 2
+Azumi "What are the things in the disaster prepared bag?" 1
+Fury "There are ready-to-eat meals, drinking water, important documents, money, etc. Let's just open it." 2
+Azumi "Wow, there's a cellphone and radio. There is a first aid kit with medicine. There are clothes and blankets too." 1
+Fury "What can we do here? Am I going to get bored?" 2c
+choice "What can they do to spend their time in the refuge?"
+{
+  "他の人たちとうまくやっていくために、話しかける。"
+    score(jijoB) Load(chap15b)
+  "コンサートやパフォーマンスを企画する。"
+    score(kojoB) Load(chap15e)
+  "新しい仲間たちと料理をしたり、少し運動したりする。"
+    score(kyojoB) Load(chap15c)
+  "おもちゃで遊んだり、緊急キットバッグに準備しておいた本を読む。"
+    score(jijoB) Load(chap15a)
+  "幼い子たちを集合させて、一緒に遊ぶ。"
+    score(kyojoB) Load(chap15d)
+}

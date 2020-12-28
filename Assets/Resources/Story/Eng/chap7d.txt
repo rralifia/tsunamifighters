@@ -1,0 +1,6 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Let's find out the warning status info on the cellphone first." setFace(Fury,1_angry) 1
+Fury "What does it tell?" 2
+Azumi "There is a possibility of a tsunami due to an earthquake in Anyer, the tsunami warning categories is warning. We have to leave the beach soon." 1
+Fury "Where should we go?" 2c
+Load(chap8)

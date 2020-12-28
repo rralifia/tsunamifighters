@@ -1,0 +1,4 @@
+showScene(true,topDown) setFace(Azumi,3_angry) next
+Azumi "Ya udah, ayo! Tubuh aku juga lagi fit, siap lari cepet dari sini!" setFace(Fury,1_angry) 1
+Fury "Lari ke mana?" 2c
+Load(chap8)

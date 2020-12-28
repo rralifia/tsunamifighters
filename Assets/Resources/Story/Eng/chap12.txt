@@ -1,0 +1,17 @@
+showScene(true,topDown) next
+enter(PakBasarnas) setPosition(PakBasarnas,0.8) setFace(PakBasarnas,tegas) next
+PakBasarnas as [officer_eng] "Everyone, please get ready! Soon we will walk to the refuge. It's getting dark. So be careful." 2
+Azumi "Hopefully we can safely arrive at the shelter." 1c
+choice "How to stay safe in a night journey to the refuge?"
+{
+  "Talk to the people around while evacuating"
+    score(kyojoA) Load(chap12c)
+  "Listen carefully to current information and news"
+    score(jijoA) Load(chap12b)
+  "Use the flashlight in the emergency kit bag"
+    score(jijoA) Load(chap12a)
+  "Use road lighting provided by the government"
+    score(kojoA) Load(chap12e)
+  "Practicing the knowledge learned in the local night disaster training"
+    score(kyojoA) Load(chap12d)
+}

@@ -1,0 +1,16 @@
+showScene(true,topDown) next
+Azumi "大事なことは…私は一人ではないってこと。" 1
+enter(Ayah) flip(Ayah) setPosition(Ayah,0.2) setFace(Ayah,happy) enter(Ibu) flip(Ibu) setPosition(Ibu,0.4) setFace(Ibu,happy) next
+Ayah as [dad_jpn] "パパのところに、あなたの先生から電話がきたって。" setFace(Azumi,3_anxious) 2
+Azumi "え？彼はなんて言っていたの、おかあさん。" 1
+Ayah as [dad_jpn] "彼は、インドネシアの日本大使館があなたを日本に帰国させるために、ピックアップするだろうって言ってた。" 2
+Azumi "いつ私はピックアップされるんだろう、おかあさん。" 1
+Ayah as [dad_jpn] "今日だって言ってた。" 2
+Azumi "うわあ…" setFace(Azumi,3_happy) setFace(Fury,1_anxious) 1
+Fury "本当、ママ？ どうして？" 2
+Ibu as [mom_jpn] "この災害のためだよ。" 1
+Fury "ひどい、私はもっとあずみと一緒にいたい。" 2
+Ibu as [mom_jpn] "これはあずみのためなんだからね、フューリー。私達はもっといいときに彼女と会えるよ。" 1
+Fury "うん、それはそのとおりだけど、ママ。" 2
+Azumi "うん、そうだね。わかった、大使館が私をピックアップするまでの残りの時間を楽しもう。" setFace(Fury,1_happy) 1
+Fury "うん！" playMusic(null) end

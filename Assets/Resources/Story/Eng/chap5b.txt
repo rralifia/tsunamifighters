@@ -1,0 +1,7 @@
+showScene(true,topDown) next
+move(Azumi,0.4) setFace(Azumi,3_anxious) next
+Azumi "I have a bad feeling. We should get out of here." 1
+Fury "Why?" 2
+Azumi "Look! The sea suddenly receded, and many fish were washed up on the coast. It seems like there will be... a tsunami. Here is the coastline and coastline will be a dangerous place if tsunami happens." setFace(Fury,1_anxious) next
+flip(Fury) flip(Azumi) 1c
+Load(chap6)

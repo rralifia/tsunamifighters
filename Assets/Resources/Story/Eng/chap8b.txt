@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "To a sturdy house or a high building!" 1
+Fury "We still have time to go to higher places." 2
+Load(chap9)

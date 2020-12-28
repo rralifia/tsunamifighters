@@ -1,0 +1,14 @@
+showScene(true,topDown) next
+choice "Apa yang harus mereka lakukan?"
+{
+  "Berlari dengan cepat karena memiliki tubuh yang fit"
+    score(jijoA) Load(chap6e)
+  "Mengikuti jalur evakuasi"
+    score(kojoA) Load(chap6c)
+  "Mengajak orang-orang lari"
+    score(kyojoA) Load(chap6a)
+  "Mengaplikasikan ilmu yang didapat dari drills bencana"
+    score(kyojoA) Load(chap6b)
+  "Mencari informasi bencana"
+    score(jijoA) Load(chap6d)
+}

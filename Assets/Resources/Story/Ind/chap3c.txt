@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Semoga aja kalau naro informasi di papan pengumuman pengungsian bisa ketemu keluarga lagi. Oh iya, kapan pengumuman kelolosan program summer camp-nya?" next
+Load(chap4)

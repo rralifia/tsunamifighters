@@ -1,0 +1,3 @@
+showScene(true,topDown) next
+Azumi "Ngasih informasi tentang resiko jatuhnya perabotan." 1
+Load(chap1)

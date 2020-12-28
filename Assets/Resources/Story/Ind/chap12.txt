@@ -1,0 +1,17 @@
+showScene(true,topDown) next
+enter(PakBasarnas) setPosition(PakBasarnas,0.8) setFace(PakBasarnas,tegas) next
+PakBasarnas as [officer_id] "Semuanya, tolong bersiap! Sebentar lagi kita akan berjalan ke pengungsian. Hari sudah gelap. Jadi, tolong berhati-hati selama di perjalanan." 2
+Azumi "Semoga aman sampai pengungsian." 1c
+choice "Cara agar tetap aman ke pengungsian di malam hari?"
+{
+  "Memanggil orang-orang sekitar"
+    score(kyojoA) Load(chap12c)
+  "Mendengarkan info terkini"
+    score(jijoA) Load(chap12b)
+  "Menggunakan alat penerangan yang disiapkan dalam tas"
+    score(jijoA) Load(chap12a)
+  "Memakai lampu jalan yang disediakan pemerintah"
+    score(kojoA) Load(chap12e)
+  "Mengaplikasikan ilmu dari local night disaster drill"
+    score(kyojoA) Load(chap12d)
+}

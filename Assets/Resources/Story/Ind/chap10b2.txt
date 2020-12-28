@@ -1,0 +1,5 @@
+showScene(true,topDown) next
+Fury "Hmm...nanti aja kayaknya. Tunggu sampe situasi dibilang aman sama pihak berwajib." 2
+Azumi "Oh, ya udah kalau gitu." setFace(Fury,1_happy) 1
+Fury "Semoga aja mereka aman." setFace(Fury,1_flat) exit(Azumi;Fury) 2
+Load(chap11)

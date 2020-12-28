@@ -1,0 +1,4 @@
+showScene(true,topDown) next
+Azumi "丘などの高い土地へ。" 1
+Fury "急げ！" 2
+Load(chap9)

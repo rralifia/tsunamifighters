@@ -1,0 +1,14 @@
+showScene(true,topDown) next
+choice "彼女たちはどうしたらいいでしょうか？"
+{
+  "彼女たちは体を鍛えているので、速く走る。"
+    score(jijoA) Load(chap6e)
+  "避難経路をたどりましょう。"
+    score(kojoA) Load(chap6c)
+  "近くの人全員に声をかけて、一緒に逃げる"
+    score(kyojoA) Load(chap6a)
+  "防災訓練で得た知識を実践する。"
+    score(kyojoA) Load(chap6b)
+  "災害の最新情報を探す"
+    score(jijoA) Load(chap6d)
+}
